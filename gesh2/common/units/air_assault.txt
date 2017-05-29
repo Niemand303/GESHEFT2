@@ -45,7 +45,7 @@ sub_units = {
 		}
 
 		# this is what moves us and sets speed
-		transport = mechanized_equipment
+		transport = transport_helicopter_equipment
 
 		need = {
 			transport_helicopter_equipment = 45

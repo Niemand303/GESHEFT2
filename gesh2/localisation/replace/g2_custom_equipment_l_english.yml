@@ -631,8 +631,10 @@
  USA_transport_plane_equipment_3:0 "C-130"
  USA_transport_plane_equipment_4:0 "C-17"
 # Helis
+ transport_helicopter_equipment:0 "Transport Helicotpers"
  transport_helicopter_equipment_1:0 "Transport Helicopter I"
  transport_helicopter_equipment_2:0 "Transport Helicopter II"
+ attack_helicopter_equipment:0 "Attack Helicopters"
  attack_helicopter_equipment_1:0 "Attack Helicopter I"
  attack_helicopter_equipment_2:0 "Attack Helicopter II"
  
@@ -782,3 +784,4 @@
  unified_warpac_doctrine:0 "Unified Warsaw Pact Doctrine"
  
  STATE_743:0 "Westpreussen"
+ G2_version:0 "G.E.S.H.E.F.T. 2 v0.1.1"
