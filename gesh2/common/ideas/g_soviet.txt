@@ -1,0 +1,36 @@
+ideas = {
+	country = {
+		SOV_death_of_stalin = {
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				army_org_factor = -0.5
+				unity_factor = -0.25
+			}
+		}
+		SOV_dictatorship_continues = {
+			picture = officers_purged
+			
+			allowed = {
+				always = no # Added via focus
+			}
+			
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				army_org_factor = -0.1
+				unity_factor = -0.5
+			}
+		}
+	}
+}

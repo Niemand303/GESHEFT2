@@ -1,0 +1,795 @@
+add_namespace = g_ussr
+
+# 1 - Death of Stalin
+country_event = {
+	id = g_ussr.1
+	title = g_ussr.1.t
+	desc = g_ussr.1.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	trigger = {
+		tag = SOV
+		has_government = communism
+		date > 1953.3.1
+		date < 1953.4.1
+	}
+	
+	option = { 	
+		name = g_ussr.1.a
+		ai_chance = {
+			factor = 100
+		}
+		add_ideas = SOV_death_of_stalin
+		create_country_leader = {
+			name = "Lavrenti Beria"
+			desc = "POLITICS_LAVRENTI BERIA_DESC"
+			picture = "Portrait_Soviet_Beria_Lavrentiy.dds"
+			expire = "1965.1.1"
+			ideology = stalinism
+			traits = {
+				dictator
+			}
+		}
+		hidden_effect = {
+			SOV = {
+				country_event = { days = 30 id = g_ussr.2}
+			}
+		}
+	}
+}
+
+# 2 - Fate of USSR [Khruschev]
+country_event = {
+	id = g_ussr.2
+	title = g_ussr.2.t
+	desc = g_ussr.2.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = { 	
+		name = g_ussr.2.a
+		ai_chance = {
+			factor = 70
+		}
+		remove_ideas = SOV_death_of_stalin
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_moderate
+		create_country_leader = {
+			name = "Nikita Khrushchev"
+			desc = "POLITICS_NIKITA_KHRUSHCHEV_DESC"
+			picture = "Portrait_Soviet_Nikita_Khrushchev.dds"
+			expire = "1971.1.1"
+			ideology = leninism
+			traits = {
+				political_dancer
+			}
+		}
+		remove_ideas = nikita_khrushchev
+		random_list = {
+			5 = {
+				SOV = {
+						country_event = { days = 15 id = g_ussr.8}
+					}
+			}
+			95 = {	}
+		}
+		hidden_effect = { SOV = { country_event = { days = 30 id = g_ussr.13 }}}
+	}
+	option = { 	
+		name = g_ussr.2.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		remove_ideas = SOV_death_of_stalin
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_reformist
+		
+		create_country_leader = {
+			name = "Georgy Malenkov"
+			desc = "POLITICS_GEORGY_MALENKOV_DESC"
+			picture = "Portrait_Soviet_Georgy_Malenkov.dds"
+			expire = "1988.1.1"
+			ideology = marxism
+			traits = {
+				silent_workhorse
+			}
+		}
+		random_list = {
+			10 = {
+				SOV = {
+						country_event = { days = 15 id = g_ussr.3}
+					}
+			}
+			90 = {	}
+		}
+		hidden_effect = { SOV = { country_event = { days = 30 id = g_ussr.13 }}}
+	}
+	option = { 	
+		name = g_ussr.2.c
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		remove_ideas = SOV_death_of_stalin
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_hardline
+		random_list = {
+			20 = {
+				SOV = {
+						country_event = { days = 15 id = g_ussr.7}
+					}
+			}
+			80 = {	}
+		}
+	}
+}
+
+# 3 - Dissolution of USSR: Most peaceful
+# Baltic States
+country_event = {
+	id = g_ussr.3
+	title = g_ussr.3.t
+	desc = g_ussr.3.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = {
+		name = g_ussr.3.a
+		release = EST
+		release = LAT
+		release = LIT
+		hidden_effect = { SOV = { country_event = { days = 60 id = g_ussr.4 }}}
+	}
+}
+# 4 - Caucasus states
+country_event = {
+	id = g_ussr.4
+	title = g_ussr.4.t
+	desc = g_ussr.4.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = {
+		name = g_ussr.4.a
+		release  = GEO
+		release  = AZR
+		release  = ARM
+		hidden_effect = { SOV = { country_event = { days = 60 id = g_ussr.5 }}}
+	}
+}
+# 5 - Middle Asia countries
+country_event = {
+	id = g_ussr.5
+	title = g_ussr.5.t
+	desc = g_ussr.5.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = {
+		name = g_ussr.5.a
+		release  = UZB
+		release  = KRG
+		release  = TJK
+		release  = TRK
+		release  = KZN
+		hidden_effect = { SOV = { country_event = { days = 60 id = g_ussr.6 }}}
+	}
+}
+# 6 - Ukraine, Belarus, Moldova
+country_event = {
+	id = g_ussr.6
+	title = g_ussr.6.t
+	desc = g_ussr.6.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = {
+		name = g_ussr.6.a
+		release  = UKR
+		release  = BLR
+		release  = MOL
+	}
+}
+
+# 7 - Dissolution of USSR: Civil war + dissolution
+country_event = {
+	id = g_ussr.7
+	title = g_ussr.7.t
+	desc = g_ussr.7.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = {
+		name = g_ussr.7.a
+		release  = EST
+		release  = LAT
+		release  = LIT
+		release  = GEO
+		release  = AZR
+		release  = ARM
+		release  = UZB
+		release  = KRG
+		release  = TJK
+		release  = TRK
+		release  = KZN
+		release  = UKR
+		release  = BLR
+		release  = MOL
+		start_civil_war = {
+			ideology = neutrality
+			size = 0.05
+			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
+		}
+	}
+}
+
+# 8 - Dissolution of USSR: Civil war
+country_event = {
+	id = g_ussr.8
+	title = g_ussr.8.t
+	desc = g_ussr.8.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+
+	option = {
+		name = g_ussr.8.a
+		start_civil_war = {
+			ideology = neutrality
+			size = 0.05
+			keep_unit_leaders = { 401 402 407 410 406 405 403 407 408 410 411 404 }
+		}
+	}
+}
+
+# 9 - Next gensek appointment [Brezhnev]
+country_event = {
+	id = g_ussr.9
+	title = g_ussr.9.t
+	desc = g_ussr.9.d
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	fire_only_once = yes
+
+	trigger = 	{
+		tag = SOV
+		has_government = communism
+	
+		OR = {
+			AND = {
+				has_country_flag = party_hardline
+				date > 1970.2.1
+				date < 1970.3.1
+			}
+			AND = {
+				has_country_flag = party_moderate
+				date > 1964.10.1
+				date < 1964.11.1
+			}
+			AND = {
+				has_country_flag = party_reformist
+				date > 1961.10.1
+				date < 1961.11.1
+			}
+		}
+	}
+	mean_time_to_happen = { days = 15 }
+	
+	option = {
+		name = g_ussr.9.a
+		ai_chance = {
+			factor = 70
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_moderate
+		create_country_leader = {
+			name = "Leonid Brezhnev"
+			desc = "POLITICS_LEONID_BREZHNEV_DESC"
+			picture = "Portrait_Soviet_Leonid_Brezhnev.dds"
+			expire = "1982.11.10"
+			ideology = leninism
+			traits = {
+				political_dancer
+			}
+		}
+		
+		random_list = {
+			5 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.8}
+				}
+			}
+			95 = {	}
+		}
+	}
+	option = {
+		name = g_ussr.9.b
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_reformist
+		create_country_leader = {
+			name = "Nikolay Podgorny"
+			desc = "POLITICS_NIKOLAY_PODGORNY_DESC"
+			picture = "Portrait_Soviet_Nikolay_Podgorny.dds"
+			expire = "1983.1.11"
+			ideology = marxism
+			traits = {
+				
+			}
+		}
+		random_list = {
+			5 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.3}
+				}
+			}
+			95 = {	}
+		}
+	}
+	option = {
+		name = g_ussr.9.c
+		ai_chance = {
+			factor = 15
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_hardline
+		create_country_leader = {
+			name = "Mikhail Suslov"
+			desc = "POLITICS_MIKHAIL_SUSLOV_DESC"
+			picture = "Portrait_Soviet_Mikhail_Suslov.dds"
+			expire = "1982.1.25"
+			ideology = stalinism
+			traits = {
+				dictator
+			}
+		}
+		random_list = {
+			10 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.7}
+				}
+			}
+			90 = {	}
+		}
+	}
+}
+
+# 10 - Another gensek appointment [Andropov]
+country_event = {
+	id = g_ussr.10
+	title = g_ussr.10.t
+	desc = g_ussr.10.d
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	fire_only_once = yes
+
+	trigger = 	{
+		tag = SOV
+		has_government = communism
+	
+		OR = {
+			AND = {
+				has_country_flag = party_hardline
+				date > 1982.1.1
+				date < 1982.2.1
+			}
+			AND = {
+				has_country_flag = party_moderate
+				date > 1982.11.1
+				date < 1982.12.1
+			}
+			AND = {
+				has_country_flag = party_reformist
+				date > 1983.1.1
+				date < 1983.2.1
+			}
+		}
+	}
+	mean_time_to_happen = { days = 15 }
+	
+	option = {
+		name = g_ussr.10.a
+		ai_chance = {
+			factor = 50
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_moderate
+		create_country_leader = {
+			name = "Yuri Andropov"
+			desc = "POLITICS_YURI_ANDROPOV_DESC"
+			picture = "Portrait_Soviet_Yuri_Andropov.dds"
+			expire = "1984.2.9"
+			ideology = leninism
+			traits = {
+				political_dancer
+			}
+		}
+		random_list = {
+			5 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.8}
+				}
+			}
+			95 = {	}
+		}
+	}
+	option = {
+		name = g_ussr.10.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_hardline
+		create_country_leader = {
+			name = "Dmitry Ustinov"
+			desc = "POLITICS_DMITRY_USTINOV_DESC"
+			picture = "Portrait_Soviet_Dmitry_Ustinov.dds"
+			expire = "1984.12.20"
+			ideology = stalinism
+			traits = {
+				dictator
+			}
+		}
+		random_list = {
+			10 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.7}
+				}
+			}
+			90 = {	}
+		}
+	}
+}
+
+# 11 - Almost last appointment [Chernenko]
+country_event = {
+	id = g_ussr.11
+	title = g_ussr.11.t
+	desc = g_ussr.11.d
+	picture = GFX_report_event_soviet_purge_politicians
+	
+	fire_only_once = yes
+
+	trigger = 	{
+		tag = SOV
+		has_government = communism
+	
+		OR = {
+			AND = {
+				has_country_flag = party_hardline
+				date > 1984.12.1
+				date < 1985.1.1
+			}
+			AND = {
+				has_country_flag = party_moderate
+				date > 1984.2.1
+				date < 1984.3.1
+			}
+		}
+	}
+	mean_time_to_happen = { days = 15 }
+	
+	option = {
+		name = g_ussr.11.a
+		ai_chance = {
+			factor = 50
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_moderate
+		create_country_leader = {
+			name = "Konstantin Chernenko"
+			desc = "POLITICS_KONSTANTIN_CHERNENKO_DESC"
+			picture = "Portrait_Soviet_Konstantin_Chernenko.dds"
+			expire = "1985.3.10"
+			ideology = leninism
+			traits = {
+				political_dancer
+			}
+		}
+		random_list = {
+			5 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.8}
+				}
+			}
+			95 = {	}
+		}
+	}
+	option = {
+		name = g_ussr.11.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_reformist
+		create_country_leader = {
+			name = "Andrey Gromyko"
+			desc = "POLITICS_ANDREY_GROMYKO_DESC"
+			picture = "Portrait_Soviet_Andrey_Gromyko.dds"
+			expire = "1989.6.2"
+			ideology = marxism
+			traits = {
+				
+			}
+		}
+		random_list = {
+			5 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.3}
+				}
+			}
+			95 = {	}
+		}
+	}
+	option = {
+		name = g_ussr.11.c
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_hardline
+		create_country_leader = {
+			name = "Grigory Romanov"
+			desc = "POLITICS_GRIGORY_ROMANOV_DESC"
+			picture = "Portrait_Soviet_Grigory_Romanov.dds"
+			expire = "2008.6.3"
+			ideology = stalinism
+			traits = {
+				dictator
+			}
+		}
+		random_list = {
+			10 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.7}
+				}
+			}
+			90 = {	}
+		}
+	}
+}
+
+# 12 - Last gensek [Gorbachyov]
+country_event = {
+	id = g_ussr.12
+	title = g_ussr.12.t
+	desc = g_ussr.12.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	trigger = 	{
+		tag = SOV
+		has_government = communism
+	
+		OR = {
+			AND = {
+				has_country_flag = party_moderate
+				date > 1985.3.1
+				date < 1985.4.1
+			}
+			AND = {
+				has_country_flag = party_reformist
+				date > 1989.6.1
+				date < 1989.7.1
+			}
+		}
+	}
+	mean_time_to_happen = { days = 15 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = g_ussr.12.a
+		ai_chance = {
+			factor = 50
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_reformist
+		create_country_leader = {
+			name = "Mikhail Gorbachev"
+			desc = "POLITICS_MIKHAIL_GORBACHEV_DESC"
+			picture = "Portrait_Soviet_Mikhail_Gorbachev.dds"
+			expire = "2016.9.11"
+			ideology = marxism
+			traits = {
+				political_dancer
+			}
+		}
+		random_list = {
+			5 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.3}
+				}
+			}
+			95 = {	}
+		}
+	}
+	option = {
+		name = g_ussr.12.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_moderate
+		create_country_leader = {
+			name = "Yegor Ligachev"
+			desc = "POLITICS_YEGOR_LIGACHEV_DESC"
+			picture = "Portrait_Soviet_Yegor_Ligachev.dds"
+			expire = "2016.9.11"
+			ideology = leninism
+			traits = {
+				
+			}
+		}
+		random_list = {
+			5 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.8}
+				}
+			}
+			95 = {	}
+		}
+	}
+	option = {
+		name = g_ussr.12.c
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		clr_country_flag = party_hardline
+		clr_country_flag = party_reformist
+		clr_country_flag = party_moderate
+		set_country_flag = party_hardline
+		create_country_leader = {
+			name = "Grigory Romanov"
+			desc = "POLITICS_GRIGORY_ROMANOV_DESC"
+			picture = "Portrait_Soviet_Grigory_Romanov.dds"
+			expire = "2008.6.3"
+			ideology = stalinism
+			traits = {
+				dictator
+			}
+		}
+		random_list = {
+			10 = {
+				SOV = {
+					country_event = { days = 15 id = g_ussr.7}
+				}
+			}
+			90 = {	}
+		}
+	}
+}
+
+# 13 - Beria arrest
+country_event = {
+	id = g_ussr.13
+	title = g_ussr.13.t
+	desc = g_ussr.13.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	is_triggered_only = yes
+	
+	option = {
+		name = g_ussr.13.a
+		ai_chance = {
+			factor = 100
+		}
+		remove_ideas = SOV_lavrentiy_beria
+		set_country_flag = beria_executed
+		add_popularity = { ideology = communism popularity = -0.1 } 
+	}
+}
+
+# 14 - Initialize minor nationalities
+country_event = {
+	id = g_ussr.14
+	title = g_ussr.14.t
+	desc = g_ussr.14.d
+	picture = GFX_report_event_soviet_purge_politicians
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SOV
+	}
+	
+	option = { 	
+		name = g_ussr.14.a
+		ai_chance = {
+			factor = 100
+		}
+		KZN = {
+			add_state_core  = 406
+			add_state_core  = 407
+			add_state_core  = 402
+			add_state_core  = 587
+			add_state_core  = 583
+			add_state_core  = 404
+			add_state_core  = 590
+			add_state_core  = 588
+			add_state_core  = 589
+			add_state_core  = 586
+		}
+		UZB = {
+			add_state_core  = 405
+			add_state_core  = 585
+		}
+		TJK = {
+			add_state_core  = 742
+		}
+		TRK = {
+			add_state_core  = 584
+		}
+		KRG = {
+			add_state_core  = 732
+		}
+	}
+}

@@ -1,0 +1,238 @@
+add_namespace = g_usa
+
+# 1 - Election of 1948: Truman vs Thomas E. Dewey - if Truman is already president
+country_event = {
+	id = g_usa.1
+	title = g_usa.1.t
+	desc = g_usa.1.d
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1948.1.1
+		date < 1949.1.1
+		has_country_leader = { name = "Harry S. Truman" }
+	}
+	
+	option = {
+		name = g_usa.1.a
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	option = { 
+		name = usa.1.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Thomas E. Dewey"
+			desc = "POLITICS_THOMAS_DEWEY_DESC"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1971.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 2 - Election of 1948: Truman vs Thomas E. Dewey - if republicans in the office
+country_event = {
+	id = g_usa.2
+	title = g_usa.2.t
+	desc = g_usa.2.d
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1948.1.1
+		date < 1949.1.1
+		NOT = { has_country_leader = { name = "Harry S. Truman" } }
+	}
+	
+	option = {
+		name = g_usa.2.a
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Harry S. Truman"
+			desc = "POLITICS_HARRY_TRUMAN_DESC"
+			picture = "Portrait_USA_Harry_Truman.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = usa.2.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Thomas E. Dewey"
+			desc = "POLITICS_THOMAS_DEWEY_DESC"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1971.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 3 - Election of 1952: Dwight D. Eisenhower vs Adlai Stevenson
+country_event = {
+	id = g_usa.3
+	title = g_usa.3.t
+	desc = g_usa.3.d
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1952.1.1
+		date < 1953.1.1
+	}
+	
+	option = {
+		name = g_usa.3.a
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Adlai Stevenson"
+			desc = "POLITICS_ADLAI_STEVENSON_DESC"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = usa.3.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Dwight D. Eisenhower"
+			desc = "POLITICS_SWIGHT_EISENHOWER_DESC"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1969.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 4 - Election of 1956: Dwight D. Eisenhower vs Adlai Stevenson
+country_event = {
+	id = g_usa.4
+	title = g_usa.4.t
+	desc = g_usa.4.d
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1956.1.1
+		date < 1957.1.1
+	}
+	
+	option = {
+		name = g_usa.3.a
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Adlai Stevenson"
+			desc = "POLITICS_ADLAI_STEVENSON_DESC"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = usa.3.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Dwight D. Eisenhower"
+			desc = "POLITICS_SWIGHT_EISENHOWER_DESC"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1969.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 5 - Truman Doctrine
+country_event = {
+	id = g_usa.5
+	title = g_usa.5.t
+	desc = g_usa.5.d
+	picture = GFX_report_event_usa_election_generic
+	
+	trigger = {
+		tag = USA
+		has_country_leader = { name = "Harry S. Truman" }
+	}
+	fire_only_once = yes
+	
+	option = {
+		name = g_usa.5.a 
+		every_country = {
+			limit = { has_government = democratic }
+			USA = { give_guarantee = PREV }
+		}
+	}
+}

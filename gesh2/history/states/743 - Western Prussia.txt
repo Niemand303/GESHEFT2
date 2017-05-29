@@ -1,0 +1,27 @@
+state={
+	id=743
+	name="STATE_743"
+	manpower = 1114776
+	state_category = town
+	
+	history={
+		owner = GER
+		controller = GER
+		add_core_of = GER
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		
+		1945.5.9 = {
+			owner = POL
+			controller = POL
+			add_core_of = POL
+		}
+	}
+	
+	provinces={
+		3380 3351 9346 9372 11386 6375 6402 11245 9398 266 9327 
+	}
+}

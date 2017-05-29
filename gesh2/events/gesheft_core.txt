@@ -1,0 +1,319 @@
+﻿add_namespace = g_core
+
+# Cold War
+country_event = {
+	id = g_core.1
+	title = g_core.1.t
+	desc = g_core.1.d
+	picture = GFX_news_event_001
+	
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = 	{
+		OR = {
+			AND = {
+				SOV = { is_puppet = no has_war = no }
+				USA = { is_puppet = no has_war = no}
+				OR = {
+					GER = { is_puppet = yes }
+					NOT = { country_exists = GER }
+				}
+			}
+			AND = {
+				GER = { is_puppet = no has_war = no }
+				USA = { is_puppet = no has_war = no }
+				OR = {
+					SOV = { is_puppet = yes }
+					NOT = { country_exists = SOV }
+				}
+			}
+		}
+		NOT = { has_global_flag = cold_war }
+		is_ai = no
+	}
+	mean_time_to_happen = { days = 7 }
+	
+	option = {
+		name = g_core.1.a
+		set_global_flag = cold_war
+		add_named_threat = { threat = -100 name = g_core.2.t }
+	}
+}
+
+# Start of the cold war announcement
+news_event = {
+	id = g_core.2
+	title = g_core.2.t
+	desc = g_core.2.d
+	picture = GFX_news_event_nuke
+	
+	fire_only_once = yes
+	
+	trigger = 	{
+		has_global_flag = cold_war
+		is_ai = no
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.2.a
+	}
+}
+
+# Butter over guns -- demos & commies
+country_event = {
+	id = g_core.3
+	title = g_core.3.t
+	desc = g_core.3.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		has_global_flag = cold_war
+		has_war = no
+		NOT = { has_government = fascism }
+		NOT = { has_idea = butter_over_guns }
+	}
+	mean_time_to_happen = { days = 30 }
+	
+	option = {
+		name = g_core.3.a
+		add_ideas = butter_over_guns
+	}
+}
+
+# Butter over guns -- fascism
+country_event = {
+	id = g_core.4
+	title = g_core.3.t
+	desc = g_core.3.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		has_global_flag = cold_war
+		has_war = no
+		has_government = fascism 
+		NOT = { has_idea = butter_over_guns2 }
+	}
+	mean_time_to_happen = { days = 30 }
+	
+	option = {
+		name = g_core.3.a
+		add_ideas = butter_over_guns2
+	}
+}
+
+# Max 20 divisions for minors except China and Poland
+country_event = {
+	id = g_core.5
+	title = g_core.3.t
+	desc = g_core.3.d
+	picture = GFX_report_event_generic_factory
+		
+	hidden = yes
+	
+	trigger = 	{
+		is_ai = yes
+		is_major = no
+		has_army_size = { size > 19 }
+		NOT = { tag = CHI }
+		NOT = { tag = POL }
+		NOT = { tag = PRC }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.3.a
+		add_ideas = overextended_military
+	}
+}
+
+# No armies for puppets - Scraping the Barrel
+country_event = {
+	id = g_core.6
+	title = g_core.6.t
+	desc = g_core.6.d
+	picture = GFX_report_event_generic_army
+		
+	trigger = 	{
+		is_puppet = yes
+		has_idea = scraping_the_barrel
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.6.a
+		add_ideas = no_puppet_army1
+	}
+}
+
+# No armies for puppets - All adults serve
+country_event = {
+	id = g_core.7
+	title = g_core.6.t
+	desc = g_core.6.d
+	picture = GFX_report_event_generic_army
+		
+	trigger = 	{
+		is_puppet = yes
+		has_idea = all_adults_serve
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.6.a
+		add_ideas = no_puppet_army2
+	}
+}
+
+# No armies for puppets - Service by requirement
+country_event = {
+	id = g_core.8
+	title = g_core.6.t
+	desc = g_core.6.d
+	picture = GFX_report_event_generic_army
+		
+	trigger = 	{
+		is_puppet = yes
+		has_idea = service_by_requirement
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.6.a
+		add_ideas = no_puppet_army3
+	}
+}
+
+# No armies for puppets - Extensive conscription
+country_event = {
+	id = g_core.9
+	title = g_core.6.t
+	desc = g_core.6.d
+	picture = GFX_report_event_generic_army
+		
+	trigger = 	{
+		is_puppet = yes
+		has_idea = extensive_conscription
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.6.a
+		add_ideas = no_puppet_army4
+	}
+}
+
+# No armies for puppets - Limited conscription
+country_event = {
+	id = g_core.10
+	title = g_core.6.t
+	desc = g_core.6.d
+	picture = GFX_report_event_generic_army
+		
+	trigger = 	{
+		is_puppet = yes
+		has_idea = limited_conscription
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.6.a
+		add_ideas = no_puppet_army5
+	}
+}
+
+# Butter over guns -- remove if at war
+country_event = {
+	id = g_core.11
+	title = g_core.11.t
+	desc = g_core.11.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		has_war = yes
+		OR = { has_idea = butter_over_guns2
+		has_idea = butter_over_guns	
+		}
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.11.a
+		remove_ideas = butter_over_guns2
+		remove_ideas = butter_over_guns
+	}
+}
+
+# 12 - Axis doctrines
+country_event = {
+	id = g_core.12
+	title = g_core.12.t
+	desc = g_core.12.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		OR = {
+			has_tech = modern_blitzkrieg
+			has_tech = werwolf_guerillas
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = g_core.12.a
+		set_technology = { axis_doctrine_unlock = 1 }
+	}
+}
+
+country_event = {
+	id = g_core.13
+	title = g_core.13.t
+	desc = g_core.12.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		OR = {
+			has_tech = air_land_battle
+			has_tech = shock_and_awe
+			has_tech = c3i_theory
+			has_tech = infiltration_in_depth
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = g_core.12.a
+		set_technology = { nato_doctrine_unlock = 1 }
+	}
+}
+
+country_event = {
+	id = g_core.14
+	title = g_core.14.t
+	desc = g_core.12.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		OR = {
+			has_tech = continuous_offensive
+			has_tech = guerilla_warfare
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = g_core.12.a
+		set_technology = { warpac_doctrine_unlock = 1 }
+	}
+}

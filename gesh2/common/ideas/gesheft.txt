@@ -1,0 +1,136 @@
+ideas = {
+	country = {
+		butter_over_guns = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_production_bonus
+			
+			modifier = {
+				#consumer_goods_factor = 0.40
+				industrial_capacity_factory = -0.5
+				industrial_capacity_dockyard = -0.5
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = -0.5
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 0.20
+				send_volunteers_tension = 0.20
+			}
+		}
+		
+		butter_over_guns2 = {
+		
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_production_bonus
+			
+			modifier = {
+				#consumer_goods_factor = 0.20
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_speed_industrial_complex_factor = -0.25
+				production_speed_arms_factory_factor = -0.25
+				conversion_cost_civ_to_mil_factor = 0.25
+				conversion_cost_mil_to_civ_factor = -0.25
+				generate_wargoal_tension = 1.00
+				join_faction_tension = 0.20
+				send_volunteers_tension = 0.20
+			}
+		}
+		
+		overextended_military = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				industrial_capacity_factory = -1.0
+				industrial_capacity_dockyard = -1.0
+			}
+		}
+		
+		no_puppet_army1 = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.24
+			}
+		}
+		
+		no_puppet_army2 = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.19
+			}
+		}
+		
+		no_puppet_army3 = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.09
+			}
+		}
+		
+		no_puppet_army4 = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.04
+			}
+		}
+		
+		no_puppet_army5 = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via event
+			}
+			
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = -0.015
+			}
+		}
+	}
+}

@@ -1,0 +1,8 @@
+technologies = {
+	axis_doctrine_unlock = {
+	}
+	nato_doctrine_unlock = {
+	}
+	warpac_doctrine_unlock = {
+	}
+}
