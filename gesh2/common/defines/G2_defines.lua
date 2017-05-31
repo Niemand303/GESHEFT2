@@ -1,3 +1,5 @@
+NDefines.NGame.END_DATE = "2017.1.1.1"
+
 NDefines.NAI.DIVISION_UPGRADE_MIN_XP = 10							-- Minimum XP before attempting to upgrade a division template.
 NDefines.NAI.DIVISION_CREATE_MIN_XP = 1000							-- Minimum XP before attempting to create a fresh new division template.
 NDefines.NAI.VARIANT_UPGRADE_MIN_XP = 500							-- Minimum XP before attempting to create a new variant.

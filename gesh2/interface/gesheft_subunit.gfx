@@ -28,8 +28,8 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_airborne_armor_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_light_tank_icon.dds" noOfFrames = 2}
 	
 	spriteType = { name = "GFX_unit_air_assault_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_air_assault_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_air_assault_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_air_assault_icon_medium_white"								textureFile = "gfx/interface/counters/divisions_small/onmap_unit_air_assault_icon.dds" noOfFrames = 2 }
 	
 	spriteType = { name = "GFX_unit_attack_helicopter_battalion_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_air_assault_icon.dds" noOfFrames = 2 }
-	spriteType = { name = "GFX_unit_attack_helicopter_battalion_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_recon_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_attack_helicopter_battalion_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_attack_helis_icon.dds" noOfFrames = 2 }
 }
