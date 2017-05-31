@@ -24,39 +24,38 @@
 		prefix = ""
 		generic = { "Esminets" }
 		unique = {
-			"Leningrad" "Moskva" "Kharkov" "Minsk" "Tbilisi" "Baku" "Tashkent" 
-			"Gnevny" "Gordy" "Grozny" "Sokrushitelny" "Grozyashchiy" "Stremitelny" "Bodry" "Bystry" "Bezuprechny" "Bditelny" "Boykiy" "Gremyashchiy" "Steregushchiy" "Gromkiy" 
-			"Besposhchadny" "Rezvy" "Ryany" "Retivy" "Razyashchiy" "Rastoropny" "Reshitelny" "Retivy" "Revnostny" "Rekordny" "Razumny" "Rezkiy" "Raz'yaryonny" 
-			"Smyshlyonyy" "Silny" "Storozhevoy" "Serdityy" "Stoykiy" "Slavny" "Smely" "Soobrazitelny" "Smekalistiy" "Sposobny" "Svirepy" "Skory" "Statny" "Strogiy" "Stroyny" "Sovershenny" "Svobodny" 
-			"Opytnyy" "Ognevoy" "Osmotritelnyy" "Vnushitelnyy" "Stalin" "Otlichny" "Vynoslivy" "Vlastny" "Ozornoy" "Obraztsovy" "Otvazhny" "Odaryonny" "Ognenny" "Ozhestochonny" 
-			"Ostry" "Oslepitelny" "Ostorozhny" "Otchotlivy" "Organizovanny" "Otborny" "Otrazhayushchiy" "Otmenny" "Otchayanny" "Obshchitelny"  
-			"Smetlivy" "Sergo Ordzhonikize" "Surovy" "Strashny" "Zharkiy" "Zhivoy" "Zhguchiy" "Zhestokiy" "Zhutkiy" "Vedushchiy" "Vnezapnyy" "Smirniy"
-			"Kiev" "Erevan" "Stalinabad" "Petrozavodsk" "Ochakov" "Perekop" "Ashkhabad" "Alma-Ata" 			
-			"Derzkiy" "Doblestny" "Dostoyny" "Druzhny" "Dyeyatelny" "Letuchiy" "Likhoy" "Lyogkiy" "Lovkiy" "Prytkiy" "Pylkiy" "Prochny" "Provornyy" "Zinovyev" "Garibaldi" "Zheleznyakov" "Pospeshny" "Provorny" "Razvitoy" "Peredovoy" "Burny" "Boevoy" "Pronzitelny" "Porazhayushchiy" "Tiflis" "Vitse Admiral Drozd" 
-			"Polezny" "Prozorlivy" "Podvizhny" "Besstrashny" "Besshumny" "Okhotnik" "Oporny" "Ognedyshachiy" "Obkhodnoy" "Otryvisty" "Opustoshitelny" "Osnashchonny" "Obzhigayushchiy" 
-			"Okhranyayushchiy" "Ozabochenny"
-			"Volodarskiy" "Uritskiy" "Engels" "Artyom" "Voykov" "Spartak" "Kuybyshev" "Karl Libknekht" "Karl Marx" "Kalinin" "Dzerzhinskiy" "Zhelezniakov" "Nezamozhnik" "Shaumyan" 
+			# Project 7 
+			"Gnevny" "Grozny" "Gromky" "Grozyashtchi" "Gordy" "Gremyashchiy" "Steregushchy" "Storozhevoy" "Stoykiy" "Strashnyy" "Silny" "Smely" "Strogy" "Skory" "Svirepy" "Statny" "Stroyny" "Stremitelny" "Sokrushitelny" Slavny" "Smetlivy" "Lovkiy" "Logkiy" 
+			"Letuchiy" "Likhoy" "Rezvyy" "Reshitelny" "Razyashchyy" "Bodry" "Ryany" "Rezkiy" "Bystryy" "Boykiy" "Besposhchadnyy" "Retivyy" "Pospeshny" "Provorny" "Peredovoy" "Prytkiy" "Pylkiy" "Bezuprechny" "Bditelny" "Burny" "Boyevoy" "Besstrashny" "Besshumny"
+			"Prochny" "Podvizhny" "Polezny" "Prozorlivy" "Pronzitelny" "Porazhayushchiy" "Surovy" "Serdity" "Revnostny" "Razyarenny" "Rekordny" "Redkiy" "Sovershenny" "Svobodny" "Razumny" "Sposobny" "Smyshleny" "Soobrazitelny"
+			# Project 30
+			"Ognevoy" "Bditelny" "Vstrechny" "Vedushchiy" "Ognenny" "Otchotlivy" "Vazhny" "Bezuderzhny" "Ostry" "Buynyy" "Otvetstvenny" "Bezuprechny" "Vspylchivy" "Velichavy" "Otmenny" "Otryvisty" "Vertkiy" "Vechnyy" "Otrazhayushchiy" "Serdity" "Vikhrevoy"
+			"Bezzhalostny" "Otradny" "Ozarenny" "Oberegayushchiy" "Bezzavetny" "Okhranyayushchiy" "Ostorozhny" "Vidny" "Bespokoyny" "Verny" "Vnimatelny" "Vnezapny" "Vyrazitelny" "Volevoy" "Okrylonny" "Bezboyaznenny" "Bezukoriznenny" "Bezotkazny"
+			"Smotryashchiy" "Otchayanny" "Opasny" "Bessmenny" "Otzyvchivy" "Seryozny" "Volny" "Vkradchivy" "Vdumchivy" "Solidny" "Vrazumitelny" "Ozhivlonny" "Stepenny" "Ozhestochonny"
+			# Project 56
+			"Spokoyny" "Svetly" "Blestyashchiy" "Speshny" "Byvaly" "Skromny" "Svedushchiy" "Veskiy" "Vyzyvayushchiy" "Skrytny" "Bessledny" "Vdokhnovenny" "Soznatelny" "Spravedlivy" "Burlivy" "Vozmushchonny" "Blagorodny" "Nesokrushimy" "Plamenny" "Nakhodchivy"
+			"Vozbuzhdenny" "Naporisty" "Vliyatelny" "Nastoychivy" "Vyderzhanny" "Bravy" "Neulovimy" "Bedovy" "Neuderzhimy" "Prozorlivy" "Neukrotimy" 
 		}
 	}
 	light_cruiser = {
 		prefix = ""
 		generic = { "Legkiy Kreyser" }
 		unique = {
-			"Chapayev" "Zhelezniakov" "Kuibyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov" "Murmansk" "Komintern" "Krasnyi Krym" "Chervona Ukraina" "Krasnyi Kavkaz" "Kirov" "Voroshilov" "Maxim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Chapayev"
+			"Chapayev" "Zhelezniakov" "Kuibyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov" "Murmansk" "Komintern" "Krasnyi Krym" "Chervona Ukraina" "Krasnyi Kavkaz" "Chapayev"
  			# Fictional (postwar) names start here
-			"Sverdlov" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" 
-			"Dmitry Pozharski" "Oktyabrskaya Revolutsiya" "Mikhail Kutuzov" "Grozny" "Profintern" "Grozneft" "Azneft" "Steregushchiy" "Doblestnyi" "Soobrazitelny" "Vitse Admiral Drozd" 
+			"Sverdlov" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Volodarskiy" "Uritskiy" "Engels" "Artyom" "Voykov" "Spartak" "Karl Libknekht" "Dzerzhinskiy" "Nezamozhnik" "Shaumyan" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" 
+			"Dmitry Pozharski" "Mikhail Kutuzov" "Grozny" "Profintern" "Grozneft" "Azneft" "Steregushchiy" "Doblestnyi" "Soobrazitelny" "Vitse Admiral Drozd" 
 			"Admiral Zozulya" "Vladivostok" "Sevastopol" "Admiral Isakov" "Admiral Makarov" "Marshal Voroshilov" "Admiral Oktyabr'skiy" "Admiral Isachenkov" "Marshal Timoshenko" 
-			"Vasily Chapaev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Petropavlovsk" "Tashkent" "Tallin" "Slava" "Admiral Flota Lobov" "Komsomolets" "Admiral Gorshkov" 
+			"Vasily Chapaev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Petropavlovsk" "Tashkent" "Tallin" "Admiral Flota Lobov" "Komsomolets" "Admiral Gorshkov" 
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
 		generic = { "Tyazhely Kreyser" }
 		unique = {
-			"Zhelezniakov" "Kuibyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov"
+			"Kirov" "Voroshilov" "Maxim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Zhelezniakov" "Kuibyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov"
 			# Fictional (postwar) names start here
- 			"Petropavlovsk" "Slava" "Komsomolets" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Frunze"
+ 			"Petropavlovsk" "Slava" "Komsomolets" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov"  "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Frunze"
 			"Admiral Senyavin" "Dmitry Pozharski" "Petr Velikiy" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" "Admiral Tributs" "Khabarovsk" "Kajul" "Pamiat Merkuriya" "Rurik"
 		}
 	}
@@ -66,16 +65,18 @@
 		unique = {
 			"Kronshtadt" "Sevastopol"
 			# Fictional names start here			
-			"Stalingrad" "Moskva" "Kirov" "Kalinin" "Yuri Andropov" "Oktyabrskaya Revolutsiya" "Dzerzhinsky" 		
+			"Stalingrad" "Moskva" "Leningrad" "Kharkov" "Minsk" "Orel" "Kiev" "Minsk" "Novorossiysk" "Kharkov" "Baku" "Riga" "Tbilisi" "Tashkent" "Kalinin" "Yuri Andropov" "Oktyabrskaya Revolutsiya" "Dzerzhinsky" "Arkhangelsk" "Novorossiysk"  		
 			"Admiral Ushakov" "Admiral Lazarev" "Admiral Nakhimov" "Admiral Kuznetsov" 
-			 "Izmail" "Borodino" "Kinburn" "Navarin" "Varyag" "Petr Alferyev" "Marshal Ustinov" "Ukraina"
+			 "Izmail" "Borodino" "Kinburn" "Navarin" "Varyag" "Petr Alferyev" "Marshal Ustinov"
 		}
 	}
 	battleship = {
 		prefix = ""
 		generic = { "Linkor" }
 		unique = {
-			"Arkhangelsk" "Novorossiysk" "Sovyetskiy Soyuz" "Sovyetskaya Ukraina" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya" "Oktyabrskaya Revolutsiya" "Marat" "Parizhskaya Kommuna" 				
+			"Sovyetskiy Soyuz" "Sovyetskaya Ukraina" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya" "Sovyetskoe Zapolarie" "Sovyetskaya Sibir'" "Sovyetskaya Pribaltika" "Sovyetskaya Karelia"
+			"Sovyetskiy Kavkaz" "Sovyetskoe Primoryie" "Sovyetskaya Azia" "Sovyetskoe Povolzhie" "Sovyetskiy Ural" "Sovyetskaya Kamchatka" "Sovyetskaya Pol'sha" 
+			"Oktyabrskaya Revolutsiya" "Marat" "Parizhskaya Kommuna" 				
 			# Fictional names start here
 			"Marx" "Lenin" "Stalin" "Volya" "Engels" "Aleksandr Nevskiy" "Admiral Golovko" "Murmansk" "Vladivostok" 
 		}
@@ -85,7 +86,8 @@
 		generic = { "Avianosets" }
 		unique = {
 			# Fictional names start here
-			"Moskva" "Leningrad" "Orel" "Kiev" "Minsk" "Novorossiysk" "Kharkov" "Baku" "Riga" "Varyag" "Ulyanovsk" "Admiral Gorshkov" "Leonid Brezhnev" "Tblisi" "Admiral Kuznetsov" 
+			"Komsomolets" "Valery Chkalov" "Anatoly Lyapidevsky" "Pavel Golovin" "Boris Chukhnovsky" "Valerian Kuybyshev" "Vasily Molokov" "Nikolai Kamanin" "Mikhail Vodopyanov" "Mavriky Slepnyov" "Ivan Doronin" "Sigizmund Levanevsky" 
+			"Mikhail Babushkin" "Ilya Mazuruk" "Varyag" "Ulyanovsk" "Admiral Gorshkov" "Admiral Kuznetsov" 
 		}
 	}
 
