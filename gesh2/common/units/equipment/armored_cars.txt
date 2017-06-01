@@ -15,6 +15,7 @@ equipments = {
 		reliability = 0.8
 		hardness = 0.1
 		recon = 1.0
+		armor_value = 5
 
 		#Space taken in convoy
 		lend_lease_cost = 5
@@ -51,6 +52,7 @@ equipments = {
 		
 		maximum_speed = 14
 		recon = 3.0
+		armor_value = 10
 		
 		priority = 30
 		visual_level = 0
@@ -62,6 +64,7 @@ equipments = {
 		
 		maximum_speed = 16
 		recon = 4.0
+		armor_value = 10
 		
 		priority = 30
 		visual_level = 0
@@ -73,6 +76,7 @@ equipments = {
 		
 		maximum_speed = 20
 		recon = 5.0
+		armor_value = 10
 		
 		priority = 30
 		visual_level = 0
@@ -84,6 +88,7 @@ equipments = {
 		
 		maximum_speed = 20
 		recon = 6.0
+		armor_value = 10
 		
 		priority = 30
 		visual_level = 0
