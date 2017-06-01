@@ -165,7 +165,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			jet_engines = 1
+			surface_ashm1 = 1
 		}
 		
 		categories = {
@@ -518,7 +518,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			jet_engines = 1
+			surface_ashm1 = 1
 		}
 		
 		categories = {
@@ -552,7 +552,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			jet_engines = 1
+			surface_ashm1 = 1
 			nuclear_reactor = 1
 		}
 		

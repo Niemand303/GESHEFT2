@@ -59,6 +59,29 @@ create_import = {
 
 set_convoys = 400
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MEN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = MAN
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		set_autonomy = {
+			target = MEN
+			autonomous_state = autonomy_puppet
+		}
+		set_autonomy = {
+			target = MAN
+			autonomous_state = autonomy_puppet
+		}
+	}
+}
 set_politics = {
 
 	parties = {
@@ -208,9 +231,9 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Naruhiko Higashikuni"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+	picture = "Portrait_Japan_Naruhiko_Higashikuni.dds"
 	traits = {  }
-	skill = 1 
+	skill = 3 
 }
 
 create_corps_commander = {

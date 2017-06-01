@@ -636,6 +636,63 @@ ideas = {
 
 		}
 
+		SOV_rebuilding_the_country = {
+			removal_cost = -1
+			
+			picture = generic_production_bonus
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				industry_repair_factor = 1.0
+			}
+		}
+		
+		SOV_financial_reform = { 
+			removal_cost = -1
+			
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			modifier = {
+				unity_factor = 0.1
+				consumer_goods_factor = 0.1
+			}
+
+		}
+		
+		SOV_great_construction = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25
+			}
+		}
+
 	}
 
 

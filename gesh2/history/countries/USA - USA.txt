@@ -190,7 +190,10 @@ add_ideas = {
 
 
 # DIPLOMACY
-puppet = PHI
+set_autonomy = {
+	target = PHI
+	autonomous_state =  autonomy_puppet
+}
 
 1939.1.1 = {
 	set_national_unity = 0.7
@@ -547,6 +550,17 @@ create_equipment_variant = {
 		ship_reliability_upgrade = 1
 	}
 
+}
+
+create_equipment_variant = {
+	name = "Colorado Class"
+	type = battleship_1
+	upgrades = {
+		ship_reliability_upgrade = 3
+		ship_engine_upgrade = 3
+		ship_armor_upgrade = 3
+		ship_gun_upgrade = 4
+	}
 }
 
 1939.1.1 = {
