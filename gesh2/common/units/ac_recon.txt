@@ -18,8 +18,13 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 1
+		combat_width = 0
 
+		essential = {
+			ac_equipment
+			support_equipment
+		}
+		
 		need = {
 			support_equipment = 15
 			ac_equipment = 48
@@ -30,6 +35,7 @@ sub_units = {
 		default_morale = 0.3
 		training_time = 120
 		max_strength = 1
+		recon = 1
 		
 		weight = 0.15
 		supply_consumption = 0.03
