@@ -1,1 +1,14 @@
-division_template = {	name = "JSDF Division" 				# JSDF Division: 3 battalion-sized motorized infantry regiments and 1 tank battalion 		regiments = {		motorized = { x = 0 y = 0 }		motorized = { x = 0 y = 1 }		motorized = { x = 0 y = 2 }	}	support = {		artillery = { x = 0 y = 0 }	}}units = {	division = {		name = "1. JSDF Division"		location = 1182 #Tokyo		division_template = "JSDF Division"		start_experience_factor = 0.4	}}
+division_template = {	
+	name = "JSDF Division" 				# JSDF Division: 3 battalion-sized motorized infantry regiments and 1 tank battalion 	
+	regiments = {
+		motorized = { x = 0 y = 0 }		motorized = { x = 0 y = 1 }		motorized = { x = 0 y = 2 }	}
+	support = {		artillery = { x = 0 y = 0 }	}
+}
+units = {
+	division = {
+		name = "1. JSDF Division"
+		location = 1182 #Tokyo
+		division_template = "JSDF Division"
+		start_experience_factor = 0.4
+	}
+}

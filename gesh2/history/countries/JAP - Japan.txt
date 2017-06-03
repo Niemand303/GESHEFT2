@@ -106,48 +106,6 @@ set_politics = {
 }
 
 
-### 1945 start ###
-
-1945.9.2 = {
-	oob = "JAP_1945"
-
-	# add national focuses
-	# complete_national_focus = %focus_name%
-	
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 80
-			}
-
-			fascism = {
-				popularity = 20
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1945.9.2"
-		election_frequency = 12
-		elections_allowed = yes
-	}
-	
-	create_country_leader = {
-	name = "Naruhiko Higashikuni"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Japan_Naruhiko_Higashikuni.dds"
-	expire = "1989.1.1"
-	ideology = conservatism
-	traits = {
-	}
-}
-}
-
 create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_Hirohito_DESC"
