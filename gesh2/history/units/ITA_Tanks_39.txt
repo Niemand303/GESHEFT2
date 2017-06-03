@@ -1,0 +1,26 @@
+﻿division_template = {
+	name = "Divisione Corazzata '39"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+
+		mot_artillery_brigade = { x = 2 y = 0 }	
+		mot_artillery_brigade = { x = 2 y = 1 }
+		mot_artillery_brigade = { x = 2 y = 2 }	
+
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+  		ac_recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		anti_tank = { x = 0 y = 3 }			
+		
+		}
+	priority = 2
+}
