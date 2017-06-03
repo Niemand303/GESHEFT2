@@ -202,6 +202,46 @@ spriteTypes = {
 		name = "GFX_GER_main_battle_tank4_medium"
 		texturefile = "gfx/interface/technologies/GER_main_battle_tank4.dds"
 	}
+	SpriteType = {
+		name = "GFX_GER_motorised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/GER_motorised_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_motorised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/GER_motorised_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mechanised_infantry6_medium"
+		texturefile = "gfx/interface/technologies/GER_mechanized_equipment_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavy_mechanised_infantry1_medium"
+		texturefile = "gfx/interface/technologies/GER_heavy_mechanized_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavy_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/GER_heavy_mechanized_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavy_mechanised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/GER_heavy_mechanized_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_modern_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_modern_infantry_equipment1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_modern_infantry_weapons_2_medium"
+		texturefile = "gfx/interface/technologies/GER_modern_infantry_equipment2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_modern_infantry_weapons_3_medium"
+		texturefile = "gfx/interface/technologies/GER_modern_infantry_equipment3.dds"
+	}
 
 	#### Armored Cars ####
 	SpriteType = {
@@ -253,6 +293,32 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_modern_armored_car_medium"
 		texturefile = "gfx/interface/technologies/SOV_ac_equipment_5.dds"
+	}
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_gw_armored_car_medium"
+		texturefile = "gfx/interface/technologies/GER_ac_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_interwar_armored_car_medium"
+		texturefile = "gfx/interface/technologies/GER_ac_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_early_armored_car_medium"
+		texturefile = "gfx/interface/technologies/GER_ac_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_basic_armored_car_medium"
+		texturefile = "gfx/interface/technologies/GER_ac_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_adv_armored_car_medium"
+		texturefile = "gfx/interface/technologies/GER_ac_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_modern_armored_car_medium"
+		texturefile = "gfx/interface/technologies/GER_ac_equipment_5.dds"
 	}
 
 	#### Heavy Artillery ####
@@ -344,15 +410,15 @@ spriteTypes = {
 	# USA
 	SpriteType = {
 		name = "GFX_USA_basic_marine_tank_medium"
-		texturefile = "gfx/interface/technologies/GER_marine_tank_equipment_1.dds"
+		texturefile = "gfx/interface/technologies/USA_marine_tank_equipment_1.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_adv_marine_tank_medium"
-		texturefile = "gfx/interface/technologies/GER_marine_tank_equipment_2.dds"
+		texturefile = "gfx/interface/technologies/USA_marine_tank_equipment_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_modern_marine_tank_medium"
-		texturefile = "gfx/interface/technologies/GER_marine_tank_equipment_3.dds"
+		texturefile = "gfx/interface/technologies/USA_marine_tank_equipment_3.dds"
 	}
 
 	#### Marine Tanks #####
@@ -468,7 +534,25 @@ spriteTypes = {
 		name = "GFX_SOV_motorised_infantry4_medium"
 		texturefile = "gfx/interface/technologies/SOV_motorized_equipment_4.dds"
 	}
-
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_motorised_infantry1_medium"
+		texturefile = "gfx/interface/technologies/GER_motorised_equipment_1.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GER_motorised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/GER_motorised_equipment_2.dds"
+	}	
+	SpriteType = {
+		name = "GFX_GER_motorised_infantry3_medium"
+		texturefile = "gfx/interface/technologies/GER_motorised_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_motorised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/GER_motorised_equipment_4.dds"
+	}
+	
 	#### SAM ####
 	SpriteType = {
 		name = "GFX_sam1_medium"
@@ -590,6 +674,20 @@ spriteTypes = {
 		name = "GFX_USA_cv_fighter6_medium"
 		texturefile = "gfx/interface/technologies/USA_cv_jet_fighter_equipment_3.dds"
 	}
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_modern_light_fighter1_medium"
+		texturefile = "gfx/interface/technologies/GER_modern_fighter_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_modern_light_fighter2_medium"
+		texturefile = "gfx/interface/technologies/GER_modern_fighter_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_modern_light_fighter3_medium"
+		texturefile = "gfx/interface/technologies/GER_modern_fighter_equipment_3.dds"
+	}
 
 	#### CAS ####
 	SpriteType = {
@@ -692,6 +790,16 @@ spriteTypes = {
 		name = "GFX_USA_cv_jet_CAS4_medium"
 		texturefile = "gfx/interface/technologies/USA_cv_jet_cas_equipment_4.dds"
 	}
+	
+	# GER
+		SpriteType = {
+		name = "GFX_GER_jet_CAS1_medium"
+		texturefile = "gfx/interface/technologies/GER_jet_cas_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_jet_CAS3_medium"
+		texturefile = "gfx/interface/technologies/GER_jet_cas_equipment_3.dds"
+	}
 
 	#### Naval ####
 	SpriteType = {
@@ -733,6 +841,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_naval_bomber6_medium"
 		texturefile = "gfx/interface/technologies/USA_jet_naval_bomber3.dds"
+	}
+	
+	# GER
+		SpriteType = {
+		name = "GFX_GER_naval_bomber6_medium"
+		texturefile = "gfx/interface/technologies/GER_jet_naval_bomber3.dds"
 	}
 	
 	#### Multirole ####
@@ -811,6 +925,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_USA_cv_multirole3_medium"
 		texturefile = "gfx/interface/technologies/USA_cv_multirole_equipment_3.dds"
+	}
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_multirole2_medium"
+		texturefile = "gfx/interface/technologies/GER_multirole_equipment_2.dds"
 	}
 
 	#### Interceptor ####
@@ -927,6 +1047,16 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/USA_jet_strategic_equipment_3.dds"
 	}
 	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/GER_jet_strategic_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_jet_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/GER_jet_strategic_equipment_2.dds"
+	}
+	
 	#### Transport Planes ####
 	SpriteType = {
 		name = "GFX_transport1_medium"
@@ -980,7 +1110,25 @@ spriteTypes = {
 		name = "GFX_USA_transport4_medium"
 		texturefile = "gfx/interface/technologies/USA_transport_plane_equipment_4.dds"
 	}
-
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_transport1_medium"
+		texturefile = "gfx/interface/technologies/GER_transport_plane_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_transport2_medium"
+		texturefile = "gfx/interface/technologies/GER_transport_plane_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_transport3_medium"
+		texturefile = "gfx/interface/technologies/GER_transport_plane_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_transport4_medium"
+		texturefile = "gfx/interface/technologies/GER_transport_plane_equipment_4.dds"
+	}
+	
 	#### Helis ####
 	SpriteType = {
 		name = "GFX_transport_helis1_medium"
@@ -1362,5 +1510,49 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_heavy_artillery3_medium"
 		texturefile = "gfx/interface/technologies/GER_heavy_artillery_equipment_3.dds"
+	}
+	
+	# Modern navy
+	
+	# SOV
+	SpriteType = {
+		name = "GFX_SOV_semi_modern_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_cruiser_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_modern_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_cruiser_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_semi_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_destroyer_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_semi_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/SOV_modern_carrier.dds"
+	}
+	
+	# USA
+	SpriteType = {
+		name = "GFX_USA_semi_modern_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_modern_cruiser_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_modern_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/USA_modern_cruiser_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_semi_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/USA_modern_destroyer_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_semi_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/USA_modern_carrier.dds"
+	}
+	
+	# GER
+	SpriteType = {
+		name = "GFX_GER_semi_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/GER_modern_destroyer_1.dds"
 	}
 }
