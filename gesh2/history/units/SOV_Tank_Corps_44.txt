@@ -1,0 +1,25 @@
+division_template = {
+	name = "Gvardeyskiy Tankoviy Korpus"
+	
+	regiments = {
+		heavy_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+		
+		light_sp_artillery_brigade = { x = 1 y = 0 } # 21x SU-76
+		heavy_sp_artillery_brigade = { x = 1 y = 1 } # 21x SU-152
+		medium_tank_destroyer_brigade = { x = 1 y = 2 } # 21x SU-85
+		
+		motorized = { x = 2 y = 0 }		
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		mot_artillery_brigade = { x = 2 y = 3 }
+		motorized_rocket_brigade = { x = 2 y = 4 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		maintenance_company = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		heavy_artillery = { x = 0 y = 3 }
+	}
+}

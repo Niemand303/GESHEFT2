@@ -752,9 +752,9 @@
  MODERN_SUPERIOR_FIREPOWER_DOCTRINE_DESC:0 "Continuation of Superior Firepower AND Grand Batteleplan branches"
  MODERN_MASS_ASSAULT_DOCTRINE_LABEL:0 "Modern Mass Assault"
  MODERN_MASS_ASSAULT_DOCTRINE_DESC:0 "Contiuation of Mass Assault branch"
- axis_doctrine_unlock:0 "Modern Mobility Doctrine"
- nato_doctrine_unlock:0 "Modern Superior Firepower Doctrine"
- warpac_doctrine_unlock:0 "Modern Mass Assault Doctrine"
+ axis_doctrine_unlock:0 "Unlock Axis Doctrines"
+ nato_doctrine_unlock:0 "Unlock NATO Doctrines"
+ warpac_doctrine_unlock:0 "Unlock Warsaw Pact Doctrines"
  
  hunter_groups:0 "Hunter Groups"
  modern_spearhead:0 "Modern Spearhead"
@@ -784,4 +784,4 @@
  unified_warpac_doctrine:0 "Unified Warsaw Pact Doctrine"
  
  STATE_743:0 "Westpreussen"
- G2_version:0 "G.E.S.H.E.F.T. 2 v0.1.4.1"
+ G2_version:0 "G.E.S.H.E.F.T. 2 v0.1.6"

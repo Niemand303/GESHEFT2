@@ -3,12 +3,7 @@
 # Cold War
 country_event = {
 	id = g_core.1
-	title = g_core.1.t
-	desc = g_core.1.d
-	picture = GFX_news_event_001
-	
 	hidden = yes
-	
 	fire_only_once = yes
 	
 	trigger = 	{
@@ -31,14 +26,15 @@ country_event = {
 			}
 		}
 		NOT = { has_global_flag = cold_war }
-		is_ai = no
 	}
-	mean_time_to_happen = { days = 7 }
 	
-	option = {
-		name = g_core.1.a
+	immediate = {
 		set_global_flag = cold_war
 		add_named_threat = { threat = -100 name = g_core.2.t }
+	}
+	
+	optione = {
+		name = g_core.1.a
 	}
 }
 
@@ -107,11 +103,8 @@ country_event = {
 # Max 20 divisions for minors except China and Poland
 country_event = {
 	id = g_core.5
-	title = g_core.3.t
-	desc = g_core.3.d
-	picture = GFX_report_event_generic_factory
-		
 	hidden = yes
+	fire_only_once = yes
 	
 	trigger = 	{
 		is_ai = yes
@@ -122,111 +115,12 @@ country_event = {
 		NOT = { tag = PRC }
 	}
 	
+	immediate = { add_ideas = overextended_military }
+	
 	mean_time_to_happen = { days = 1 }
 	
 	option = {
 		name = g_core.3.a
-		add_ideas = overextended_military
-	}
-}
-
-# No armies for puppets - Scraping the Barrel
-country_event = {
-	id = g_core.6
-	title = g_core.6.t
-	desc = g_core.6.d
-	picture = GFX_report_event_generic_army
-		
-	trigger = 	{
-		is_puppet = yes
-		has_idea = scraping_the_barrel
-	}
-	
-	mean_time_to_happen = { days = 1 }
-	
-	option = {
-		name = g_core.6.a
-		add_ideas = no_puppet_army1
-	}
-}
-
-# No armies for puppets - All adults serve
-country_event = {
-	id = g_core.7
-	title = g_core.6.t
-	desc = g_core.6.d
-	picture = GFX_report_event_generic_army
-		
-	trigger = 	{
-		is_puppet = yes
-		has_idea = all_adults_serve
-	}
-	
-	mean_time_to_happen = { days = 1 }
-	
-	option = {
-		name = g_core.6.a
-		add_ideas = no_puppet_army2
-	}
-}
-
-# No armies for puppets - Service by requirement
-country_event = {
-	id = g_core.8
-	title = g_core.6.t
-	desc = g_core.6.d
-	picture = GFX_report_event_generic_army
-		
-	trigger = 	{
-		is_puppet = yes
-		has_idea = service_by_requirement
-	}
-	
-	mean_time_to_happen = { days = 1 }
-	
-	option = {
-		name = g_core.6.a
-		add_ideas = no_puppet_army3
-	}
-}
-
-# No armies for puppets - Extensive conscription
-country_event = {
-	id = g_core.9
-	title = g_core.6.t
-	desc = g_core.6.d
-	picture = GFX_report_event_generic_army
-		
-	trigger = 	{
-		is_puppet = yes
-		has_idea = extensive_conscription
-	}
-	
-	mean_time_to_happen = { days = 1 }
-	
-	option = {
-		name = g_core.6.a
-		add_ideas = no_puppet_army4
-	}
-}
-
-# No armies for puppets - Limited conscription
-country_event = {
-	id = g_core.10
-	title = g_core.6.t
-	desc = g_core.6.d
-	picture = GFX_report_event_generic_army
-		
-	trigger = 	{
-		is_puppet = yes
-		has_idea = limited_conscription
-	}
-	
-	mean_time_to_happen = { days = 1 }
-	
-	option = {
-		name = g_core.6.a
-		add_ideas = no_puppet_army5
 	}
 }
 
@@ -236,23 +130,27 @@ country_event = {
 	title = g_core.11.t
 	desc = g_core.11.d
 	picture = GFX_report_event_generic_factory
-		
+	#fire_only_once = yes
+	
 	trigger = 	{
 		has_war = yes
-		OR = { has_idea = butter_over_guns2
-		has_idea = butter_over_guns	
+		OR = { 
+			has_idea = butter_over_guns2
+			has_idea = butter_over_guns	
 		}
 	}
-	mean_time_to_happen = { days = 1 }
 	
-	option = {
-		name = g_core.11.a
+	immediate = {
 		remove_ideas = butter_over_guns2
 		remove_ideas = butter_over_guns
 	}
+	
+	option = {
+		name = g_core.11.a
+	}
 }
 
-# 12 - Axis doctrines
+# doctrines
 country_event = {
 	id = g_core.12
 	title = g_core.12.t

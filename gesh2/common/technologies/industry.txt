@@ -1468,7 +1468,7 @@ technologies = {
 
 	early_pharmacology = {
 
-		conscription = 0.01
+		conscription = 0.005
 		attrition = -0.02
 		
 		path = {
@@ -1495,7 +1495,7 @@ technologies = {
 	
 	sulfa_antibiotics = {
 
-		conscription = 0.01
+		conscription = 0.005
 		attrition = -0.03
 		
 		path = {
@@ -1522,7 +1522,7 @@ technologies = {
 	
 	basic_pharmacology = {
 
-		conscription = 0.02
+		conscription = 0.01
 		attrition = -0.02
 		
 		path = {
@@ -1549,7 +1549,7 @@ technologies = {
 	
 	penicillin_prod = {
 	
-		conscription = 0.02
+		conscription = 0.01
 		attrition = -0.05
 		
 		path = {
