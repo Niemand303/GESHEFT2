@@ -294,6 +294,21 @@
  SOV_motorized_equipment_4:0 "Ural-4320"
  SOV_motorized_equipment_4_short:0 "Ural-4320"
  
+ GER_mechanized_equipment_4:0 "Gep. MTW Kätzchen"
+ GER_mechanized_equipment_4_short:0 "Kätzchen"
+ GER_mechanized_equipment_5:0 "Condor UR-425"
+ GER_mechanized_equipment_5_short:0 "UR-425"
+ GER_mechanized_equipment_6:0 "Transportpanzer 1 Fuchs"
+ GER_mechanized_equipment_6_short:0 "TPz 1 Fuchs"
+ GER_motorized_rocket_equipment_4:0 "LARS-2"
+ GER_motorized_rocket_equipment_4_short:0 "LARS-2"
+ GER_heavy_mechanized_equipment_1:0 "HS-30"
+ GER_heavy_mechanized_equipment_1_short:0 "HS-30"
+ GER_heavy_mechanized_equipment_2:0 "Marder 1 Infantry Fighting Vehicle"
+ GER_heavy_mechanized_equipment_2_short:0 "Marder 1"
+ GER_heavy_mechanized_equipment_3:0 "Marder 2 Infantry Fighting Vehicle"
+ GER_heavy_mechanized_equipment_3_short:0 "Marder 2"
+ 
  USA_mechanized_equipment_4:0 "M59 Armored Personnel Carrier"
  USA_mechanized_equipment_4_short:0 "M59 APC"
  USA_mechanized_equipment_5:0 "M113 Armored Personnel Carrier"
@@ -333,12 +348,12 @@
  USA_infantry_equipment_6:0 "M4 Carbine"
  USA_infantry_equipment_6_short:0 "M4"
  
- GER_infantry_equipment_4:0 "G1 Light Automatic Rifle"
- GER_infantry_equipment_4_short:0 "G1"
+ GER_infantry_equipment_4:0 "Sturmgewehr 48"
+ GER_infantry_equipment_4_short:0 "Stg 48"
  GER_infantry_equipment_5:0 "Heckler & Koch G3"
  GER_infantry_equipment_5_short:0 "G3"
- GER_infantry_equipment_6:0 "Heckler & Koch G36"
- GER_infantry_equipment_6_short:0 "G36"
+ GER_infantry_equipment_6:0 "Heckler & Koch HK33"
+ GER_infantry_equipment_6_short:0 "HK33"
 # Modern Tanks
  light_tank_equipment_4:0 "Modern Light Tank"
  light_tank_equipment_4_desc:0 "Light tanks for supporting infantry"
@@ -402,6 +417,20 @@
  ac_equipment_3:0 "Improved Armored Car"
  ac_equipment_4:0 "Advanced Armored Car"
  ac_equipment_5:0 "Modern Armored Car"
+ 
+ GER_ac_equipment_0:0 "Ehrhardt E-V/4"
+ GER_ac_equipment_1:0 "Sd.Kfz. 13"
+ GER_ac_equipment_2:0 "Sd.Kfz. 222"
+ GER_ac_equipment_3:0 "Sd.Kfz. 231"
+ GER_ac_equipment_4:0 "Sd.Kfz. 234/1"
+ GER_ac_equipment_5:0 "Sp.Pz. 2 'Luchs'"
+ 
+ SOV_ac_equipment_0:0 "Ostin-Putilovets"
+ SOV_ac_equipment_1:0 "FAI"
+ SOV_ac_equipment_2:0 "BA-10"
+ SOV_ac_equipment_3:0 "BA-64"
+ SOV_ac_equipment_4:0 "BRDM-1"
+ SOV_ac_equipment_5:0 "BRDM-2"
 
  ac_equipment_0_desc:0 "Great War Armored Car"
  ac_equipment_1_desc:0 "Interwar Armored Car"
@@ -471,6 +500,15 @@
  airborne_tank_equipment_1_desc:0 "Basic Glider Tank"
  airborne_tank_equipment_2_desc:0 "Modern Airborne Tank"
  
+ SOV_airborne_tank_equipment_1:0 "A-40"
+ SOV_airborne_tank_equipment_2:0 "ASU-57"
+ 
+ GER_airborne_tank_equipment_1:0 "Pz.Kpfw.I Ausf.C"
+ GER_airborne_tank_equipment_2:0 "Pz.Kpfw.II Luchs"
+ 
+ USA_airborne_tank_equipment_1:0 "M22 Locust"
+ USA_airborne_tank_equipment_2:0 "T71 Light Tank"
+ 
 # ATGM
  anti_tank_equipment_4:0 "ATGM I"
  anti_tank_equipment_5:0 "ATGM II"
@@ -520,6 +558,10 @@
  SOV_cv_modern_fighter_equipment_2:0 "MiG-29K"
  SOV_cv_modern_fighter_equipment_3:0 "MiG-35K"
  
+ GER_modern_fighter_equipment_1:0 "EWR VJ 101"
+ GER_modern_fighter_equipment_2:0 "VFW VAK 191"
+ GER_modern_fighter_equipment_3:0 "EF-2000"
+ 
  USA_modern_fighter_equipment_1:0 "F-5"
  USA_modern_fighter_equipment_2:0 "F-16"
  USA_modern_fighter_equipment_3:0 "F-35A"
@@ -545,6 +587,9 @@
  SOV_cv_jet_cas_equipment_3:0 "Yak-38"
  SOV_cv_jet_cas_equipment_4:0 "Su-25UBP"
  
+ GER_jet_cas_equipment_1:0 "Hs. 132"
+ GER_jet_cas_equipment_3:0 "Alpha Jet A"
+ 
  USA_jet_cas_equipment_1:0 "A-4"
  USA_jet_cas_equipment_2:0 "A-6"
  USA_jet_cas_equipment_3:0 "A-10A"
@@ -561,6 +606,8 @@
  SOV_nav_bomber_equipment_4:0 "Tu-16K"
  SOV_nav_bomber_equipment_5:0 "Tu-142"
  SOV_nav_bomber_equipment_6:0 "Tu-22M3"
+ 
+ GER_nav_bomber_equipment_6:0 "Tornado IDS"
  
  USA_nav_bomber_equipment_4:0 "P-3"
  USA_nav_bomber_equipment_5:0 "S-3"
@@ -591,6 +638,8 @@
  SOV_cv_multirole_equipment_2:0 "Su-33"
  SOV_cv_multirole_equipment_3:0 "Su-33T"
  
+ GER_multirole_equipment_2:0 "Tornado MFG"
+ 
  USA_multirole_equipment_1:0 "F-4"
  USA_multirole_equipment_2:0 "F-15"
  USA_multirole_equipment_3:0 "F-22"
@@ -613,6 +662,8 @@
  SOV_jet_strat_bomber_equipment_2:0 "Tu-160"
  SOV_jet_strat_bomber_equipment_3:0 "PAK DA"
  
+ GER_jet_strat_bomber_equipment_2:0 "Ar E555"
+ 
  USA_jet_strat_bomber_equipment_2:0 "B-1"
  USA_jet_strat_bomber_equipment_3:0 "B-2"
 # Transport
@@ -625,6 +676,11 @@
  SOV_transport_plane_equipment_2:0 "Yak-6"
  SOV_transport_plane_equipment_3:0 "An-12"
  SOV_transport_plane_equipment_4:0 "Il-76"
+ 
+ GER_transport_plane_equipment_1:0 "Ju 52"
+ GER_transport_plane_equipment_2:0 "Ju 352"
+ GER_transport_plane_equipment_3:0 "C.160"
+ GER_transport_plane_equipment_4:0 "A-400"
  
  USA_transport_plane_equipment_1:0 "C-47"
  USA_transport_plane_equipment_2:0 "C-54"
@@ -658,10 +714,12 @@
  SOV_carrier_5:0 "Project 1143.7"
  SOV_destroyer_5:0 "Project 57bis"
  
- USA_carrier_5:0 "Nimitz"
- USA_heavy_cruiser_5:0 "Leahy"
- USA_heavy_cruiser_6:0 "Long Beach"
- USA_destroyer_5:0 "Farragut"
+ USA_carrier_5:0 "Nimitz Class"
+ USA_heavy_cruiser_5:0 "Leahy Class"
+ USA_heavy_cruiser_6:0 "Long Beach Class"
+ USA_destroyer_5:0 "Farragut Class"
+ 
+ GER_destroyer_5:0 "Hamburg Class"
 # industry techs
  early_pharmacology:0 "Early Pharmacology"
  early_pharmacology_desc:0 " "
@@ -783,5 +841,5 @@
  special_forces_warpac:0 "Special Forces Focus"
  unified_warpac_doctrine:0 "Unified Warsaw Pact Doctrine"
  
- STATE_743:0 "Westpreussen"
- G2_version:0 "G.E.S.H.E.F.T. 2 v0.1.6"
+ STATE_743:0 "Allenstein"
+ G2_version:0 "G.E.S.H.E.F.T. 2 v0.1.6.1"
