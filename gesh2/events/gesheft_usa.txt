@@ -225,14 +225,17 @@ country_event = {
 	trigger = {
 		tag = USA
 		has_country_leader = { name = "Harry S. Truman" }
+		NOT = {	has_global_flag = all_g2_events_disabled }
 	}
 	fire_only_once = yes
 	
-	option = {
-		name = g_usa.5.a 
+	immediate = {
 		every_country = {
 			limit = { has_government = democratic }
 			USA = { give_guarantee = PREV }
 		}
+	}
+	option = {
+		name = g_usa.5.a 
 	}
 }

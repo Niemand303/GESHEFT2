@@ -25,7 +25,7 @@
 		generic = { "Esminets" }
 		unique = {
 			# Project 7 
-			"Gnevny" "Grozny" "Gromky" "Grozyashtchi" "Gordy" "Gremyashchiy" "Steregushchy" "Storozhevoy" "Stoykiy" "Strashnyy" "Silny" "Smely" "Strogy" "Skory" "Svirepy" "Statny" "Stroyny" "Stremitelny" "Sokrushitelny" Slavny" "Smetlivy" "Lovkiy" "Logkiy" 
+			"Gnevny" "Grozny" "Gromky" "Grozyashtchi" "Gordy" "Gremyashchiy" "Steregushchy" "Storozhevoy" "Stoykiy" "Strashnyy" "Silny" "Smely" "Strogy" "Skory" "Svirepy" "Statny" "Stroyny" "Stremitelny" "Sokrushitelny" "Slavny" "Smetlivy" "Lovkiy" "Logkiy" 
 			"Letuchiy" "Likhoy" "Rezvyy" "Reshitelny" "Razyashchyy" "Bodry" "Ryany" "Rezkiy" "Bystryy" "Boykiy" "Besposhchadnyy" "Retivyy" "Pospeshny" "Provorny" "Peredovoy" "Prytkiy" "Pylkiy" "Bezuprechny" "Bditelny" "Burny" "Boyevoy" "Besstrashny" "Besshumny"
 			"Prochny" "Podvizhny" "Polezny" "Prozorlivy" "Pronzitelny" "Porazhayushchiy" "Surovy" "Serdity" "Revnostny" "Razyarenny" "Rekordny" "Redkiy" "Sovershenny" "Svobodny" "Razumny" "Sposobny" "Smyshleny" "Soobrazitelny"
 			# Project 30
@@ -76,9 +76,7 @@
 		unique = {
 			"Sovyetskiy Soyuz" "Sovyetskaya Ukraina" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya" "Sovyetskoe Zapolarie" "Sovyetskaya Sibir'" "Sovyetskaya Pribaltika" "Sovyetskaya Karelia"
 			"Sovyetskiy Kavkaz" "Sovyetskoe Primoryie" "Sovyetskaya Azia" "Sovyetskoe Povolzhie" "Sovyetskiy Ural" "Sovyetskaya Kamchatka" "Sovyetskaya Pol'sha" 
-			"Oktyabrskaya Revolutsiya" "Marat" "Parizhskaya Kommuna" 				
-			# Fictional names start here
-			"Marx" "Lenin" "Stalin" "Volya" "Engels" "Aleksandr Nevskiy" "Admiral Golovko" "Murmansk" "Vladivostok" 
+			"Oktyabrskaya Revolutsiya" "Marat" "Parizhskaya Kommuna" "Marx" "Lenin" "Stalin" "Volya" "Engels" "Aleksandr Nevskiy" "Admiral Golovko" "Murmansk" "Vladivostok" 
 		}
 	}
 	carrier = {

@@ -26,6 +26,7 @@ country_event = {
 			}
 		}
 		NOT = { has_global_flag = cold_war }
+		NOT = {	has_global_flag = all_g2_events_disabled }
 	}
 	
 	immediate = {
@@ -33,7 +34,7 @@ country_event = {
 		add_named_threat = { threat = -100 name = g_core.2.t }
 	}
 	
-	optione = {
+	option = {
 		name = g_core.1.a
 	}
 }
@@ -70,6 +71,7 @@ country_event = {
 		has_war = no
 		NOT = { has_government = fascism }
 		NOT = { has_idea = butter_over_guns }
+		NOT = {	has_global_flag = all_g2_events_disabled }
 	}
 	mean_time_to_happen = { days = 30 }
 	
@@ -91,6 +93,7 @@ country_event = {
 		has_war = no
 		has_government = fascism 
 		NOT = { has_idea = butter_over_guns2 }
+		NOT = {	has_global_flag = all_g2_events_disabled }
 	}
 	mean_time_to_happen = { days = 30 }
 	
@@ -113,6 +116,7 @@ country_event = {
 		NOT = { tag = CHI }
 		NOT = { tag = POL }
 		NOT = { tag = PRC }
+		NOT = {	has_global_flag = g2_ai_limitations_disabled }
 	}
 	
 	immediate = { add_ideas = overextended_military }
@@ -138,6 +142,7 @@ country_event = {
 			has_idea = butter_over_guns2
 			has_idea = butter_over_guns	
 		}
+		NOT = {	has_global_flag = all_g2_events_disabled }
 	}
 	
 	immediate = {
@@ -213,5 +218,31 @@ country_event = {
 	option = {
 		name = g_core.12.a
 		set_technology = { warpac_doctrine_unlock = 1 }
+	}
+}
+
+# Turning events off or on
+country_event = {
+	id = g_core.303
+	title = g_core.303.t
+	desc = g_core.303.d
+	picture = GFX_report_event_generic_factory
+	
+	trigger = 	{
+		is_ai = no
+	}
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.303.a
+		set_global_flag = all_g2_events_disabled
+	}
+	option = {
+		name = g_core.303.b
+		set_global_flag = g2_ai_limitations_disabled
+	}
+	option = {
+		name = g_core.303.c
 	}
 }

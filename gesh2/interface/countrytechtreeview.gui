@@ -559,6 +559,27 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+			
+			gridboxtype = {
+				name = "elite_infantry_tree"
+				position = { x = 10% y = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "tech_reserves_tree"
+				position = { x = 10% y = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "tech_garrison_tree"
+				position = { x = 10% y = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 		}
 
 		containerWindowType = {
