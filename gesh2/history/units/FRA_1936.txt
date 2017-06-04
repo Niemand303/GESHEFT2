@@ -109,12 +109,12 @@ division_template = {
 	name = "Brigade Coloniale"			# Represents: 2xRgt colonial forces and , usually with old equipment
 
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+		reserve = { x = 0 y = 0 }
+		reserve = { x = 0 y = 1 }
+		reserve = { x = 0 y = 2 }
+		reserve = { x = 1 y = 0 }
+		reserve = { x = 1 y = 1 }
+		reserve = { x = 1 y = 2 }
 	}
 	priority = 0
 }

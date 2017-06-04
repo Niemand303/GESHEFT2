@@ -2828,3 +2828,8 @@
  g_oob.1.t:0 "New Division Template"
  g_oob.1.d:0 "Today our general staff came up with an idea on how to integrate newly developped equipment into our armed forces."
  g_oob.1.a:0 "Great!"
+ g_core.303.t:0 "GESHEFT 2 events"
+ g_core.303.d:0 "No events = AI minors are no longer getting a 20 divisions limits, Cold War political events won't happen, Butter over Guns industry nerfing is disabled. Ruler change will still happen. \n\n No AI Limitations = AI minors no longer limited to 20 divisions, all political events will occur. \n\n All enabled = Everything is enabled."
+ g_core.303.a:0 "No events"
+ g_core.303.b:0 "No AI Limitations"
+ g_core.303.c:0 "All enabled"

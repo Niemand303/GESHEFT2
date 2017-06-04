@@ -842,4 +842,26 @@
  unified_warpac_doctrine:0 "Unified Warsaw Pact Doctrine"
  
  STATE_743:0 "Allenstein"
- G2_version:0 "G.E.S.H.E.F.T. 2 v0.1.6.1"
+ G2_version:0 "G.E.S.H.E.F.T. 2 v0.2.0"
+ 
+ shock_infantry:0 "Shock Infantry Battalion"
+ elite_infantry:0 "Shock Infantry I"
+ elite_infantry2:0 "Shock Infantry II"
+ elite_infantry3:0 "Shock Infantry III"
+ SOV_shock_infantry:0 "Guards Infantry Battalion"
+ GER_shock_infantry:0 "SS Infantry Battalion"
+ 
+ reserve:0 "Reserve Infantry Battalion"
+ tech_reserves:0 "Reserve Infantry I"
+ tech_reserves2:0 "Reserve Infantry II"
+ tech_reserves3:0 "Reserve Infantry III"
+ SOV_reserve:0 "Militia Battalion"
+ ENG_reserve:0 "Colonial Infantry Battalion"
+ FRA_reserve:0 "Colonial Infantry Battalion"
+ GER_reserve:0 "Volkssturm Battalion"
+ USA_reserve:0 "National Guards Battalion"
+ 
+ garrison:0 "Garrison Battalion"
+ tech_garrison:0 "Garrison Infantry I"
+ tech_garrison2:0 "Garrison Infantry II"
+ tech_garrison3:0 "Garrison Infantry III"

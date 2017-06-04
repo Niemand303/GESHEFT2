@@ -14,13 +14,42 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 		artillery_brigade = { x = 2 y = 3 }
+		anti_tank_brigade = { x = 2 y = 4 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0}
+        maintenance_company = { x = 0 y = 1}
+        recon = { x = 0 y = 2}
+        field_hospital = { x = 0 y = 3}
+        logistics_company = { x = 0 y = 4}
+	}
+}
+division_template = {
+	name = "Infanterie-Division (mot.)"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		mot_artillery_brigade = { x = 0 y = 3 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		mot_artillery_brigade = { x = 1 y = 3 }
+        motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
+		mot_artillery_brigade = { x = 2 y = 3 }
+		mot_anti_tank_brigade = { x = 2 y = 4 }
 	}
 	
 	support = {
         engineer = { x = 0 y = 0 }
         artillery = { x = 0 y = 1 }
-		recon = { x = 0 y = 2 }
-		anti_tank = { x = 0 y = 3 }
+		ac_recon = { x = 0 y = 2 }
+		field_hospital = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4}
 	}
 }
 division_template = {
@@ -39,24 +68,24 @@ division_template = {
 	}
 	support = {
         recon = { x = 0 y = 0 }
-        ac_recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        artillery = { x = 0 y = 2 }
+        ac_recon = { x = 0 y = 1 }
+        engineer = { x = 0 y = 2 }
+        artillery = { x = 0 y = 3 }
 	}
 }
 division_template = {
 	name = "SS Division" 			# SS division
 	# Note: actually a grouping of 3 independent SS-mot regiments
 	regiments = {
-		motorized = { x = 0 y = 0 }
-	    motorized = { x = 0 y = 1 }
-		motorized = { x = 0 y = 2 }
-		motorized = { x = 1 y = 0 }
-		motorized = { x = 1 y = 1 }
-		motorized = { x = 1 y = 2 }
-		motorized = { x = 2 y = 0 }
-	    motorized = { x = 2 y = 1 }
-		motorized = { x = 2 y = 2 }
+		shock_infantry = { x = 0 y = 0 }
+	    shock_infantry = { x = 0 y = 1 }
+		shock_infantry = { x = 0 y = 2 }
+		shock_infantry = { x = 1 y = 0 }
+		shock_infantry = { x = 1 y = 1 }
+		shock_infantry = { x = 1 y = 2 }
+		shock_infantry = { x = 2 y = 0 }
+	    shock_infantry = { x = 2 y = 1 }
+		shock_infantry = { x = 2 y = 2 }
 	}
 	support = {
         recon = { x = 0 y = 0 }
@@ -102,9 +131,9 @@ units = {
 	### 1. Armee (Wehrmacht-Gruppenkommando) ###
 	# II. Armeekorps
 	division= {	
-		name = "2. Infanterie-Division"
+		name = "2. Infanterie-Division (mot.)"
 		location = 6334
-		division_template = "Infanterie-Division"
+		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
 	division= {	
@@ -115,9 +144,9 @@ units = {
 	}
 	# III. Armeekorps
 	division= {	
-		name = "3. Infanterie-Division"
+		name = "3. Infanterie-Division (mot.)"
 		location = 478
-		division_template = "Infanterie-Division"
+		division_template = "Infanterie-Division (mot.)"
 		start_experience_factor = 0.3
 	}
 	division= {	

@@ -71,12 +71,12 @@ division_template = {
 	name = "Divisione Coloniale"		
 	# Represents lesser-equipped colonial units
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+		reserve = { x = 0 y = 0 }
+		reserve = { x = 0 y = 1 }
+		reserve = { x = 0 y = 2 }
+		reserve = { x = 1 y = 0 }
+		reserve = { x = 1 y = 1 }
+		reserve = { x = 1 y = 2 }
 	}
 	support = {
 		recon = { x = 0 y = 0 }

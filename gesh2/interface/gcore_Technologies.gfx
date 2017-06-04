@@ -1555,4 +1555,45 @@ spriteTypes = {
 		name = "GFX_GER_semi_modern_destroyer_medium"
 		texturefile = "gfx/interface/technologies/GER_modern_destroyer_1.dds"
 	}
+
+	# New Infantry Types
+	
+	SpriteType = {
+		name = "GFX_elite_infantry_medium"
+		texturefile = "gfx/interface/technologies/elite_infantry.dds"
+	}
+	SpriteType = {
+		name = "GFX_elite_infantry2_medium"
+		texturefile = "gfx/interface/technologies/elite_infantry2.dds"
+	}
+	SpriteType = {
+		name = "GFX_elite_infantry3_medium"
+		texturefile = "gfx/interface/technologies/elite_infantry3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_reserves_medium"
+		texturefile = "gfx/interface/technologies/tech_reserves.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_reserves2_medium"
+		texturefile = "gfx/interface/technologies/tech_reserves2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_reserves3_medium"
+		texturefile = "gfx/interface/technologies/tech_reserves3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tech_garrison_medium"
+		texturefile = "gfx/interface/technologies/tech_garrison.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_garrison2_medium"
+		texturefile = "gfx/interface/technologies/tech_garrison2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_garrison3_medium"
+		texturefile = "gfx/interface/technologies/tech_garrison3.dds"
+	}
 }

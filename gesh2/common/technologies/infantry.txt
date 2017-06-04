@@ -419,7 +419,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 19 y = @1936 }
+			position = { x = 18 y = @1936 }
 		}
 		
 		on_research_complete = {
@@ -459,7 +459,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 19 y = @1939 }
+			position = { x = 18 y = @1939 }
 		}
 		
 		categories = {
@@ -482,7 +482,7 @@ technologies = {
 		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 19 y = @1943 }
+			position = { x = 18 y = @1943 }
 		}
 		
 		categories = {
@@ -521,7 +521,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = infantry_folder
-			position = { x = 20 y = @1918 }
+			position = { x = 19 y = @1918 }
 		}
 		
 		categories = {
@@ -549,7 +549,7 @@ technologies = {
 		start_year = 1938
 		folder = {
 			name = infantry_folder
-			position = { x = 20 y = @1938 }
+			position = { x = 19 y = @1938 }
 		}
 		
 		categories = {
@@ -567,7 +567,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 20 y = @1942 }
+			position = { x = 19 y = @1942 }
 		}
 		
 		categories = {
@@ -602,7 +602,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = infantry_folder
-			position = { x = 18 y = @1918 }
+			position = { x = 17 y = @1918 }
 		}
 		
 		categories = {
@@ -630,7 +630,7 @@ technologies = {
 		start_year = 1938
 		folder = {
 			name = infantry_folder
-			position = { x = 18 y = @1938 }
+			position = { x = 17 y = @1938 }
 		}
 		
 		categories = {
@@ -652,7 +652,7 @@ technologies = {
 		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 18 y = @1942 }
+			position = { x = 17 y = @1942 }
 		}
 		
 		categories = {
@@ -663,6 +663,241 @@ technologies = {
 			factor = 1
 		}
 	}	
+	
+
+	elite_infantry = {
+
+		enable_subunits = {
+			shock_infantry
+		}
+		
+		path = {
+			leads_to_tech = elite_infantry2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 20 y = @1936 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	elite_infantry2 = {
+
+		shock_infantry = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = elite_infantry3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 20 y = @1939 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	elite_infantry3 = {
+
+		shock_infantry = {
+			max_organisation = 5
+		}
+		
+
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 20 y = @1943 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_reserves = {
+
+		enable_subunits = {
+			reserve
+		}
+
+		path = {
+			leads_to_tech = tech_reserves2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 21 y = @1918 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_reserves2 = {
+
+		reserve = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = tech_reserves3
+			research_cost_coeff = 1
+		}
+
+
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 21 y = @1938 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_reserves3 = {
+
+		reserve = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 21 y = @1942 }
+		}
+		
+		categories = {
+			infantry_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+	tech_garrison = {
+
+		enable_subunits = {
+			garrison
+		}
+		
+		path = {
+			leads_to_tech = tech_garrison2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 22 y = @1936 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_garrison2 = {
+
+		garrison = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = tech_garrison3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 22 y = @1939 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tech_garrison3 = {
+
+		garrison = {
+			max_organisation = 5
+		}
+		
+
+		research_cost = 2.0
+		start_year = 1943
+		folder = {
+			name = infantry_folder
+			position = { x = 22 y = @1943 }
+		}
+		
+		categories = {
+			para_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	
 	night_vision = {
 

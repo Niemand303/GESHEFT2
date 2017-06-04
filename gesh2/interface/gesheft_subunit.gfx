@@ -32,4 +32,17 @@ spriteTypes = {
 	
 	spriteType = { name = "GFX_unit_attack_helicopter_battalion_icon_medium"					textureFile = "gfx/interface/counters/divisions_large/unit_air_assault_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_attack_helicopter_battalion_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_attack_helis_icon.dds" noOfFrames = 2 }
+
+	spriteType = { name = "GFX_unit_garrison_icon_medium"										textureFile = "gfx/interface/counters/divisions_large/unit_garrison_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_garrison_icon_medium_white"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_garrison_icon.dds" noOfFrames = 2 }
+	
+	spriteType = { name = "GFX_unit_reserve_icon_medium"										textureFile = "gfx/interface/counters/divisions_large/unit_reserve_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_reserve_icon_medium_white"									textureFile = "gfx/interface/counters/divisions_small/onmap_unit_reserve_icon.dds" noOfFrames = 2 }
+	
+	spriteType = { name = "GFX_unit_shock_infantry_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_shock_infantry_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_shock_infantry_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_shock_infantry_icon.dds" noOfFrames = 2 }
+	
+	spriteType = { name = "GFX_nato_unit_garrison_icon_small"									texturefile = "gfx/texticons/nato_unit_garrison_icon_small.dds"		legacy_lazy_load = no } 
+	spriteType = { name = "GFX_nato_unit_reserve_icon_small"									texturefile = "gfx/texticons/nato_unit_reserve_icon_small.dds"		legacy_lazy_load = no }
+	spriteType = { name = "GFX_nato_unit_garrison_icon_small"									texturefile = "gfx/texticons/nato_unit_garrison_icon_small.dds"		legacy_lazy_load = no } 
 }
