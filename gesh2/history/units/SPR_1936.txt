@@ -54,10 +54,10 @@ division_template = {
 division_template = {
 	name = "Brigada de Infantería" 		# Infantry Brigade - Used for smaller garrison units
 	regiments = {
-		infantry = { x = 0 y = 0 }	
-		infantry = { x = 0 y = 1 }	
-		infantry = { x = 1 y = 0 }	
-		infantry = { x = 1 y = 1 }	
+		reserve = { x = 0 y = 0 }	
+		reserve = { x = 0 y = 1 }	
+		reserve = { x = 1 y = 0 }	
+		reserve = { x = 1 y = 1 }	
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   # Eng Bn
