@@ -216,26 +216,29 @@ country_event = {
 }
 
 # 5 - Truman Doctrine
-country_event = {
-	id = g_usa.5
-	title = g_usa.5.t
-	desc = g_usa.5.d
-	picture = GFX_report_event_usa_election_generic
-	
-	trigger = {
-		tag = USA
-		has_country_leader = { name = "Harry S. Truman" }
-		NOT = {	has_global_flag = all_g2_events_disabled }
-	}
-	fire_only_once = yes
-	
-	immediate = {
-		every_country = {
-			limit = { has_government = democratic }
-			USA = { give_guarantee = PREV }
-		}
-	}
-	option = {
-		name = g_usa.5.a 
-	}
-}
+#country_event = {
+#	id = g_usa.5
+#	title = g_usa.5.t
+#	desc = g_usa.5.d
+#	picture = GFX_report_event_usa_election_generic
+#	
+#	trigger = {
+#		tag = USA
+#		has_country_leader = { name = "Harry S. Truman" }
+#		NOT = {	has_global_flag = all_g2_events_disabled }
+#	}
+#	fire_only_once = yes
+#	
+#	immediate = {
+#		every_country = {
+#			limit = { 
+#				has_government = democratic
+#				has_war = no
+#			}
+#			USA = { give_guarantee = PREV }
+#		}
+#	}
+#	option = {
+#		name = g_usa.5.a 
+#	}
+#}
