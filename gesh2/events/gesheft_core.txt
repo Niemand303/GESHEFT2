@@ -31,7 +31,7 @@ country_event = {
 	
 	immediate = {
 		set_global_flag = cold_war
-		add_named_threat = { threat = -100 name = g_core.2.t }
+		add_named_threat = { threat = -200 name = g_core.2.t }
 	}
 	
 	option = {
