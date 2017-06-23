@@ -1,0 +1,23 @@
+state={
+	id=2138
+	name="STATE_2138"
+	resources={
+		steel=14.000
+		oil=4.000
+		aluminium=6.000
+	}
+	history={
+		owner = USA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+	provinces={
+		3834 7920 10783 
+	}
+	manpower=108893
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

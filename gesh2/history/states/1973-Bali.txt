@@ -1,0 +1,20 @@
+state={
+	id=1973
+	name="STATE_1973"
+	resources={
+		rubber=5.000
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		4273 
+	}
+	manpower=726642
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

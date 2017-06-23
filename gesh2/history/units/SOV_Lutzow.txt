@@ -1,0 +1,10 @@
+﻿units = {
+
+navy = {	
+	name = "Petropavlovsk"
+	base = 3151
+	location = 3151 # Leningrad
+		ship = { name = "Petropavlovsk" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV creator = GER } } }	
+
+	}
+}

@@ -1,11 +1,6 @@
-
 state={
 	id=608
 	name="STATE_608"
-	manpower = 9648400
-	
-	state_category = large_city
-
 	history={
 		owner = CHI
 		add_core_of = CHI
@@ -15,27 +10,18 @@ state={
 			arms_factory = 3
 			industrial_complex = 1
 			air_base = 3
-			10068 = {
-				naval_base = 2
-			}
 		}
 		victory_points = {
-			9843 20
+			9843 20 
 		}
-		victory_points = {
-			10068 1 
-		}
-
 		1938.10.25 = {
 			controller = JAP
 		}
-		
-		1945.9.17 = {
-			controller = CHI
-		}
 	}
-
 	provinces={
-		1134 4137 4140 6828 9843 9969 10068 11761 12026 
+		4140 9843 
 	}
+	manpower=5789040
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

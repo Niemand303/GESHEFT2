@@ -1,0 +1,21 @@
+state={
+	id=1945
+	name="STATE_1945"
+	resources={
+		rubber=21.000
+		oil=1.000
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		7384 7396 
+	}
+	manpower=634992
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

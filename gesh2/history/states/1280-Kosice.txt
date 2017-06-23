@@ -1,0 +1,31 @@
+state={
+	id=1280
+	name="STATE_1280"
+	resources={
+		steel=7.000
+	}
+	history={
+		owner = CZE
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = {
+			6573 1 
+		}
+		add_core_of = CZE
+		add_core_of = SLO
+		1939.3.14 = {
+			owner = HUN
+			controller = HUN
+			remove_claim_by = HUN
+			add_core_of = HUN
+			add_core_of = SLO
+		}
+	}
+	provinces={
+		3565 6573 
+	}
+	manpower=284766
+	buildings_max_level_factor=1.000
+	state_category=town
+}

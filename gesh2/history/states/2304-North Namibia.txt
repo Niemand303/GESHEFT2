@@ -1,0 +1,18 @@
+state={
+	id=2304
+	name="STATE_2304"
+	history={
+		owner = SAF
+		add_core_of = NAM
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SAF
+	}
+	provinces={
+		8136 10957 10978 12519 12921 
+	}
+	manpower=138600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

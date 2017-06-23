@@ -1,0 +1,19 @@
+state={
+	id=1300
+	name="STATE_1300"
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = SLV
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		599 11595 
+	}
+	manpower=354386
+	buildings_max_level_factor=1.000
+	state_category=town
+}

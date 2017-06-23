@@ -1,0 +1,17 @@
+state={
+	id=1978
+	name="STATE_1978"
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		4468 4524 7487 7512 7585 12315 12386 
+	}
+	manpower=78575
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

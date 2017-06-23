@@ -1,0 +1,20 @@
+state={
+	id=800
+	name="STATE_800"
+	history={
+		owner = ENG
+		add_core_of = QAT
+		buildings = {
+			infrastructure = 2
+			8051 = {
+				naval_base = 2
+			}
+		}
+	}
+	provinces={
+		8051 
+	}
+	manpower=110000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,22 @@
+state={
+	id=767
+	name="STATE_767"
+	history={
+		owner = FRA
+		add_core_of = CMR
+		victory_points = {
+			2080 1 
+		}
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		2080 5036 5054 6039 
+	}
+	manpower=512800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,17 @@
+state={
+	id=444
+	name="STATE_444"
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PAK
+	}
+	provinces={
+		5075 8013 12761 
+	}
+	manpower=185400
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,20 @@
+state={
+	id=1504
+	name="STATE_1504"
+	resources={
+		rubber=13.000
+	}
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SIA
+	}
+	provinces={
+		1366 12230 
+	}
+	manpower=387923
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

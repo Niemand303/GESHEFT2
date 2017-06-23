@@ -1,0 +1,18 @@
+state={
+	id=451
+	name="STATE_451"
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+		}
+		add_core_of = LBA
+	}
+	provinces={
+		1204 4063 4151 7082 7139 9992 10049 12025 12094 13078 
+	}
+	manpower=27377
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

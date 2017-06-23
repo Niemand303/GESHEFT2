@@ -1,0 +1,8 @@
+state_categories={
+	non_industrial_pastoral = {
+		local_building_slots = 0
+	
+		color = { 143 143 116 }
+
+	}
+}

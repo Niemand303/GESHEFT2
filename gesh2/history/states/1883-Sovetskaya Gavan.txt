@@ -1,0 +1,24 @@
+state={
+	id=1883
+	name="STATE_1883"
+	resources={
+		chromium=3.000
+	}
+	history={
+		owner = SOV
+		add_core_of = FAE
+		buildings = {
+			infrastructure = 3
+			9604 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SOV
+	}
+	provinces={
+		1267 9589 9604 9749 11575 11719 
+	}
+	manpower=73901
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

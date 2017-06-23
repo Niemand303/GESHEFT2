@@ -1,0 +1,20 @@
+state={
+	id=1257
+	name="STATE_1257"
+	resources={
+		aluminium=8.000
+	}
+	history={
+		owner = ITA
+		add_core_of = PAD
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = ITA
+	}
+	provinces={
+		3773 3976 6790 9752 
+	}
+	manpower=1067467
+	state_category=town
+}

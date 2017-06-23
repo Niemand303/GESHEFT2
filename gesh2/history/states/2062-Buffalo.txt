@@ -1,0 +1,23 @@
+state={
+	id=2062
+	name="STATE_2062"
+	resources={
+		steel=4.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = USA
+		victory_points = {
+			11654 3 
+		}
+	}
+	provinces={
+		734 3733 6707 9664 11654 
+	}
+	manpower=3776418
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,18 +1,13 @@
-
 state={
 	id=63
 	name="STATE_63"
-	manpower = 724417
 	resources={
-		steel=36
-		aluminium=12
+		steel=12.000
+		aluminium=4.000
 	}
-	
-	state_category = town
-
 	history={
 		owner = GER
-		
+		add_core_of = POM
 		buildings = {
 			infrastructure = 6
 			11372 = {
@@ -20,15 +15,11 @@ state={
 			}
 		}
 		add_core_of = GER
-		
-		1945.5.9 = {
-			owner = POL
-			controller = POL
-			add_core_of = POL
-		}
 	}
-
 	provinces={
-		9252 9277 9306 9361 11260 6309 6334 6390 9334 11288 11316 11343 11372 
+		9306 9361 11372 
 	}
+	manpower=241472
+	buildings_max_level_factor=1.000
+	state_category=town
 }

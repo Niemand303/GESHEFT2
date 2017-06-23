@@ -1,0 +1,21 @@
+state={
+	id=1539
+	name="STATE_1539"
+	resources={
+		rubber=8.000
+	}
+	history={
+		add_core_of = VIN
+		add_core_of = INC
+		owner = INC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		4284 4341 7331 
+	}
+	manpower=472050
+	buildings_max_level_factor=1.000
+	state_category=town
+}

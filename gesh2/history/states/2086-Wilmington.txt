@@ -1,0 +1,21 @@
+state={
+	id=2086
+	name="STATE_2086"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			1132 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		add_core_of = CSA
+	}
+	provinces={
+		1019 1132 7045 7083 10051 12054 
+	}
+	manpower=317027
+	buildings_max_level_factor=1.000
+	state_category=city
+}

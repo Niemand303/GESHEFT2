@@ -1,0 +1,17 @@
+state={
+	id=1842
+	name="STATE_1842"
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 7
+		}
+	}
+	provinces={
+		7050 10052 11985 
+	}
+	manpower=1121610
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -385,7 +385,7 @@ units = {
 	}
 	division = {
 		name = "14 'Sho' Hohei Shidan"
-		location = 3843 #Eastern Manchuria
+		location = 3815 #Eastern Manchuria
 		division_template = "Hohei Shidan"
 		start_experience_factor = 0.3
 	}

@@ -1,0 +1,18 @@
+state={
+	id=2004
+	name="STATE_2004"
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AST
+		add_core_of = WES
+	}
+	provinces={
+		2133 2177 2186 8134 8155 10473 12904 12912 12926 
+	}
+	manpower=66096
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

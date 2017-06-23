@@ -1,0 +1,22 @@
+state={
+	id=1616
+	name="STATE_1616"
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			owner = CHI
+		}
+	}
+	provinces={
+		1630 5031 5057 7511 12776 
+	}
+	manpower=999105
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

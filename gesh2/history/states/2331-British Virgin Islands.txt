@@ -1,0 +1,20 @@
+state={
+	id=2331
+	name="STATE_2331"
+	history={
+		owner = ENG
+		add_core_of = UVI
+		buildings = {
+			infrastructure = 4
+			4155 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		4155 
+	}
+	manpower=77196
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

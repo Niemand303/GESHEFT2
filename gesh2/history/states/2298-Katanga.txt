@@ -1,0 +1,20 @@
+state={
+	id=2298
+	name="STATE_2298"
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			191 1 
+		}
+		add_core_of = COG
+	}
+	provinces={
+		191 1516 1817 1929 1968 4515 4941 7161 10858 12795 12907 
+	}
+	manpower=885237
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

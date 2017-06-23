@@ -1,0 +1,17 @@
+state={
+	id=2133
+	name="STATE_2133"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = USA
+	}
+	provinces={
+		4610 4723 4794 4820 7814 10640 10711 
+	}
+	manpower=90226
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

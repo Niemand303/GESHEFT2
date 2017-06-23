@@ -1,0 +1,30 @@
+state={
+	id=27
+	name="STATE_27"
+	resources={
+		aluminium=18.000
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			3652 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+			}
+		}
+	}
+	provinces={
+		680 817 3652 3669 
+	}
+	manpower=548320
+	buildings_max_level_factor=1.000
+	state_category=city
+}

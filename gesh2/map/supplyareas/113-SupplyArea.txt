@@ -1,0 +1,9 @@
+
+supply_area={
+	id=113
+	name="SUPPLYAREA_113"
+	value=10
+	states={
+		453 454 455 796 1399 1402 1401 1403 1400 1398 2018 
+	}
+}

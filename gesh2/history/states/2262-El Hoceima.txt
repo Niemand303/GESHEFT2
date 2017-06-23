@@ -1,0 +1,20 @@
+state={
+	id=2262
+	name="STATE_2262"
+	resources={
+		steel=5.000
+	}
+	history={
+		owner = SPR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		4199 7215 
+	}
+	manpower=74400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,32 @@
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		rubber=4.000
+	}
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		victory_points = {
+			1330 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			1330 = {
+				naval_base = 4
+			}
+		}
+		1937.4.1 = {
+			owner = MYA
+			controller = MYA
+		}
+	}
+	provinces={
+		1330 10154 
+	}
+	manpower=761736
+	buildings_max_level_factor=1.000
+	state_category=town
+}

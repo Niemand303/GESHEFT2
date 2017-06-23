@@ -1,0 +1,22 @@
+state={
+	id=1017
+	name="STATE_1017"
+	resources={
+		steel=36.000
+		aluminium=13.000
+	}
+	history={
+		owner = GER
+		add_core_of = SIL
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+	}
+	provinces={
+		3545 6534 11517 
+	}
+	manpower=1017575
+	buildings_max_level_factor=1.000
+	state_category=town
+}

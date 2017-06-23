@@ -1,0 +1,21 @@
+state={
+	id=1878
+	name="STATE_1878"
+	resources={
+		chromium=4.000
+	}
+	history={
+		owner = SOV
+		add_core_of = FAE
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+	}
+	provinces={
+		837 6833 9641 11626 11777 
+	}
+	manpower=118647
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

@@ -1,0 +1,21 @@
+state={
+	id=2330
+	name="STATE_2330"
+	history={
+		owner = USA
+		add_core_of = EVI
+		add_core_of = PUE
+		buildings = {
+			infrastructure = 4
+			13230 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		13230 
+	}
+	manpower=77196
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

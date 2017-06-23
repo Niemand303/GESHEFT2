@@ -1,0 +1,22 @@
+state={
+	id=1100
+	name="STATE_1100"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			9680 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = SOV
+		add_core_of = CRI
+	}
+	provinces={
+		9677 9680 9718 
+	}
+	manpower=265402
+	buildings_max_level_factor=1.000
+	state_category=town
+}

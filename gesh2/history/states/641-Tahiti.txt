@@ -1,0 +1,20 @@
+state={
+	id=641
+	name="STATE_641"
+	manpower=22215
+	state_category = small_island
+	history={
+		owner = FRA
+		add_core_of = FPO
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			12148 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		10188 12148 
+	}
+}

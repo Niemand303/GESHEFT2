@@ -1,0 +1,20 @@
+state={
+	id=2131
+	name="STATE_2131"
+	resources={
+		tungsten=16.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+	provinces={
+		1736 4741 
+	}
+	manpower=53761
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=798
+	name="STATE_798"
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = CHL
+		add_core_of = BOL
+	}
+	provinces={
+		5131 
+	}
+	manpower=83605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

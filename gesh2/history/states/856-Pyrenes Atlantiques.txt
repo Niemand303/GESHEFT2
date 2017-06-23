@@ -1,0 +1,22 @@
+state={
+	id=856
+	name="STATE_856"
+	resources={
+		steel=10.000
+		aluminium=6.000
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = FRA
+		add_core_of = VAS
+	}
+	provinces={
+		743 9710 
+	}
+	manpower=335100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,26 @@
+template_strategy = { #disable template upgrading, force it to upgrade paratrooper to fix an issue
+	enable = { 
+		OR = {
+			original_tag = SOV
+			original_tag = GER
+			original_tag = USA
+		}
+	}
+	abort = { always = no }
+	
+	ai_strategy = { type = template_prio id = light_armor 			value = -100000	}
+	ai_strategy = { type = template_prio id = medium_armor 			value = -100000	}
+	ai_strategy = { type = template_prio id = heavy_armor 			value = -100000	}
+	ai_strategy = { type = template_prio id = modern_armor 			value = -100000	}
+	
+	ai_strategy = { type = template_prio id = infantry	 			value = -100000	}
+	ai_strategy = { type = template_prio id = motorized 			value = -100000	}
+	ai_strategy = { type = template_prio id = cavalry 				value = -100000	}
+	
+	ai_strategy = { type = template_prio id = mountaineers 			value = -100000	}
+	ai_strategy = { type = template_prio id = marine 				value = -100000	}
+	ai_strategy = { type = template_prio id = paratrooper 			value = -100000	}
+	
+	ai_strategy = { type = template_prio id = anti_tank_brigade 	value = -100000	}
+	ai_strategy = { type = template_prio id = medium_sp_artillery_brigade 	value = -100000	}
+}

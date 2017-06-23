@@ -1,0 +1,30 @@
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		tungsten=3.000
+	}
+	history={
+		owner = YUN
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			1319 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		1938.10.25 = {
+			owner = CHI
+		}
+	}
+	provinces={
+		1319 4192 7446 7606 12282 
+	}
+	manpower=3598350
+	buildings_max_level_factor=1.000
+	state_category=town
+}

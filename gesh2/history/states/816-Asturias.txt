@@ -1,0 +1,23 @@
+state={
+	id=816
+	name="STATE_816"
+	provinces={
+		3729 3744 6749 9719 11707 
+	}
+	history={
+		owner = SPR
+		victory_points = {
+			11707 1 
+		}
+		buildings = {
+			infrastructure = 6
+			11707 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = SPR
+	}
+	manpower=391510
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

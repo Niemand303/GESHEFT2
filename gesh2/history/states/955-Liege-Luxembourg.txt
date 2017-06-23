@@ -1,0 +1,18 @@
+state={
+	id=955
+	name="STATE_955"
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = BEL
+		add_core_of = WLO
+	}
+	provinces={
+		6537 9418 11407 
+	}
+	manpower=845325
+	buildings_max_level_factor=1.000
+	state_category=town
+}

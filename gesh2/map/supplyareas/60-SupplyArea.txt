@@ -1,0 +1,9 @@
+
+supply_area={
+	id=60
+	name="SUPPLYAREA_60"
+	value=17
+	states={
+		131 130 132 925 926 927 941 
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=2245
+	name="STATE_2245"
+	resources={
+		oil=1.000
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ARG
+		add_core_of = PAT
+	}
+	provinces={
+		2199 8192 12306 
+	}
+	manpower=33769
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

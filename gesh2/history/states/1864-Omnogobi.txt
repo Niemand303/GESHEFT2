@@ -1,0 +1,18 @@
+state={
+	id=1864
+	name="STATE_1864"
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MON
+		add_claim_by = CHI
+	}
+	provinces={
+		4729 4786 7806 10558 10632 10689 12539 12669 
+	}
+	manpower=55142
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

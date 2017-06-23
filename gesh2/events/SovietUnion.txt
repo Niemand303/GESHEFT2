@@ -181,6 +181,8 @@ country_event = {
 		SOV = { 
 			transfer_state = 78
 			transfer_state = 80
+			transfer_state = 1080
+			transfer_state = 1081
 		}
 		hidden_effect = {
 			SOV = {
@@ -2033,8 +2035,27 @@ country_event = {
 				owns_state = 86
 				owns_state = 87
 				owns_state = 85
+				owns_state = 97
 				owns_state = 98
 				owns_state = 10
+				owns_state = 1020
+				owns_state = 1021
+				owns_state = 1022
+				owns_state = 1023
+				owns_state = 1024
+				owns_state = 1025
+				owns_state = 1026
+				owns_state = 1027
+				owns_state = 1028
+				owns_state = 1029
+				owns_state = 1030
+				owns_state = 1031
+				owns_state = 1032
+				owns_state = 1033
+				owns_state = 1034
+				owns_state = 1035
+				owns_state = 1036
+				owns_state = 1037
 			}
 			AND = {
 				POL = { has_capitulated = yes }
@@ -2046,7 +2067,26 @@ country_event = {
 					controls_state = 87
 					controls_state = 85
 					controls_state = 98
+					controls_state = 97
 					controls_state = 10
+					controls_state = 1020
+					controls_state = 1021
+					controls_state = 1022
+					controls_state = 1023
+					controls_state = 1024
+					controls_state = 1025
+					controls_state = 1026
+					controls_state = 1027
+					controls_state = 1028
+					controls_state = 1029
+					controls_state = 1030
+					controls_state = 1031
+					controls_state = 1032
+					controls_state = 1033
+					controls_state = 1034
+					controls_state = 1035
+					controls_state = 1036
+					controls_state = 1037
 				}
 			}
 			OR = {
@@ -2062,8 +2102,27 @@ country_event = {
 						owns_state = 86
 						owns_state = 87
 						owns_state = 85
+						owns_state = 97
 						owns_state = 98
 						owns_state = 10
+						owns_state = 1020
+						owns_state = 1021
+						owns_state = 1022
+						owns_state = 1023
+						owns_state = 1024
+						owns_state = 1025
+						owns_state = 1026
+						owns_state = 1027
+						owns_state = 1028
+						owns_state = 1029
+						owns_state = 1030
+						owns_state = 1031
+						owns_state = 1032
+						owns_state = 1033
+						owns_state = 1034
+						owns_state = 1035
+						owns_state = 1036
+						owns_state = 1037
 						AND = {
 							POL = { has_capitulated = yes }
 							OR = {
@@ -2073,8 +2132,27 @@ country_event = {
 								controls_state = 86
 								controls_state = 87
 								controls_state = 85
+								controls_state = 97
 								controls_state = 98
 								controls_state = 10
+								controls_state = 1020
+								controls_state = 1021
+								controls_state = 1022
+								controls_state = 1023
+								controls_state = 1024
+								controls_state = 1025
+								controls_state = 1026
+								controls_state = 1027
+								controls_state = 1028
+								controls_state = 1029
+								controls_state = 1030
+								controls_state = 1031
+								controls_state = 1032
+								controls_state = 1033
+								controls_state = 1034
+								controls_state = 1035
+								controls_state = 1036
+								controls_state = 1037
 							}
 						}		
 					}
@@ -2209,6 +2287,21 @@ country_event = {
 		}
 		if = {
 			limit = {
+				97 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 97
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 97 }
+		}
+		if = {
+			limit = {
 				10 = {
 					OR = {
 						is_controlled_by = SOV
@@ -2286,6 +2379,276 @@ country_event = {
 			}
 			GER = { transfer_state = 70 }
 		}
+		if = {
+			limit = {
+				1020 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1020
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1020 }
+		}
+		if = {
+			limit = {
+				1021 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1021
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1021 }
+		}
+		if = {
+			limit = {
+				1022 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1022
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1022 }
+		}
+		if = {
+			limit = {
+				1023 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1023
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1023 }
+		}
+		if = {
+			limit = {
+				1024 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1024
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1024 }
+		}
+		if = {
+			limit = {
+				1025 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1025
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1025 }
+		}
+		if = {
+			limit = {
+				1026 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1026
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1026 }
+		}
+		if = {
+			limit = {
+				1027 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1027
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1027 }
+		}
+		if = {
+			limit = {
+				1028 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1028
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1028 }
+		}
+		if = {
+			limit = {
+				1029 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1029
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1029 }
+		}
+		if = {
+			limit = {
+				1030 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1030
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1030 }
+		}
+		if = {
+			limit = {
+				1031 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1031
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1031 }
+		}
+		if = {
+			limit = {
+				1032 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1032
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1032 }
+		}
+		if = {
+			limit = {
+				1033 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1033
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1033 }
+		}
+		if = {
+			limit = {
+				1034 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1034
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1034 }
+		}
+		if = {
+			limit = {
+				1035 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1035
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1035 }
+		}
+		if = {
+			limit = {
+				1036 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1036
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1036 }
+		}
+		if = {
+			limit = {
+				1037 = {
+					OR = {
+						is_controlled_by = SOV
+						any_other_country = {
+							controls_state = 1037
+							is_in_faction_with = SOV
+							SOV = { is_faction_leader = yes }
+						}
+					}
+				}
+			}
+			GER = { transfer_state = 1037 }
+		}
 		GER = { country_event = soviet.61 }
 	}
 	option = {
@@ -2322,6 +2685,24 @@ country_event = {
 			add_state_claim = 85
 			add_state_claim = 98
 			add_state_claim = 10
+			add_state_claim = 1020
+			add_state_claim = 1021
+			add_state_claim = 1022
+			add_state_claim = 1023
+			add_state_claim = 1024
+			add_state_claim = 1025
+			add_state_claim = 1026
+			add_state_claim = 1027
+			add_state_claim = 1028
+			add_state_claim = 1029
+			add_state_claim = 1030
+			add_state_claim = 1031
+			add_state_claim = 1032
+			add_state_claim = 1033
+			add_state_claim = 1034
+			add_state_claim = 1035
+			add_state_claim = 1036
+			add_state_claim = 1037
 			effect_tooltip = {
 				create_wargoal = {
 					type = annex_everything
@@ -2376,3 +2757,42 @@ country_event = {
 	}
 }
 
+
+# Покупка у Германии Петропавловска 2 февраля 1940
+country_event = {
+	id = soviet.208
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+        tag = SOV
+		NOT = { SOV = { has_war_with = GER } }
+		date > 1940.2.2
+	}
+
+	immediate = {
+		SOV = { country_event = { id = soviet.209 } }
+	}
+	
+	option = {
+		name = soviet.200.a
+	}
+}
+# Петропавловск
+country_event = {
+	id = soviet.209
+	title = soviet.209.t
+	desc = soviet.209.d
+	picture = GFX_report_event_destroyers
+	
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = { factor = 100 }
+		name = soviet.209.a
+		SOV = {
+			load_oob = "SOV_Lutzow"	
+			add_manpower = -1500
+		}
+	}
+}

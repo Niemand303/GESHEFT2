@@ -1,0 +1,20 @@
+state={
+	id=2111
+	name="STATE_2111"
+	resources={
+		steel=69.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = USA
+	}
+	provinces={
+		6752 6827 10618 10719 12550 12693 
+	}
+	manpower=769186
+	buildings_max_level_factor=1.000
+	state_category=city
+}

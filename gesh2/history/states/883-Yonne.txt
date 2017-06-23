@@ -1,0 +1,17 @@
+state={
+	id=883
+	name="STATE_883"
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = FRA
+	}
+	provinces={
+		3506 3681 9644 
+	}
+	manpower=274160
+	buildings_max_level_factor=1.000
+	state_category=town
+}

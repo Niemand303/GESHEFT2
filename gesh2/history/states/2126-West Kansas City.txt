@@ -1,0 +1,20 @@
+state={
+	id=2126
+	name="STATE_2126"
+	resources={
+		oil=21.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+	provinces={
+		1352 1753 4757 4811 7834 7892 9802 12513 
+	}
+	manpower=752399
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,17 @@
+state={
+	id=790
+	name="STATE_790"
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SIA
+	}
+	provinces={
+		4566 7353 7544 7559 7572 
+	}
+	manpower=1086960
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -40,7 +40,8 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			infantry_equipment = 80
+			infantry_equipment = 800
+			at_infantry_equipment = 10
 		}
 	}
 	
@@ -80,7 +81,7 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			infantry_equipment = 80
+			infantry_equipment = 800
 		}
 		
 		plains = {
@@ -161,7 +162,7 @@ sub_units = {
 		supply_consumption = 0.07
 	
 		need = {
-			infantry_equipment = 80
+			infantry_equipment = 800
 			support_equipment = 10
 		}
 		
@@ -254,8 +255,9 @@ sub_units = {
 		supply_consumption = 0.1
 	
 		need = {
-			infantry_equipment = 80
-			support_equipment = 20
+			infantry_equipment = 800
+			at_infantry_equipment = 10
+			support_equipment = 10
 		}
 		
 		plains = {
@@ -333,7 +335,8 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 120
+			infantry_equipment = 800
+			at_infantry_equipment = 10
 		}
 
 		marsh = {
@@ -386,7 +389,8 @@ sub_units = {
 		breakthrough = 0.3
 	
 		need = {
-			infantry_equipment = 110
+			infantry_equipment = 800
+			at_infantry_equipment = 10
 		}
 
 		hills = {
@@ -439,7 +443,8 @@ sub_units = {
 		can_be_parachuted = yes
 	
 		need = {
-			infantry_equipment = 105
+			infantry_equipment = 800
+			at_infantry_equipment = 10
 		}
 	}
 
@@ -480,7 +485,8 @@ sub_units = {
 		transport = motorized_equipment
 	
 		need = {
-			infantry_equipment = 50
+			infantry_equipment = 600
+			at_infantry_equipment = 10
 			motorized_equipment = 50
 		}
 
@@ -560,7 +566,8 @@ sub_units = {
 
 		need = {
 			mechanized_equipment = 50
-			infantry_equipment = 50
+			infantry_equipment = 800
+			at_infantry_equipment = 10
 		}
 
 		forest = {
@@ -639,7 +646,8 @@ sub_units = {
 
 		need = {
 			heavy_mechanized_equipment = 50
-			infantry_equipment = 50
+			infantry_equipment = 600
+			at_infantry_equipment = 20
 		}
 
 		forest = {

@@ -1,0 +1,23 @@
+state={
+	id=926
+	name="STATE_926"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = ENG
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+				industrial_complex = 2
+			}
+		}
+	}
+	provinces={
+		6399 11332 
+	}
+	manpower=709620
+	buildings_max_level_factor=1.000
+	state_category=city
+}

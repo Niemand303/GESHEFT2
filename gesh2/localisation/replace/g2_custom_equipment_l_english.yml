@@ -842,7 +842,7 @@
  unified_warpac_doctrine:0 "Unified Warsaw Pact Doctrine"
  
  STATE_743:0 "Allenstein"
- G2_version:0 "G.E.S.H.E.F.T. 2 v0.2.2"
+ G2_version:0 "G.E.S.H.E.F.T. 2 v0.3 \n\n Credits: \n Niemand303 \n Rzezniczak \n\n Special thanks to: \n Aerodil \n Chondrite \n Cifotis"
  
  shock_infantry:0 "Shock Infantry Battalion"
  elite_infantry:0 "Shock Infantry I"
@@ -865,3 +865,21 @@
  tech_garrison:0 "Garrison Infantry I"
  tech_garrison2:0 "Garrison Infantry II"
  tech_garrison3:0 "Garrison Infantry III"
+ 
+ at_infantry_equipment:0 "Personal AT Equipment"
+ at_infantry_equipment_0:0 "AT Mines and Grenades"
+ at_infantry_equipment_1:0 "AT Rifles"
+ at_infantry_equipment_2:0 "Recoilless Rifles"
+ at_infantry_equipment_3:0 "Modern RPGs"
+ 
+ SOV_at_infantry_equipment_1:0 "PTRD"
+ SOV_at_infantry_equipment_2:0 "RPG-2"
+ SOV_at_infantry_equipment_3:0 "RPG-7"
+ 
+ USA_at_infantry_equipment_1:0 "PIAT"
+ USA_at_infantry_equipment_2:0 "Bazooka"
+ USA_at_infantry_equipment_3:0 "LAW"
+ 
+ GER_at_infantry_equipment_1:0 "Panzerbüchse 39"
+ GER_at_infantry_equipment_2:0 "Panzerschrek"
+ GER_at_infantry_equipment_3:0 "Panzerfaust 3"

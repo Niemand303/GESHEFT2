@@ -1,0 +1,24 @@
+state={
+	id=1001
+	name="STATE_1001"
+	resources={
+		steel=20.000
+	}
+	history={
+		owner = GER
+		add_core_of = SAX
+		buildings = {
+			infrastructure = 7
+		}
+		victory_points = {
+			514 5 
+		}
+		add_core_of = GER
+	}
+	provinces={
+		514 6559 11481 
+	}
+	manpower=1398144
+	buildings_max_level_factor=1.000
+	state_category=city
+}

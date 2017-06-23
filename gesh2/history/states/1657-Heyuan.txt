@@ -1,0 +1,28 @@
+state={
+	id=1657
+	name="STATE_1657"
+	resources={
+		tungsten=5.000
+		steel=5.000
+		chromium=1.000
+	}
+	history={
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			remove_core_of = GXC
+			owner = CHI
+		}
+	}
+	provinces={
+		1078 1162 4207 
+	}
+	manpower=1993900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

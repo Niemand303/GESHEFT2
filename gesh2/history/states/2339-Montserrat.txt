@@ -1,0 +1,20 @@
+state={
+	id=2339
+	name="STATE_2339"
+	history={
+		owner = ENG
+		add_core_of = MOT
+		buildings = {
+			infrastructure = 4
+			13229 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13229 
+	}
+	manpower=3852
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

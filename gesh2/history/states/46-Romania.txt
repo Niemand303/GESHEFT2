@@ -1,0 +1,26 @@
+state={
+	id=46
+	name="STATE_46"
+	resources={
+		oil=70.000
+	}
+	history={
+		owner = ROM
+		victory_points = {
+			9617 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = ROM
+	}
+	provinces={
+		9617 
+	}
+	manpower=557675
+	buildings_max_level_factor=1.000
+	state_category=city
+}

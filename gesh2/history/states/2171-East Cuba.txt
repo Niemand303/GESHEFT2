@@ -1,0 +1,27 @@
+state={
+	id=2171
+	name="STATE_2171"
+	resources={
+		steel=2.000
+		chromium=60.000
+	}
+	history={
+		owner = CUB
+		buildings = {
+			infrastructure = 4
+			1550 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CUB
+		victory_points = {
+			7590 1 
+		}
+	}
+	provinces={
+		1550 7546 7590 12347 
+	}
+	manpower=1082376
+	buildings_max_level_factor=1.000
+	state_category=town
+}

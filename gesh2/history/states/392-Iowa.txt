@@ -1,0 +1,26 @@
+state={
+	id=392
+	name="STATE_392"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+		}
+		add_core_of = USA
+		victory_points = {
+			1770 3 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 5
+			}
+		}
+	}
+	provinces={
+		1770 9892 10666 11788 12646 
+	}
+	manpower=1111922
+	buildings_max_level_factor=1.000
+	state_category=city
+}

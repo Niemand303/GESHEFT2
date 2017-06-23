@@ -1,0 +1,18 @@
+state={
+	id=485
+	name="STATE_485"
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = MEX
+	}
+	provinces={
+		5066 10730 10832 
+	}
+	manpower=958987
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

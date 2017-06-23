@@ -1,0 +1,18 @@
+state={
+	id=1563
+	name="STATE_1563"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_core_of = TUK
+	}
+	provinces={
+		4482 4958 5003 7560 10357 
+	}
+	manpower=117098
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

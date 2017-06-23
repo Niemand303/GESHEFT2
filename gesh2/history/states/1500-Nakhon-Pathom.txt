@@ -1,0 +1,17 @@
+state={
+	id=1500
+	name="STATE_1500"
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SIA
+	}
+	provinces={
+		1427 7367 
+	}
+	manpower=462734
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

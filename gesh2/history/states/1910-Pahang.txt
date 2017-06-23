@@ -1,0 +1,23 @@
+state={
+	id=1910
+	name="STATE_1910"
+	resources={
+		rubber=94.000
+		steel=4.000
+		tungsten=34.000
+		aluminium = 5
+	}
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = MAL
+	}
+	provinces={
+		1392 4384 7399 12255 12271 
+	}
+	manpower=210355
+	buildings_max_level_factor=1.000
+	state_category=town
+}

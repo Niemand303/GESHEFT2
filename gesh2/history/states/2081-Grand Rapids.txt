@@ -1,0 +1,21 @@
+state={
+	id=2081
+	name="STATE_2081"
+	resources={
+		steel=28.000
+		oil=2.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = USA
+	}
+	provinces={
+		691 695 9684 11641 11685 
+	}
+	manpower=1016888
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,22 @@
+state={
+	id=2308
+	name="STATE_2308"
+	resources={
+		chromium=18.000
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 3
+			13222 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13222 
+	}
+	manpower=5188
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -1,0 +1,18 @@
+state={
+	id=1585
+	name="STATE_1585"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+	}
+	provinces={
+		1668 4764 7784 10680 12662 13197 
+	}
+	manpower=214076
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

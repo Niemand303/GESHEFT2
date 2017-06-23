@@ -1,0 +1,16 @@
+state={
+	id=1447
+	name="STATE_1447"
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces={
+		1444 4204 7220 
+	}
+	manpower=3549061
+	buildings_max_level_factor=1.000
+	state_category=town
+}

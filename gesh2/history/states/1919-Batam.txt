@@ -1,0 +1,25 @@
+state={
+	id=1919
+	name="STATE_1919"
+	resources={
+		rubber=94.000
+		steel=4.000
+		tungsten=34.000
+	}
+	history={
+		owner = INS
+		buildings = {
+			infrastructure = 3
+			12113 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = INS
+	}
+	provinces={
+		12113 
+	}
+	manpower=210355
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

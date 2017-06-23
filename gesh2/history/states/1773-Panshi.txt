@@ -1,0 +1,19 @@
+state={
+	id=1773
+	name="STATE_1773"
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1567 3932 6947 7663 
+	}
+	manpower=2260880
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

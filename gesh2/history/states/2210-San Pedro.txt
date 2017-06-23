@@ -1,0 +1,17 @@
+state={
+	id=2210
+	name="STATE_2210"
+	history={
+		owner = PAR
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = PAR
+	}
+	provinces={
+		11023 12901 
+	}
+	manpower=356040
+	buildings_max_level_factor=1.000
+	state_category=town
+}

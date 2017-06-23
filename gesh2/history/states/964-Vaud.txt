@@ -1,0 +1,20 @@
+state={
+	id=964
+	name="STATE_964"
+	resources={
+		aluminium=10.000
+	}
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = SWI
+	}
+	provinces={
+		6666 9622 11590 
+	}
+	manpower=737229
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,17 @@
+state={
+	id=1997
+	name="STATE_1997"
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = AST
+	}
+	provinces={
+		1557 2116 2221 4517 4632 5198 7610 10941 11006 12949 
+	}
+	manpower=125602
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,81 @@
+division_template = {
+	name = "Pogranichniy Otryad NKVD"			# NKVD Border Guard Division - Garrison units (lolder experience, older equipment)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }	
+		infantry = { x = 0 y = 1 }
+	}
+	support = 	{
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	### NKVD ###
+	
+	# Karelo-Finskiy PO
+	division= {			
+		name = "1. Pogranichniy Otryad NKVD"		
+		location = 11181
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	division= {			
+		name = "3. Pogranichniy Otryad NKVD"		
+		location = 9078
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	# Leningradskiy PO
+	division= {			
+		name = "5. Pogranichniy Otryad NKVD"		
+		location = 3151
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	division= {			
+		name = "7. Pogranichniy Otryad NKVD"		
+		location = 126
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	division= {			
+		name = "9. Pogranichniy Otryad NKVD"		
+		location = 415
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	division= {			
+		name = "11. Pogranichniy Otryad NKVD"		
+		location = 3310
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	# Belorusskiy PO
+	division= {			
+		name = "16. Pogranichniy Otryad NKVD"		
+		location = 11216
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	division= {			
+		name = "18. Pogranichniy Otryad NKVD"		
+		location = 3759
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	division= {			
+		name = "22. Pogranichniy Otryad NKVD"		
+		location = 3267
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+	# UkPO
+	division= {			
+		name = "20. Pogranichniy Otryad NKVD"		
+		location = 3470
+		division_template = "Pogranichniy Otryad NKVD"
+		start_experience_factor = 0.2
+	}
+}

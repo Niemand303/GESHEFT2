@@ -1,0 +1,247 @@
+﻿###########################
+# Move to Taiwan
+###########################
+
+add_namespace = taiwan
+
+# Move Capital and Abandon Territory
+country_event = {
+	id = taiwan.1
+	title = taiwan.1.t
+	desc = taiwan.1.d
+	picture = GFX_nanking
+
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	trigger = {
+		tag = CHI
+		has_war_with = PRC
+		PRC = { 
+			controls_state = 613
+			controls_state = 1639
+			controls_state = 605
+		}
+		CHI = { 
+			controls_state = 524
+			controls_state = 1855
+			controls_state = 1856
+			controls_state = 1857
+			controls_state = 1858
+		}
+		NOT = { 
+			has_country_flag = move_to_taiwan
+			CHI = { 
+				controls_state = 613
+				controls_state = 1639
+				controls_state = 605
+			}
+		}
+	}
+	
+	option = { # Move to Taiwan
+		name = taiwan.1.a
+		ai_chance = { factor = 99 }
+		CHI = { set_capital = 524 }
+		add_opinion_modifier = { target = PRC modifier = hostile_status } 
+		PRC = { 
+			add_opinion_modifier = { target = CHI modifier = hostile_status }
+		}
+		set_country_flag = move_to_taiwan
+		524 = {
+			add_building_construction = {
+					type = coastal_bunker
+					province = 7186
+					level = 8
+			}
+			add_building_construction = {
+					type = coastal_bunker
+					province = 7214
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 7186
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 7214
+					level = 8
+			}
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+			}
+		}
+		1855 = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 5
+			}
+		}
+		524 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+			}
+		}
+		1855 = {
+			add_building_construction = {
+					type = coastal_bunker
+					province = 12068
+					level = 8
+			}
+			add_building_construction = {
+					type = coastal_bunker
+					province = 11914
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 12068
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 11914
+					level = 8
+			}
+			add_building_construction = {
+				type = arms_factory
+				level = 3
+			}
+		}
+		1856 = {
+			add_building_construction = {
+					type = coastal_bunker
+					province = 4096
+					level = 8
+			}
+			add_building_construction = {
+					type = coastal_bunker
+					province = 1175
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 4096
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 1175
+					level = 8
+			}
+			add_building_construction = {
+				type = dockyard
+				level = 3
+			}
+		}
+		1857 = {
+			add_building_construction = {
+					type = coastal_bunker
+					province = 1091
+					level = 8
+			}
+			add_building_construction = {
+					type = coastal_bunker
+					province = 11959
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 1091
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 11959
+					level = 8
+			}
+			add_building_construction = {
+				type = dockyard
+				level = 3
+			}
+		}
+		1857 = {
+			add_building_construction = {
+					type = coastal_bunker
+					province = 9955
+					level = 8
+			}
+			add_building_construction = {
+					type = bunker
+					province = 9955
+					level = 8
+			}
+		}
+		every_state = {
+			limit = {
+				is_owned_by = CHI
+				NOT = { 
+					controller = {
+						original_tag = CHI
+						is_puppet_of = CHI
+					}
+					is_core_of = JAP
+					is_core_of = KOR
+					state = 524
+					state = 1855
+					state = 1856
+					state = 1857
+					state = 1858
+				}
+			}
+			PRC = { transfer_state = PREV }
+		}
+		hidden_effect = {
+			news_event = { hours = 6 id = news.290 }
+			if = {
+				limit = { 
+					NOT = { has_country_flag = oob_loaded }
+				}
+				load_oob = "ROC_taiwan"
+				set_country_flag = oob_loaded
+			}
+		}
+	}
+	
+	option = { # Capitulate
+		name = taiwan.1.b
+		ai_chance = { factor = 1 }
+		PRC = {
+			annex_country = { target = CHI transfer_troops = yes }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+}
+
+# Move Back
+country_event = {
+	id = taiwan.2
+	title = taiwan.2.t
+	desc = taiwan.2.d
+	picture = GFX_nanking
+	
+
+	mean_time_to_happen = {
+		days = 0
+	}
+	trigger = {
+		tag = CHI
+		has_country_flag = move_to_taiwan
+		NOT = {
+			country_exists = PRC
+		}
+		owns_state = 613 #Nanjing
+	}
+	
+	option = { # Move Back
+		name = taiwan.1.a
+		ai_chance = { factor = 100 }
+		clr_country_flag = move_to_taiwan
+		CHI = { set_capital = 613 }
+	}
+}

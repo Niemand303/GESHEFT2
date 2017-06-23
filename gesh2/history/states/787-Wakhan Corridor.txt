@@ -1,0 +1,18 @@
+state={
+	id=787
+	name="STATE_787"
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = AFG
+		add_claim_by = CHI
+	}
+	provinces={
+		7519 
+	}
+	manpower=37140
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

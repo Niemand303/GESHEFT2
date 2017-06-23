@@ -1,0 +1,19 @@
+state={
+	id=474
+	name="STATE_474"
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			air_base = 1
+		}
+		add_core_of = MEX
+	}
+	provinces={
+		12715 
+	}
+	manpower=198130
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

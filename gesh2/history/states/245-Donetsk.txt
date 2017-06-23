@@ -1,0 +1,17 @@
+state={
+	id=245
+	name="STATE_245"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = SOV
+	}
+	provinces={
+		500 3519 3540 6544 6566 9488 9540 9565 11459 11476 
+	}
+	manpower=380884
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,17 @@
+state={
+	id=2203
+	name="STATE_2203"
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOL
+	}
+	provinces={
+		8157 8240 10938 
+	}
+	manpower=83625
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

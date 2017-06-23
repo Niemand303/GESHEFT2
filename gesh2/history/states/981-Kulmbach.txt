@@ -1,0 +1,18 @@
+state={
+	id=981
+	name="STATE_981"
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = GER
+		add_core_of = BAV
+	}
+	provinces={
+		3474 11404 
+	}
+	manpower=418027
+	buildings_max_level_factor=1.000
+	state_category=town
+}

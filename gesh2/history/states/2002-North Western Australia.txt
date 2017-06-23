@@ -1,0 +1,18 @@
+state={
+	id=2002
+	name="STATE_2002"
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = AST
+		add_core_of = WES
+	}
+	provinces={
+		2201 5207 8152 8209 8247 10937 10958 11016 12993 
+	}
+	manpower=69768
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

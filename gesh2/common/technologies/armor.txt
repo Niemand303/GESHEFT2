@@ -242,6 +242,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 100
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 100
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -271,6 +281,14 @@ technologies = {
 				factor = 0
 				has_tech = advanced_light_td
 			}
+			
+			modifier = {
+				factor = 5
+				OR = { 
+					tag = GER 
+					tag = SOV
+				}
+			}
 		}
 		
 		categories = {
@@ -298,6 +316,14 @@ technologies = {
 			modifier = {
 				factor = 0
 				has_tech = advanced_light_art
+			}
+			
+			modifier = {
+				factor = 5
+				OR = { 
+					tag = GER 
+					tag = SOV
+				}
 			}
 		}
 		
@@ -362,6 +388,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 5
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -381,6 +417,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0
+			
+			modifier = {
+				factor = 5
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -508,6 +549,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 100
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 100
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -527,7 +578,7 @@ technologies = {
 
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
 
 			modifier = {
 				factor = 0
@@ -537,6 +588,16 @@ technologies = {
 			modifier = {
 				factor = 0
 				has_tech = improved_medium_td
+			}
+			
+			modifier = {
+				factor = 5
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 5
+				tag = GER
 			}
 		}
 		
@@ -555,7 +616,7 @@ technologies = {
 		start_year = 1939
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
 
 			modifier = {
 				factor = 0
@@ -565,6 +626,16 @@ technologies = {
 			modifier = {
 				factor = 0
 				has_tech = improved_medium_art
+			}
+			
+			modifier = {
+				factor = 5
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 5
+				tag = GER
 			}
 		}
 		
@@ -1252,6 +1323,11 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 100
+				tag = SOV
+			}
 		}
 		
 		categories = {
@@ -1381,6 +1457,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 100
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 100
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -1410,6 +1496,16 @@ technologies = {
 				factor = 0
 				has_tech = advanced_heavy_td
 			}
+			
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 50
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -1437,6 +1533,16 @@ technologies = {
 			modifier = {
 				factor = 0
 				has_tech = advanced_heavy_art
+			}
+			
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 50
+				tag = GER
 			}
 		}
 		
@@ -1534,6 +1640,17 @@ technologies = {
 				factor = 0
 				has_tech = modern_td
 			}
+			
+			
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 50
+				tag = GER
+			}
 		}
 		
 		categories = {
@@ -1561,6 +1678,16 @@ technologies = {
 			modifier = {
 				factor = 0
 				has_tech = modern_art
+			}
+			
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 50
+				tag = GER
 			}
 		}
 		
@@ -1702,7 +1829,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 20
 		}
 		
 		categories = {
@@ -1728,7 +1855,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 15
 		}
 		
 		categories = {
@@ -1754,7 +1881,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		
 		categories = {
@@ -1780,7 +1907,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -1806,7 +1933,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -1827,7 +1954,7 @@ technologies = {
 		}
 
 		ai_will_do = {
-			factor = 1
+			factor = 5
 		}
 		
 		categories = {
@@ -1856,6 +1983,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.2
+			
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 50
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 50
+				tag = USA
+			}
 		}
 		
 		categories = {
@@ -1883,6 +2025,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.2
+			
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 50
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 50
+				tag = USA
+			}
 		}
 		
 		categories = {
@@ -1905,6 +2062,21 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.05
+			
+			modifier = {
+				factor = 50
+				tag = SOV
+			}
+			
+			modifier = {
+				factor = 50
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 50
+				tag = USA
+			}
 		}
 		
 		categories = {

@@ -1,0 +1,20 @@
+state={
+	id=2183
+	name="STATE_2183"
+	resources={
+		oil=14.000
+	}
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = VEN
+	}
+	provinces={
+		4942 8024 8080 
+	}
+	manpower=333753
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,9 +1,6 @@
 state={
 	id=95
 	name="STATE_95"
-	manpower = 1157200
-	
-	state_category = rural
 	history={
 		owner = POL
 		buildings = {
@@ -12,15 +9,11 @@ state={
 		}
 		add_core_of = POL
 		add_core_of = BLR
-		
-		1939.9.17 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-		}
 	}
-
 	provinces={
-		3366 6359 6413 9236 9274 9304 9359 11341 
+		6359 9359 
 	}
+	manpower=385733
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

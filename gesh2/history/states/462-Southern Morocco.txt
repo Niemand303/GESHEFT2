@@ -1,0 +1,17 @@
+state={
+	id=462
+	name="STATE_462"
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MOR
+	}
+	provinces={
+		1102 1989 4022 4108 5046 7203 10107 
+	}
+	manpower=1119331
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

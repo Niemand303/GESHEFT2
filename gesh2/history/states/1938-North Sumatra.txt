@@ -1,0 +1,27 @@
+state={
+	id=1938
+	name="STATE_1938"
+	resources={
+		rubber=21.000
+		oil=1.000
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			4652 1 
+		}
+		buildings = {
+			infrastructure = 3
+			4652 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		4446 4652 7673 10522 
+	}
+	manpower=634992
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,20 @@
+state={
+	id=2325
+	name="STATE_2325"
+	history={
+		owner = FRA
+		add_core_of = FPO
+		buildings = {
+			infrastructure = 3
+			13215 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13215 
+	}
+	manpower=19042
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

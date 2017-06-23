@@ -1,0 +1,20 @@
+state={
+	id=2198
+	name="STATE_2198"
+	resources={
+		oil=6.000
+	}
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PRU
+	}
+	provinces={
+		2156 8199 
+	}
+	manpower=890812
+	buildings_max_level_factor=1.000
+	state_category=town
+}

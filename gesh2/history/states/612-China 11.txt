@@ -1,11 +1,6 @@
-
 state={
 	id=612
-	name="STATE_612" # Chahar
-	manpower = 566000
-	
-	state_category = rural
-
+	name="STATE_612"
 	history={
 		owner = MEN
 		add_core_of = MEN
@@ -14,14 +9,11 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-		
-		1945.9.9 = {
-			owner = PRC
-			controller = PRC
-		}
 	}
-
 	provinces={
-		1551 1608 1796 1811 1871 4222 4555 4655 7578 7648 10363 10372 12348 12448 12554 
+		1551 1608 1796 4222 10372 12448 
 	}
+	manpower=339600
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

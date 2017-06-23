@@ -1,0 +1,18 @@
+state={
+	id=930
+	name="STATE_930"
+	history={
+		owner = ENG
+		add_core_of = SCO
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ENG
+	}
+	provinces={
+		284 3373 
+	}
+	manpower=53174
+	buildings_max_level_factor=1.000
+	state_category = town
+}

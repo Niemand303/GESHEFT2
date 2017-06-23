@@ -1,0 +1,24 @@
+state={
+	id=2043
+	name="STATE_2043"
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 6
+			12149 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = CAN
+		add_core_of = QBC
+		victory_points = {
+			12149 3 
+		}
+	}
+	provinces={
+		1284 7433 10174 10230 10320 12149 
+	}
+	manpower=583861
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

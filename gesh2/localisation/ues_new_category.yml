@@ -1,0 +1,10 @@
+﻿l_english:
+ non_industrial_city:0 "Non Industrial Urban Region"
+ non_industrial_large_city:0 "Non Industrial Dense Urban Region"
+ non_industrial_metropolis:0 "Non Industrial Metropolis Region"
+ non_industrial_megalopolis:0 "Non Industrial Megalopolis Region"
+ non_industrial_town:0 "Non Industrial Developed Rural Region"
+ non_industrial_large_town:0 "Non Industrial Sparse Urban Region"
+ non_industrial_rural:0 "Non Industrial Rural Region"
+ non_industrial_small_island:0 "Non Industrial Small Island"
+ non_industrial_pastoral:0 "Non Industrial Pastoral Region"

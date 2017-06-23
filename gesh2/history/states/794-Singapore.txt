@@ -1,0 +1,26 @@
+state={
+	id=794
+	name="STATE_794"
+	history={
+		owner = MAL
+		victory_points = {
+			12299 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12299 = {
+				naval_base = 8
+				coastal_bunker = 3
+			}
+		}
+		add_core_of = MAL
+		add_core_of = SIN
+	}
+	provinces={
+		12299 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

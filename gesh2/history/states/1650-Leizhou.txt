@@ -1,0 +1,23 @@
+state={
+	id=1650
+	name="STATE_1650"
+	history={
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			remove_core_of = GXC
+			owner = CHI
+		}
+	}
+	provinces={
+		4160 7135 
+	}
+	manpower=2907138
+	buildings_max_level_factor=1.000
+	state_category=town
+}

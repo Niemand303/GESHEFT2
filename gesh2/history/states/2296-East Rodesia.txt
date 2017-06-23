@@ -1,0 +1,21 @@
+state={
+	id=2296
+	name="STATE_2296"
+	resources={
+		chromium=16.000
+		tungsten=4.000
+	}
+	history={
+		owner = ENG
+		add_core_of = ZAM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1846 5221 10594 10930 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

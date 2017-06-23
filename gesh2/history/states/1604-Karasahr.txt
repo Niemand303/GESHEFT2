@@ -1,0 +1,19 @@
+state={
+	id=1604
+	name="STATE_1604"
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		4770 7702 7792 7850 10545 
+	}
+	manpower=445125
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -2,7 +2,7 @@
 
 oob = "ENG_1936"
 
-set_research_slots = 4
+set_research_slots = 5
 
 set_national_unity = 0.6
 
@@ -120,6 +120,26 @@ if = {
 
 		ENG_george_vi
 	}
+	
+create_country_leader = {
+	name = "Neville Chamberlain"
+	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		
+	}
+}
+	
+	set_autonomy = {
+		target = MYA
+		autonomous_state = autonomy_integrated_puppet
+	}
+	
+	give_military_access = MYA
+	add_to_faction = MYA
+	
 	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
@@ -148,6 +168,7 @@ if = {
 		tactical_bomber2 = 1
 		strategic_bomber1 = 1
 		cv_CAS1 = 1
+		cv_fighter1 = 1
 		improved_light_tank = 1
 		basic_medium_tank = 1
 		basic_heavy_tank = 1
@@ -259,15 +280,26 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Neville Chamberlain"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Britain_Neville_Chamberlain.dds"
-	expire = "1965.1.1"
+	name = "Stanley Baldwin"
+	desc = "POLITICS_STANLEY_BALDWIN_DESC"
+	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
+	expire = "1938.1.1"
 	ideology = liberalism
 	traits = {
 		
 	}
 }
+
+#create_country_leader = {
+#	name = "Neville Chamberlain"
+#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+#	expire = "1965.1.1"
+#	ideology = liberalism
+#	traits = {
+#		
+#	}
+#}
 
 create_country_leader = {
 	name = "Oswald Mosley"

@@ -1,0 +1,20 @@
+state={
+	id=2272
+	name="STATE_2272"
+	resources={
+		steel=2.000
+	}
+	history={
+		owner = FRA
+		add_core_of = SEN
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		2100 12834 
+	}
+	manpower=655200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

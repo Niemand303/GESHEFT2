@@ -1,0 +1,27 @@
+state={
+	id=1022
+	name="STATE_1022"
+	history={
+		owner = POL
+		add_core_of = GER
+		buildings = {
+			infrastructure = 6
+			3381 = {
+				bunker = 1
+			}
+			11232 = {
+				bunker = 1
+			}
+		}
+		add_core_of = POL
+		1938.3.12 = {
+			add_claim_by = GER
+		}
+	}
+	provinces={
+		243 3381 11232 
+	}
+	manpower=702166
+	buildings_max_level_factor=1.000
+	state_category=town
+}

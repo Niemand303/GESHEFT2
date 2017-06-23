@@ -1,0 +1,23 @@
+state={
+	id=1551
+	name="STATE_1551"
+	resources={
+		oil=4.000
+	}
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 2
+			12832 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = PER
+	}
+	provinces={
+		10797 12832 
+	}
+	manpower=275586
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

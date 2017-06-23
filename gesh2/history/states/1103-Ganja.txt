@@ -1,0 +1,21 @@
+state={
+	id=1103
+	name="STATE_1103"
+	resources={
+		oil=32.000
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+		add_core_of = AZR
+	}
+	provinces={
+		1467 1539 1610 9715 11674 11704 
+	}
+	manpower=720262
+	buildings_max_level_factor=1.000
+	state_category=town
+}

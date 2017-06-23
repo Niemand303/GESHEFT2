@@ -1,0 +1,23 @@
+state={
+	id=779
+	name="STATE_779"
+	history={
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+		victory_points = {
+			7418 3 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		1976 5092 7418 12713 
+	}
+	manpower=1423116
+	buildings_max_level_factor=1.000
+	state_category=city
+}

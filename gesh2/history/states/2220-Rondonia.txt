@@ -1,0 +1,17 @@
+state={
+	id=2220
+	name="STATE_2220"
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BRA
+	}
+	provinces={
+		12939 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

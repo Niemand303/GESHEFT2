@@ -1,0 +1,23 @@
+state={
+	id=2193
+	name="STATE_2193"
+	history={
+		owner = ECU
+		buildings = {
+			infrastructure = 3
+			8252 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = ECU
+		victory_points = {
+			8252 1 
+		}
+	}
+	provinces={
+		5051 8252 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

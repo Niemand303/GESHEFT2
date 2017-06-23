@@ -1,0 +1,28 @@
+state={
+	id=285
+	name="STATE_285"
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+			air_base = 5
+			7859 = {
+				bunker = 1
+			}
+		}
+		victory_points = {
+			7859 30 
+		}
+		add_extra_state_shared_building_slots = 2
+		add_core_of = AST
+	}
+	provinces={
+		1861 4673 4763 7859 10682 12532 12560 
+	}
+	manpower=768930
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,8 @@
+state_categories={
+	non_industrial_small_island = {
+		local_building_slots = 0
+	
+		color = { 198 172 116 }
+
+	}
+}

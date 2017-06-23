@@ -1,0 +1,275 @@
+﻿###########################
+# Myanmar Events
+###########################
+
+add_namespace = myanmar
+
+# Myanmar Province
+country_event = {
+	id = myanmar.1
+	title = myanmar.1.t
+	desc = myanmar.1.d
+	picture = myanmar
+	
+	fire_only_once = yes
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		NOT = { has_global_flag = myanmar_est }
+		tag = ENG
+		date > 1937.3.31
+		RAJ = {
+			exists = yes
+			is_puppet = yes
+			OR = {
+				owns_state = 288
+				owns_state = 640
+				owns_state = 803
+				owns_state = 1476
+				owns_state = 1477
+				owns_state = 1478
+				owns_state = 1479
+				owns_state = 1480
+				owns_state = 1481
+				owns_state = 1482
+				owns_state = 1483
+				owns_state = 1484
+				owns_state = 1485
+				owns_state = 1486
+				owns_state = 1487
+				owns_state = 1488
+				owns_state = 1489
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_flag = myanmar_est
+	}
+	
+	option = {
+		name = myanmar.1.a
+		ai_chance = { factor = 80 }
+		if = {
+			limit = {
+				288 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 288 }
+		}
+		if = {
+			limit = {
+				640 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 640 }
+		}
+		if = {
+			limit = {
+				803 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 803 }
+		}
+		if = {
+			limit = {
+				1476 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1476 }
+		}
+		if = {
+			limit = {
+				1477 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1477 }
+		}
+		if = {
+			limit = {
+				1478 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1478 }
+		}
+		if = {
+			limit = {
+				1479 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1479 }
+		}
+		if = {
+			limit = {
+				1480 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1480 }
+		}
+		if = {
+			limit = {
+				1481 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1481 }
+		}
+		if = {
+			limit = {
+				1482 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1482 }
+		}
+		if = {
+			limit = {
+				1483 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1483 }
+		}
+		if = {
+			limit = {
+				1484 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1484 }
+		}
+		if = {
+			limit = {
+				1485 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1485 }
+		}
+		if = {
+			limit = {
+				1486 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1486 }
+		}
+		if = {
+			limit = {
+				1487 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1487 }
+		}
+		if = {
+			limit = {
+				1488 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+ 				}
+			}
+			MYA = { transfer_state = 1488 }
+		}
+		if = {
+			limit = {
+				1489 = {
+					OR = {
+						is_owned_by = RAJ
+						is_owned_by = ENG
+					}
+				}
+			}
+			MYA = { transfer_state = 1489 }
+		}
+		puppet = MYA
+		set_autonomy = { 
+			target = MYA
+			autonomy_state = autonomy_integrated_puppet
+		} 
+		RAJ = {
+			add_autonomy_ratio = {
+				value = -0.2
+			} 
+		} 
+		hidden_effect = {
+			news_event = { hours = 6 id = news.289 }
+			MYA = {
+				load_oob = MYA_1939
+				add_manpower = 9876
+			}
+		}
+	}
+	option = {
+		name = myanmar.1.b
+		add_political_power = -20
+		RAJ = {
+			add_autonomy_ratio = {
+				value = 0.2
+			} 
+		} 
+		ai_chance = { 
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

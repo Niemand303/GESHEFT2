@@ -1,0 +1,18 @@
+state={
+	id=1525
+	name="STATE_1525"
+	history={
+		add_core_of = VIN
+		add_core_of = INC
+		owner = INC
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		9988 10016 
+	}
+	manpower=992400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

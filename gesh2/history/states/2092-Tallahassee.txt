@@ -1,0 +1,22 @@
+state={
+	id=2092
+	name="STATE_2092"
+	history={
+		owner = USA
+		add_core_of = CSA
+		add_core_of = FLR
+		buildings = {
+			infrastructure = 4
+			10352 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+	}
+	provinces={
+		10352 10380 10407 
+	}
+	manpower=146821
+	buildings_max_level_factor=1.000
+	state_category=city
+}

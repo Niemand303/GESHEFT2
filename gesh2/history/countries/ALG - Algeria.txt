@@ -1,0 +1,43 @@
+﻿capital = 459
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Mostefa Ben Boulaïd"
+	desc = ""
+	picture = "gfx/leaders/ALG/Mostefa_Ben_Boulaid.dds"
+	expire = "1956.3.22"
+	ideology = marxism
+	traits = {
+		#
+	}
+}

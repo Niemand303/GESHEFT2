@@ -1,0 +1,21 @@
+state={
+	id=1291
+	name="STATE_1291"
+	resources={
+		steel=1.000
+		aluminium=48.000
+	}
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = HUN
+	}
+	provinces={
+		3731 9690 
+	}
+	manpower=937688
+	buildings_max_level_factor=1.000
+	state_category=town
+}

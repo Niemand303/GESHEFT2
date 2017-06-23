@@ -1,0 +1,20 @@
+state={
+	id=2303
+	name="STATE_2303"
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10966 1 
+		}
+		add_core_of = ANG
+	}
+	provinces={
+		8138 8202 10966 12958 12985 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

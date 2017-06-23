@@ -1,0 +1,23 @@
+state={
+	id=1506
+	name="STATE_1506"
+	resources={
+		rubber=15.000
+	}
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			7236 1 
+		}
+		add_core_of = SIA
+	}
+	provinces={
+		4371 7236 10156 12286 
+	}
+	manpower=428757
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,20 @@
+state={
+	id=2333
+	name="STATE_2333"
+	history={
+		owner = ENG
+		add_core_of = AGU
+		buildings = {
+			infrastructure = 4
+			13227 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		13227 
+	}
+	manpower=44429
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

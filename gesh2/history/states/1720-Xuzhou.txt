@@ -1,0 +1,21 @@
+state={
+	id=1720
+	name="STATE_1720"
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			controller = JAP
+		}
+	}
+	provinces={
+		7025 7200 12055 
+	}
+	manpower=5136238
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,14 +1,18 @@
 state={
 	id=9
 	name="STATE_9"
-	manpower = 4492600
-	
-	state_category = large_city
-	
+	resources={
+		steel=8
+	}
 	history={
 		owner = CZE
-		victory_points = { 11542 20 }
-		victory_points = { 6418 5 }
+		add_core_of = CZR
+		victory_points = {
+			11542 20 
+		}
+		victory_points = {
+			6418 5 
+		}
 		buildings = {
 			infrastructure = 7
 			arms_factory = 6
@@ -17,19 +21,15 @@ state={
 			air_base = 5
 		}
 		add_core_of = CZE
-
 		1939.3.14 = {
 			owner = GER
 			controller = GER
 		}
-		
-		1945.5.9 = {
-			owner = CZE
-			controller = CZE
-		}
 	}
-
 	provinces={
-		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 
+		3462 9414 9429 11542 
 	}
+	manpower=1497533
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

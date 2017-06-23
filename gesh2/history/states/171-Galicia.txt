@@ -1,0 +1,27 @@
+state={
+	id=171
+	name="STATE_171"
+	history={
+		owner = SPR
+		add_core_of = GAL
+		victory_points = {
+			758 3 
+		}
+		buildings = {
+			infrastructure = 6
+			dockyard = 2
+			arms_factory = 1
+			air_base = 2
+			758 = {
+				naval_base = 6
+			}
+		}
+		add_core_of = SPR
+	}
+	provinces={
+		758 6955 11710 
+	}
+	manpower=573772
+	buildings_max_level_factor=1.000
+	state_category=city
+}

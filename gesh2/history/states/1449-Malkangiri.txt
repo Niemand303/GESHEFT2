@@ -1,0 +1,20 @@
+state={
+	id=1449
+	name="STATE_1449"
+	resources={
+		steel=4.000
+		chromium=4.000
+	}
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		7090 7372 10469 11978 12241 
+	}
+	manpower=1452010
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

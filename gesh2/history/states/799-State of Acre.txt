@@ -1,0 +1,18 @@
+state={
+	id=799
+	name="STATE_799"
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BOL
+		add_core_of = BRA
+	}
+	provinces={
+		10960 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

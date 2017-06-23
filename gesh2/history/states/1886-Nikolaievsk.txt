@@ -1,0 +1,21 @@
+state={
+	id=1886
+	name="STATE_1886"
+	resources={
+		steel=6.000
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = FAE
+	}
+	provinces={
+		3664 4844 10571 12559 
+	}
+	manpower=18556
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

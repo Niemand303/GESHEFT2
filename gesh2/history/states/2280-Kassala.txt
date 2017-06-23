@@ -1,0 +1,23 @@
+state={
+	id=2280
+	name="STATE_2280"
+	history={
+		owner = ENG
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+			12725 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			12725 1 
+		}
+	}
+	provinces={
+		2003 2046 2088 7989 10902 12725 
+	}
+	manpower=598052
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

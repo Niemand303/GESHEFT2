@@ -1,0 +1,17 @@
+state={
+	id=1902
+	name="STATE_1902"
+	history={
+		owner = OMA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OMA
+	}
+	provinces={
+		1947 8002 8020 
+	}
+	manpower=110700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

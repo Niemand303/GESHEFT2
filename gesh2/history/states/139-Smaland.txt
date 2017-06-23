@@ -1,0 +1,22 @@
+state={
+	id=139
+	name="STATE_139"
+	resources={
+		steel=10.000
+	}
+	history={
+		owner = SWE
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = SWE
+	}
+	provinces={
+		299 329 3229 6148 11390 
+	}
+	manpower=459296
+	buildings_max_level_factor=1.000
+	state_category=town
+}

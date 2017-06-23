@@ -1,0 +1,19 @@
+state={
+	id=194
+	name="STATE_194"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = SOV
+		add_core_of = BLR
+	}
+	provinces={
+		215 6232 6556 9554 11453 
+	}
+	manpower=467316
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

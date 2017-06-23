@@ -1,0 +1,21 @@
+state={
+	id=915
+	name="STATE_915"
+	history={
+		owner = ENG
+		buildings = {
+			dockyard = 1
+			infrastructure = 9
+			11374 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = ENG
+	}
+	provinces={
+		221 11374 
+	}
+	manpower=2456074
+	buildings_max_level_factor=1.000
+	state_category=city
+}

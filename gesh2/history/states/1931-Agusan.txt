@@ -1,0 +1,17 @@
+state={
+	id=1931
+	name="STATE_1931"
+	history={
+		owner = PHI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PHI
+	}
+	provinces={
+		1293 1379 12160 12188 12245 
+	}
+	manpower=199036
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

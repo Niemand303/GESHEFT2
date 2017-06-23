@@ -1,0 +1,26 @@
+state={
+	id=2256
+	name="STATE_2256"
+	resources={
+		steel=18.000
+	}
+	history={
+		owner = FRA
+		add_core_of = ALG
+		victory_points = {
+			7132 5 
+		}
+		buildings = {
+			infrastructure = 4
+			7132 = {
+				naval_base = 6
+			}
+		}
+	}
+	provinces={
+		1013 4116 7132 11923 12760 
+	}
+	manpower=1235978
+	buildings_max_level_factor=1.000
+	state_category=town
+}

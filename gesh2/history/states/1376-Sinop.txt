@@ -1,0 +1,20 @@
+state={
+	id=1376
+	name="STATE_1376"
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			6995 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		3967 6978 6995 
+	}
+	manpower=215147
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

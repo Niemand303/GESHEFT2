@@ -1,0 +1,18 @@
+state={
+	id=984
+	name="STATE_984"
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = GER
+		add_core_of = BWU
+	}
+	provinces={
+		589 3574 11560 
+	}
+	manpower=474780
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

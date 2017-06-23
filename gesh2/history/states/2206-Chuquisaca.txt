@@ -1,0 +1,20 @@
+state={
+	id=2206
+	name="STATE_2206"
+	resources={
+		tungsten=20.000
+	}
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BOL
+	}
+	provinces={
+		5179 12979 
+	}
+	manpower=368010
+	buildings_max_level_factor=1.000
+	state_category=town
+}
