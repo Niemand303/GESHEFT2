@@ -196,7 +196,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_GER_main_battle_tank3_medium"
-		texturefile = "gfx/interface/technologies/USA_main_battle_tank3.dds"
+		texturefile = "gfx/interface/technologies/GER_main_battle_tank3.dds"
 	}
 	SpriteType = {
 		name = "GFX_GER_main_battle_tank4_medium"
@@ -319,6 +319,59 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_modern_armored_car_medium"
 		texturefile = "gfx/interface/technologies/GER_ac_equipment_5.dds"
+	}
+	
+	# ENG
+	SpriteType = {
+		name = "GFX_ENG_gw_armored_car_medium"
+		texturefile = "gfx/interface/technologies/ENG_ac_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_interwar_armored_car_medium"
+		texturefile = "gfx/interface/technologies/ENG_ac_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_early_armored_car_medium"
+		texturefile = "gfx/interface/technologies/ENG_ac_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_basic_armored_car_medium"
+		texturefile = "gfx/interface/technologies/ENG_ac_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_adv_armored_car_medium"
+		texturefile = "gfx/interface/technologies/ENG_ac_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_modern_armored_car_medium"
+		name = "GFX_ENG_modern_armored_car_medium"
+		texturefile = "gfx/interface/technologies/ENG_ac_equipment_5.dds"
+	}
+	
+	# USA
+	SpriteType = {
+		name = "GFX_USA_gw_armored_car_medium"
+		texturefile = "gfx/interface/technologies/USA_ac_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_interwar_armored_car_medium"
+		texturefile = "gfx/interface/technologies/USA_ac_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_early_armored_car_medium"
+		texturefile = "gfx/interface/technologies/USA_ac_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_basic_armored_car_medium"
+		texturefile = "gfx/interface/technologies/USA_ac_equipment_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_adv_armored_car_medium"
+		texturefile = "gfx/interface/technologies/USA_ac_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_modern_armored_car_medium"
+		texturefile = "gfx/interface/technologies/USA_ac_equipment_5.dds"
 	}
 
 	#### Heavy Artillery ####
@@ -1554,6 +1607,24 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_semi_modern_destroyer_medium"
 		texturefile = "gfx/interface/technologies/GER_modern_destroyer_1.dds"
+	}
+	
+	# ENG
+	SpriteType = {
+		name = "GFX_ENG_semi_modern_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_modern_cruiser_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_modern_heavy_cruiser_medium"
+		texturefile = "gfx/interface/technologies/ENG_modern_cruiser_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_semi_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/ENG_modern_destroyer_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_semi_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/ENG_modern_carrier.dds"
 	}
 
 	# New Infantry Types
