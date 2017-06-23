@@ -738,6 +738,11 @@
  SOV_carrier_5:0 "Project 1143.7"
  SOV_destroyer_5:0 "Project 57bis"
  
+ ENG_heavy_cruiser_5:0 "Project GW60"
+ ENG_heavy_cruiser_6:0 "Global Cruiser"
+ ENG_carrier_5:0 "CVA-01"
+ ENG_destroyer_5:0 "County Class"
+ 
  USA_carrier_5:0 "Nimitz Class"
  USA_heavy_cruiser_5:0 "Leahy Class"
  USA_heavy_cruiser_6:0 "Long Beach Class"
