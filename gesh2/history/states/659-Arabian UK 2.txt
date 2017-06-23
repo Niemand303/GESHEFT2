@@ -2,7 +2,7 @@ state={
 	id=659
 	name="STATE_659"
 	history={
-		owner = ENG
+		owner = RAJ
 		victory_points = {
 			5074 1 
 		}
@@ -16,7 +16,11 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = YEM
+		add_core_of = YEM		
+		1937.1.10 = {
+			owner = ENG
+			controller = ENG
+		}
 	}
 	provinces={
 		5074 8000 12821 
