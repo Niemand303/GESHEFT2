@@ -1,0 +1,25 @@
+state={
+	id=858
+	name="STATE_858"
+	resources={
+		steel=68.000
+		aluminium=48.000
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			9898 1 
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 2
+		}
+		add_core_of = FRA
+	}
+	provinces={
+		760 6770 11711 11877 
+	}
+	manpower=845600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

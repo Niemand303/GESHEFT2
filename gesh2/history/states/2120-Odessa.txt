@@ -1,0 +1,23 @@
+state={
+	id=2120
+	name="STATE_2120"
+	resources={
+		oil=96.000
+		aluminium=16.000
+	}
+	history={
+		owner = USA
+		add_core_of = CSA
+		add_core_of = TEX
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = USA
+	}
+	provinces={
+		1954 1998 4955 5038 6798 8064 10740 10894 12728 
+	}
+	manpower=774687
+	buildings_max_level_factor=1.000
+	state_category=town
+}

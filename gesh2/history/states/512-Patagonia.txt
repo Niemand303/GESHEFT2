@@ -1,0 +1,24 @@
+state={
+	id=512
+	name="STATE_512"
+	resources={
+		oil=1.000
+	}
+	history={
+		owner = ARG
+		add_core_of = PAT
+		buildings = {
+			infrastructure = 3
+			10953 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ARG
+	}
+	provinces={
+		8161 8176 10953 11005 12349 
+	}
+	manpower=37365
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

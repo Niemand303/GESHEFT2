@@ -1,0 +1,17 @@
+state={
+	id=820
+	name="STATE_820"
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = SPR
+	}
+	provinces={
+		939 3845 9800 
+	}
+	manpower=191966
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

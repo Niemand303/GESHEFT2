@@ -1,4 +1,3 @@
-
 state={
 	id=67
 	name="STATE_67"
@@ -8,22 +7,15 @@ state={
 		aluminium=20
 	}
 	
-	state_category = city
-
+	state_category=city
 	history={
 		owner = GER
+		add_core_of = SIL
 		buildings = {
 			infrastructure = 6
 		}
 		add_core_of = GER
-		
-		1945.5.9 = {
-			owner = POL
-			controller = POL
-			add_core_of = POL
-		}
 	}
-
 	provinces={
 		479 6512 9457 9511 11467 
 	}

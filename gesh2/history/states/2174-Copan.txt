@@ -1,0 +1,20 @@
+state={
+	id=2174
+	name="STATE_2174"
+	history={
+		owner = HON
+		buildings = {
+			infrastructure = 4
+			8017 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = HON
+	}
+	provinces={
+		8017 
+	}
+	manpower=257928
+	buildings_max_level_factor=1.000
+	state_category=town
+}

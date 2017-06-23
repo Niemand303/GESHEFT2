@@ -1,0 +1,21 @@
+state={
+	id=2235
+	name="STATE_2235"
+	resources={
+		tungsten=15.000
+		steel=3.000
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ARG
+	}
+	provinces={
+		12922 12943 
+	}
+	manpower=168143
+	buildings_max_level_factor=1.000
+	state_category=town
+}

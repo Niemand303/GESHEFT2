@@ -1,0 +1,23 @@
+state={
+	id=2309
+	name="STATE_2309"
+	resources={
+		chromium=45.000
+	}
+	history={
+		owner = ENG
+		add_core_of = VAN
+		buildings = {
+			infrastructure = 3
+			4247 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		4247 12120 
+	}
+	manpower=12969
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

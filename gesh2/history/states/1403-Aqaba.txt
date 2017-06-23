@@ -1,0 +1,17 @@
+state={
+	id=1403
+	name="STATE_1403"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = JOR
+	}
+	provinces={
+		4017 4115 
+	}
+	manpower=279600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

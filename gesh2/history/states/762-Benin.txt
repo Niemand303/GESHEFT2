@@ -1,0 +1,20 @@
+state={
+	id=762
+	name="STATE_762"
+	history={
+		owner = FRA
+		add_core_of = BEN
+		victory_points = {
+			10919 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		10919 12762 12874 
+	}
+	manpower=2474083
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

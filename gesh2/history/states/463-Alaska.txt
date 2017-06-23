@@ -1,0 +1,25 @@
+state={
+	id=463
+	name="STATE_463"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13091 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = USA
+		add_core_of = ALA
+		victory_points = {
+			13091 3 
+		}
+	}
+	provinces={
+		1830 4833 4848 7855 10679 10694 10707 12661 13069 13091 13202 13203 
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

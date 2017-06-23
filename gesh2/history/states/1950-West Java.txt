@@ -1,0 +1,21 @@
+state={
+	id=1950
+	name="STATE_1950"
+	resources={
+		rubber=30.000
+		oil=2.000
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces={
+		1386 1425 4406 4621 7421 10307 12249 
+	}
+	manpower=4171820 
+	buildings_max_level_factor=1.000
+	state_category=town
+}

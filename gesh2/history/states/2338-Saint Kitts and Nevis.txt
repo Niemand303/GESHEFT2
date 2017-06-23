@@ -1,0 +1,20 @@
+state={
+	id=2338
+	name="STATE_2338"
+	history={
+		owner = ENG
+		add_core_of = SKN
+		buildings = {
+			infrastructure = 4
+			13228 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13228 
+	}
+	manpower=5778
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

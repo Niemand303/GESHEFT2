@@ -1,0 +1,21 @@
+state={
+	id=232
+	name="STATE_232"
+	resources={
+		oil=13.000
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = SOV
+		add_core_of = DAG
+	}
+	provinces={
+		3668 3682 4463 6689 6701 9645 
+	}
+	manpower=276382
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

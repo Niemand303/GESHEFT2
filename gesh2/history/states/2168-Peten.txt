@@ -1,0 +1,20 @@
+state={
+	id=2168
+	name="STATE_2168"
+	resources={
+		chromium=2.000
+	}
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = GUA
+	}
+	provinces={
+		4991 
+	}
+	manpower=531300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

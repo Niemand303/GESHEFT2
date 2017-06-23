@@ -1,0 +1,21 @@
+state={
+	id=2114
+	name="STATE_2114"
+	resources={
+		aluminium=10.000
+	}
+	history={
+		owner = USA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+	}
+	provinces={
+		1646 4444 4567 4597 4625 7586 10477 
+	}
+	manpower=741792
+	buildings_max_level_factor=1.000
+	state_category=town
+}

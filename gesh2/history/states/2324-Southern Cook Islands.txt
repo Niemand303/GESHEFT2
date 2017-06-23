@@ -1,0 +1,20 @@
+state={
+	id=2324
+	name="STATE_2324"
+	history={
+		owner = NZL
+		add_core_of = COO
+		buildings = {
+			infrastructure = 3
+			13213 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13213 
+	}
+	manpower=16926
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

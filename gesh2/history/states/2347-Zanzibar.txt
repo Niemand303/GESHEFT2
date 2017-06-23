@@ -1,0 +1,18 @@
+state={
+	id=2347
+	name="STATE_2347"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = TAZ
+		add_core_of = ZAN
+	}
+	provinces={
+		13240 
+	}
+	manpower=119228
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

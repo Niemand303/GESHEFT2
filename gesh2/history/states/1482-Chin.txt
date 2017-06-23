@@ -1,0 +1,21 @@
+state={
+	id=1482
+	name="STATE_1482"
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		buildings = {
+			infrastructure = 4
+		}
+		1937.4.1 = {
+			owner = MYA
+			controller = MYA
+		}
+	}
+	provinces={
+		3999 4147 4454 7122 10033 11966 
+	}
+	manpower=609827
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

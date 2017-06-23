@@ -1,0 +1,23 @@
+state={
+	id=747
+	name="STATE_747"
+	provinces={
+		833 867 
+	}
+	resources={
+		chromium=6.000
+		aluminium=19.000
+	}
+	history={
+		owner = YUG
+		add_core_of = MAC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = YUG
+	}
+	manpower=149250
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

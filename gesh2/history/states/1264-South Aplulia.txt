@@ -1,0 +1,32 @@
+state={
+	id=1264
+	name="STATE_1264"
+	history={
+		owner = ITA
+		victory_points = {
+			11837 15 
+		}
+		buildings = {
+			infrastructure = 5
+			dockyard = 4
+			11837 = {
+				naval_base = 10
+			}
+			11998 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = ITA
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+			}
+		}
+	}
+	provinces={
+		6979 9784 11837 11998 
+	}
+	manpower=1483157
+	buildings_max_level_factor=1.000
+	state_category=city
+}

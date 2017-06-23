@@ -1,0 +1,21 @@
+state={
+	id=1327
+	name="STATE_1327"
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = {
+			690 1 
+		}
+		add_core_of = ROM
+		add_core_of = TRA
+	}
+	provinces={
+		690 3676 6709 11639 
+	}
+	manpower=405575
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

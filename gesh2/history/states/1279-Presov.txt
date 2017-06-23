@@ -1,0 +1,23 @@
+state={
+	id=1279
+	name="STATE_1279"
+	history={
+		owner = CZE
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CZE
+		add_core_of = SLO
+		1939.3.14 = {
+			owner = SLO
+			controller = SLO
+			add_core_of = SLO
+		}
+	}
+	provinces={
+		3550 3581 6586 6604 
+	}
+	manpower=598900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

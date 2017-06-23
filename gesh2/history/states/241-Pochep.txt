@@ -1,0 +1,22 @@
+state={
+	id=241
+	name="STATE_241"
+	history={
+		owner = SOV
+		victory_points = {
+			9288 10 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 3
+		}
+		add_core_of = SOV
+		add_core_of = BLR
+	}
+	provinces={
+		6344 9288 9342 11355 
+	}
+	manpower=314474
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

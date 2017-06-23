@@ -1,0 +1,17 @@
+state={
+	id=2295
+	name="STATE_2295"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KEN
+	}
+	provinces={
+		1939 5160 10860 10962 
+	}
+	manpower=1017600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

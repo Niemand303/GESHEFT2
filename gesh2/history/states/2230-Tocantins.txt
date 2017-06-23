@@ -1,0 +1,17 @@
+state={
+	id=2230
+	name="STATE_2230"
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRA
+	}
+	provinces={
+		2168 5151 
+	}
+	manpower=664880
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,17 @@
+state={
+	id=1996
+	name="STATE_1996"
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = AST
+	}
+	provinces={
+		1472 4481 4502 7522 7651 7666 12308 
+	}
+	manpower=112766
+	buildings_max_level_factor=1.000
+	state_category=town
+}

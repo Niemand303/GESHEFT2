@@ -1,0 +1,24 @@
+state={
+	id=749
+	name="STATE_749"
+	provinces={
+		6940 9849 9874 
+	}
+	resources={
+		chromium=6.000
+		aluminium=19.000
+	}
+	history={
+		owner = YUG
+		add_core_of = KOS
+		add_core_of = SER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = YUG
+	}
+	manpower=149250
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

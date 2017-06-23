@@ -1,0 +1,18 @@
+state={
+	id=1508
+	name="STATE_1508"
+	history={
+		owner = INC
+		add_core_of = INC
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1374 7426 12210 
+	}
+	manpower=148000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

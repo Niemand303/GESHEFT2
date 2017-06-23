@@ -1,0 +1,18 @@
+state={
+	id=514
+	name="STATE_514"
+	impassable = yes
+	history={
+		owner = FRA
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1095 1958 7041 8088 10731 12711 12842 12849 
+	}
+	manpower=124640
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,18 @@
+state={
+	id=1498
+	name="STATE_1498"
+	history={
+		owner = SIA
+		add_extra_state_shared_building_slots = 1
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SIA
+	}
+	provinces={
+		4319 4348 10193 
+	}
+	manpower=487579
+	buildings_max_level_factor=1.000
+	state_category=town
+}

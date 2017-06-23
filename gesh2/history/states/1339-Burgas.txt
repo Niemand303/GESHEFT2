@@ -1,0 +1,20 @@
+state={
+	id=1339
+	name="STATE_1339"
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 4
+			9902 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BUL
+	}
+	provinces={
+		6967 9888 9902 9919 
+	}
+	manpower=787749
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,23 @@
+state={
+	id=2340
+	name="STATE_2340"
+	history={
+		owner = HOL
+		add_core_of = ARU
+		buildings = {
+			infrastructure = 3
+			13235 = {
+				naval_base = 1
+			}
+			13235 = {
+				coastal_bunker = 2
+			}
+		}
+	}
+	provinces={
+		13235 
+	}
+	manpower=30520
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

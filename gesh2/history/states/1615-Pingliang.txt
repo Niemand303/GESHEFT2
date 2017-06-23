@@ -1,0 +1,22 @@
+state={
+	id=1615
+	name="STATE_1615"
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			owner = CHI
+		}
+	}
+	provinces={
+		517 1647 3745 4939 5025 
+	}
+	manpower=1052748
+	buildings_max_level_factor=1.000
+	state_category=town
+}

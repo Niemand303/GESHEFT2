@@ -1,0 +1,33 @@
+﻿add_namespace = nnews
+
+#Myanmar separated from India
+news_event = {
+	id = nnews.1
+	title = nnews.1.t
+	desc = nnews.1.desc
+	picture = news_myanmar
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nnews.1.a
+	}
+}
+
+#Kuomintang failed
+news_event = {
+	id = nnews.2
+	title = nnews.2.t
+	desc = nnews.2.desc
+	picture = news_taiwan
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nnews.2.a
+	}
+}

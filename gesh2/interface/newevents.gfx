@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "news_myanmar"
+		texturefile = "gfx/event_pictures/news_myanmar.dds"
+	}
+	spriteType = {
+		name = "myanmar"
+		texturefile = "gfx/event_pictures/myanmar.dds"
+	}
+	spriteType = {
+		name = "liuxiang"
+		texturefile = "gfx/event_pictures/liuxiang.dds"
+	}
+	spriteType = {
+		name = "GFX_nanking"
+		texturefile = "gfx/event_pictures/nanking.dds"
+	}
+	spriteType = {
+		name = "news_taiwan"
+		texturefile = "gfx/event_pictures/news_taiwan.dds"
+	}
+
+	#### END NEW EVENTS ####

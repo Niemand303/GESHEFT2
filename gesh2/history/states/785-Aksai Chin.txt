@@ -1,0 +1,21 @@
+state={
+	id=785
+	name="STATE_785"
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RAJ
+		add_core_of = PAK
+		add_core_of = CHI
+		add_core_of = KAS
+		add_core_of = PRC
+	}
+	provinces={
+		5042 
+	}
+	manpower=9500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

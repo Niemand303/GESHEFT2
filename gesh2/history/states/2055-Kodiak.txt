@@ -1,0 +1,18 @@
+state={
+	id=2055
+	name="STATE_2055"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = USA
+		add_core_of = ALA
+	}
+	provinces={
+		7884 
+	}
+	manpower=3375
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

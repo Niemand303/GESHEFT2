@@ -1,0 +1,22 @@
+state={
+	id=803
+	name="STATE_803"
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		add_claim_by = CHI
+		buildings = {
+			infrastructure = 3
+		}
+		1937.4.1 = {
+			owner = MYA
+			controller = MYA
+		}
+	}
+	provinces={
+		1197 1934 4087 4318 4996 8063 
+	}
+	manpower=788920
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

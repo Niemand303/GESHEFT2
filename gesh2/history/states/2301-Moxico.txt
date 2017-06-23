@@ -1,0 +1,17 @@
+state={
+	id=2301
+	name="STATE_2301"
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ANG
+	}
+	provinces={
+		1552 7548 8054 
+	}
+	manpower=900000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

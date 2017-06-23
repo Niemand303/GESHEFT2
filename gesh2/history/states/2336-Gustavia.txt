@@ -1,0 +1,20 @@
+state={
+	id=2336
+	name="STATE_2336"
+	history={
+		owner = FRA
+		add_core_of = SBA
+		buildings = {
+			infrastructure = 4
+			13234 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		13234 
+	}
+	manpower=15994
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

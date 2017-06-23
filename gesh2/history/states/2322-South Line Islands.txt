@@ -1,0 +1,19 @@
+state={
+	id=2322
+	name="STATE_2322"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+			13223 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13223 
+	}
+	manpower=125
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

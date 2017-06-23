@@ -1,0 +1,22 @@
+state={
+	id=15
+	name="STATE_15"
+	resources={
+		steel=36.000
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			air_base = 6
+		}
+		add_core_of = FRA
+	}
+	provinces={
+		6599 11535 
+	}
+	manpower=1166050
+	buildings_max_level_factor=1.000
+	state_category=city
+}

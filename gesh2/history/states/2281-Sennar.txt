@@ -1,0 +1,17 @@
+state={
+	id=2281
+	name="STATE_2281"
+	history={
+		owner = ENG
+		add_core_of = SUD
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1914 4918 12862 12887 
+	}
+	manpower=498377
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,22 @@
+state={
+	id=1799
+	name="STATE_1799"
+	resources={
+		steel=7.000
+		tungsten=7.000
+	}
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = KOR
+		add_core_of = DPK
+	}
+	provinces={
+		978 3912 7171 9790 10083 11770 
+	}
+	manpower=677420
+	buildings_max_level_factor=1.000
+	state_category=town
+}

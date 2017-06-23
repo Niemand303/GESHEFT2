@@ -1,0 +1,21 @@
+state={
+	id=1870
+	name="STATE_1870"
+	history={
+		owner = MON
+		victory_points = {
+			7799 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MON
+		add_claim_by = CHI
+	}
+	provinces={
+		1689 4697 4777 7799 12544 
+	}
+	manpower=55142
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

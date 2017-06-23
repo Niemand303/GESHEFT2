@@ -1,0 +1,18 @@
+state={
+	id=1807
+	name="STATE_1807"
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = KOR
+		add_core_of = DPK
+	}
+	provinces={
+		10110 11948 12085 
+	}
+	manpower=1428410
+	buildings_max_level_factor=1.000
+	state_category=town
+}

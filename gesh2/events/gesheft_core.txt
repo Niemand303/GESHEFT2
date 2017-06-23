@@ -1,6 +1,6 @@
 ﻿add_namespace = g_core
 
-# Cold War
+# 1 - Cold War
 country_event = {
 	id = g_core.1
 	hidden = yes
@@ -31,7 +31,7 @@ country_event = {
 	
 	immediate = {
 		set_global_flag = cold_war
-		add_named_threat = { threat = -100 name = g_core.2.t }
+		add_named_threat = { threat = -200 name = g_core.2.t }
 	}
 	
 	option = {
@@ -39,7 +39,7 @@ country_event = {
 	}
 }
 
-# Start of the cold war announcement
+# 2 - Start of the cold war announcement
 news_event = {
 	id = g_core.2
 	title = g_core.2.t
@@ -59,7 +59,7 @@ news_event = {
 	}
 }
 
-# Butter over guns -- demos & commies
+# 3 - Butter over guns
 country_event = {
 	id = g_core.3
 	title = g_core.3.t
@@ -69,93 +69,18 @@ country_event = {
 	trigger = 	{
 		has_global_flag = cold_war
 		has_war = no
-		NOT = { has_government = fascism }
-		NOT = { has_idea = butter_over_guns }
+		NOT = { has_idea = civilian_economy }
 		NOT = {	has_global_flag = all_g2_events_disabled }
 	}
 	mean_time_to_happen = { days = 30 }
 	
 	option = {
 		name = g_core.3.a
-		add_ideas = butter_over_guns
+		add_ideas = civilian_economy
 	}
 }
 
-# Butter over guns -- fascism
-country_event = {
-	id = g_core.4
-	title = g_core.3.t
-	desc = g_core.3.d
-	picture = GFX_report_event_generic_factory
-		
-	trigger = 	{
-		has_global_flag = cold_war
-		has_war = no
-		has_government = fascism 
-		NOT = { has_idea = butter_over_guns2 }
-		NOT = {	has_global_flag = all_g2_events_disabled }
-	}
-	mean_time_to_happen = { days = 30 }
-	
-	option = {
-		name = g_core.3.a
-		add_ideas = butter_over_guns2
-	}
-}
-
-# Max 20 divisions for minors except China and Poland
-country_event = {
-	id = g_core.5
-	hidden = yes
-	fire_only_once = yes
-	
-	trigger = 	{
-		is_ai = yes
-		is_major = no
-		has_army_size = { size > 19 }
-		NOT = { tag = CHI }
-		NOT = { tag = POL }
-		NOT = { tag = PRC }
-		NOT = {	has_global_flag = g2_ai_limitations_disabled }
-	}
-	
-	immediate = { add_ideas = overextended_military }
-	
-	mean_time_to_happen = { days = 1 }
-	
-	option = {
-		name = g_core.3.a
-	}
-}
-
-# Butter over guns -- remove if at war
-country_event = {
-	id = g_core.11
-	title = g_core.11.t
-	desc = g_core.11.d
-	picture = GFX_report_event_generic_factory
-	#fire_only_once = yes
-	
-	trigger = 	{
-		has_war = yes
-		OR = { 
-			has_idea = butter_over_guns2
-			has_idea = butter_over_guns	
-		}
-		NOT = {	has_global_flag = all_g2_events_disabled }
-	}
-	
-	immediate = {
-		remove_ideas = butter_over_guns2
-		remove_ideas = butter_over_guns
-	}
-	
-	option = {
-		name = g_core.11.a
-	}
-}
-
-# doctrines
+# 12-14 - doctrines
 country_event = {
 	id = g_core.12
 	title = g_core.12.t
@@ -221,7 +146,7 @@ country_event = {
 	}
 }
 
-# Turning events off or on
+# 303 - Turning events off or on
 country_event = {
 	id = g_core.303
 	title = g_core.303.t
@@ -237,12 +162,411 @@ country_event = {
 	option = {
 		name = g_core.303.a
 		set_global_flag = all_g2_events_disabled
-	}
-	option = {
-		name = g_core.303.b
-		set_global_flag = g2_ai_limitations_disabled
+		if = { limit = { is_ai = no }
+			country_event = g_oob.303
+		}
 	}
 	option = {
 		name = g_core.303.c
+		if = { limit = { is_ai = no }
+			country_event = g_oob.303
+		}
+	}
+}
+
+# 4 - UN creation
+country_event = {
+	id = g_core.4
+	title = "United Nation - Security Council"
+	desc = "Membership of the United Nations Security Council is held by the five permanent members and ten elected, non-permanent members. Prior to 1966, there were six elected members, while the permanent members have in essence not changed since the creation of the United Nations in 1945, apart from the representation of China."
+	
+	trigger = {
+		is_ai = no
+		SOV = { has_war_with = GER }
+		ENG = { has_war_with = GER }
+		GER = {
+			surrender_progress > 0.25
+		}
+	}
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	immediate = { 
+		
+	}
+	
+	option = { 
+		name = "We need to secure the world!"
+		ai_chance = {
+			factor = 100
+		}
+		SOV = { add_ideas = un_security_council }
+		USA = { add_ideas = un_security_council }
+		ENG = { add_ideas = un_security_council }
+		FRA = { add_ideas = un_security_council }
+		CHI = { add_ideas = un_security_council }
+		set_global_flag = un_created
+	}
+}
+
+# 5 - UN creation
+country_event = {
+	id = g_core.5
+	title = "United Nation - Membership"
+	desc = "The United Nations (UN) is an intergovernmental organization to promote international co-operation and to create and maintain international order. A replacement for the ineffective League of Nations, the organization was established on 24 October 1945 after World War II in order to prevent another such conflict."
+	
+	trigger = {
+		has_global_flag = un_created
+		NOT = {
+			OR = {
+				has_war_with = ENG
+				has_war_with = SOV
+				has_war_with = USA
+				has_war_with = FRA
+				has_war_with = CHI
+			}
+		}
+		NOT = { has_idea = un_security_council }
+		NOT = { has_idea = un_membership }
+		NOT = { has_government = fascism }
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = { 
+		name = "For the sake of everlasting peace" 
+		ai_chance = {
+			factor = 100
+		}
+		add_ideas = un_membership
+	}
+}
+
+# 6 - Decolonization - Anti-colonial sentiments - ENG
+country_event = {
+	id = g_core.6
+	title = "Anti-colonial sentiments"
+	desc = ""
+	
+	trigger = {
+		tag = ENG
+		OR = {
+			has_global_flag = un_created
+			communism > 0.05
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Ignore them"
+		add_ideas = anticolonial_sentiments
+		set_country_flag = anticolonialism
+	}
+}
+
+# 7 - Decolonization - Anti-colonial sentiments - FRA
+country_event = {
+	id = g_core.7
+	title = "Anti-colonial sentiments"
+	desc = ""
+	
+	trigger = {
+		tag = FRA
+		OR = {
+			has_global_flag = un_created
+			communism > 0.1
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Ignore them"
+		add_ideas = anticolonial_sentiments
+		set_country_flag = anticolonialism
+	}
+}
+
+# 8 - Decolonization - Anti-colonial sentiments - BEL
+country_event = {
+	id = g_core.8
+	title = "Anti-colonial sentiments"
+	desc = ""
+	
+	trigger = {
+		tag = BEL
+		OR = {
+			has_global_flag = un_created
+			communism > 0.1
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Ignore them"
+		add_ideas = anticolonial_sentiments
+		set_country_flag = anticolonialism
+	}
+}
+
+# 9 - Indochina (INC) tries to liberate itself
+country_event = {
+	id = g_core.9
+	title = "Indochina resists French rule"
+	desc = "The Chinese accepted the Vietnamese government under Ho Chi Minh, then in power in Hanoi. The British refused to do likewise in Saigon, and deferred to the French there from the outset, against the ostensible support of the Viet Minh authorities by American OSS representatives. On V-J Day, September 2, Ho Chi Minh had proclaimed in Hanoi the establishment of the Democratic Republic of Vietnam (DRV). The DRV ruled as the only civil government in all of Vietnam for a period of about 20 days, after the abdication of Emperor Bảo Đại, who had governed under Japanese rule and thus was considered a \"Japanese puppet\" by the Viet Minh. On 23 September 1945, with the knowledge of the British Commander in Saigon, French forces overthrew the local DRV government, and declared French authority restored in Cochinchina. Guerrilla warfare began around Saigon immediately."
+	
+	trigger = {
+		tag = FRA
+		OR = {
+			has_idea = anticolonial_sentiments
+			communism > 0.2
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Keep them"
+		INC = { add_ideas = inc_guerilla }
+		hidden_effect = {
+			FRA = { country_event = { days = 1200 id = g_core.9 } }
+		}
+	}
+	
+	option = {
+		name = "Let them go"
+		set_autonomy = { target = INC autonomy_state = autonomy_free }
+		add_timed_idea = {
+			idea = inc_surrendered 
+			days = 1400
+		}
+		set_country_flag = inc_peace
+	}
+}
+
+# 10 - France starts the war
+country_event = {
+	id = g_core.10
+	title = "Indochina revolts!"
+	desc = "The Chinese accepted the Vietnamese government under Ho Chi Minh, then in power in Hanoi. The British refused to do likewise in Saigon, and deferred to the French there from the outset, against the ostensible support of the Viet Minh authorities by American OSS representatives. On V-J Day, September 2, Ho Chi Minh had proclaimed in Hanoi the establishment of the Democratic Republic of Vietnam (DRV). The DRV ruled as the only civil government in all of Vietnam for a period of about 20 days, after the abdication of Emperor Bảo Đại, who had governed under Japanese rule and thus was considered a \"Japanese puppet\" by the Viet Minh. On 23 September 1945, with the knowledge of the British Commander in Saigon, French forces overthrew the local DRV government, and declared French authority restored in Cochinchina. Guerrilla warfare began around Saigon immediately."
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Let's fight!"
+		set_autonomy = { target = INC autonomy_state = autonomy_free }
+		declare_war_on = { target = INC type = annex_everything }
+	}
+	
+	option = {
+		name = "Let them go"
+		set_autonomy = { target = INC autonomy_state = autonomy_free }
+		add_timed_idea = {
+			idea = inc_surrendered 
+			days = 1400
+		}
+	}
+}
+
+# 11 - Remove INC guerilla if it is independent
+country_event = {
+	id = g_core.11
+	title = "The guerilla is over"
+	desc = ""
+	
+	trigger = {
+		tag = INC
+		is_subject = no
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "We are victorious!"
+		remove_ideas  = inc_guerilla
+	}
+}
+
+# 15 - Decolonization - Riots and protests - ENG
+country_event = {
+	id = g_core.15
+	title = "Anti-colonial riots and protests"
+	desc = "Colonial minorities are rebelling against our administration"
+	
+	trigger = {
+		tag = ENG
+		OR = {
+			has_global_flag = un_created
+			communism > 0.05
+		}
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "Ignore them"
+		remove_ideas = anticolonial_sentiments
+		add_ideas = ac_riots
+	}
+	
+	option = {
+		name = "Grant Independence"
+		remove_ideas = anticolonial_sentiments
+		hidden_effect = {
+			ENG = { country_event = { days = 7 id = g_core.16 } }
+		}
+	}
+}
+
+# 16 - Decolonization - 1st wave of ENG
+country_event = {
+	id = g_core.16
+	
+	title = "Year of Africa - 1st wave of former colonies"
+	desc = "Let's start implementing the new Declaration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "In the end, the freedom will prevail"
+		release = ISR
+		release = JOR
+		release = SRI
+		release = EGY
+		release = SUD
+		release = GHA
+		release = MAL
+		release = CMR
+		release = NIR
+		release = SOM
+		release = CYP
+		release = SIR
+		release = KUW
+		release = TAZ
+		release = YEM
+		hidden_effect = {
+			ENG = { country_event = { days = 730 id = g_core.17 } }
+		}
+	}
+}
+
+# 17 - Decolonization - 2nd wave of ENG
+country_event = {
+	id = g_core.17
+	
+	title = "Year of Africa - 2nd wave of former colonies"
+	desc = "Let's start implementing the new Declaration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "In the end, the freedom will prevail"
+		release = UGA
+		release = TRI
+		release = JAM
+		release = KEN
+		hidden_effect = {
+			ENG = { country_event = { days = 730 id = g_core.18 } }
+		}
+	}
+}
+
+# 18 - Decolonization - 3rd wave of ENG
+country_event = {
+	id = g_core.18
+	
+	title = "Year of Africa - 3rd wave of former colonies"
+	desc = "Let's start implementing the new Declaration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "In the end, the freedom will prevail"
+		release = ZAM
+		release = MLW
+		release = MLD
+		release = MLT
+		release = SIN
+		release = GAM
+		hidden_effect = {
+			ENG = { country_event = { days = 730 id = g_core.19 } }
+		}
+	}
+}
+
+# 19 - Decolonization - 4th wave of ENG
+country_event = {
+	id = g_core.19
+	
+	title = "Year of Africa - 4th wave of former colonies"
+	desc = "Let's start implementing the new Declaration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "In the end, the freedom will prevail"
+		release = GUY
+		release = LES
+		release = BAR
+		release = BOT
+		release = MAR
+		release = NAU
+		release = SWA
+		release = EQU
+		hidden_effect = {
+			ENG = { country_event = { days = 730 id = g_core.20 } }
+		}
+	}
+}
+
+# 20 - Decolonization - 5th wave of ENG
+country_event = {
+	id = g_core.20
+	
+	title = "Year of Africa - 5th wave of former colonies"
+	desc = "Let's start implementing the new Declaration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "In the end, the freedom will prevail"
+		release = TON
+		release = FIJ
+		release = QAT
+		release = UAE
+		release = BAN
+		release = BAH
+		release = GNA
+		hidden_effect = {
+			ENG = { country_event = { days = 730 id = g_core.21 } }
+		}
+	}
+}
+
+# 21 - Decolonization - 6th wave of ENG
+country_event = {
+	id = g_core.21
+	
+	title = "Year of Africa - 6th wave of former colonies"
+	desc = "Let's start implementing the new Declaration"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "In the end, the freedom will prevail"
+		release = SEY
+		release = SOL
+		release = TUV
+		release = DON
+		release = SLU
+		release = KIR
+		release = SVC
+		release = ZIM
+		release = VAN
+		release = BLI
+		release = ANT
+		release = SKN
+		release = BRU
 	}
 }

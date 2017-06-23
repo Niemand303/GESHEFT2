@@ -1,0 +1,20 @@
+state={
+	id=2348
+	name="STATE_2348"
+	history={
+		owner = HOL
+		add_core_of = BON
+		buildings = {
+			infrastructure = 3
+			13241 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13241 
+	}
+	manpower=27467
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

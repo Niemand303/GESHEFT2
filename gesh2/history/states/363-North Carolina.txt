@@ -1,0 +1,23 @@
+state={
+	id=363
+	name="STATE_363"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 3
+		}
+		add_core_of = USA
+		add_core_of = CSA
+		victory_points = {
+			7138 3 
+		}
+	}
+	provinces={
+		7138 10081 10096 10468 12445 
+	}
+	manpower=1109596
+	buildings_max_level_factor=1.000
+	state_category=city
+}

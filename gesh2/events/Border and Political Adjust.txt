@@ -1,0 +1,1468 @@
+﻿###########################
+# Border and Political Adjustment
+###########################
+
+add_namespace = border
+
+# Reunificate Albania and set politic
+country_event = {
+	id = border.1
+	title = border.1.t
+	desc = border.1.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		country_exists = ALB
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			GER= {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			ITA = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {
+			limit = { # YUG or ITA is com.
+				OR = {
+					YUG = { has_government = communism }
+					ITA = { has_government = communism }
+				}
+			}
+			ALB = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = { # YUG is dem.
+				YUG = { has_government = democratic }
+			}
+			ALB = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+		#Return ALB territory
+		every_state = {
+			limit = {
+				is_core_of = ALB
+				NOT = {
+					is_owned_and_controlled_by = ALB
+				}
+			}
+			ALB = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Korea Independent once Japan is no longer fascism
+country_event = {
+	id = border.2
+	title = border.2.t
+	desc = border.2.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			JAP = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {
+			limit = { # JAP is dem.
+				JAP = { has_government = democratic }
+			}
+			KOR = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = { # JAP is com.
+				JAP = { has_government = communism }
+			}
+			KOR = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = { # KOR is partially released.
+				country_exists = KOR
+				any_state = {
+					is_core_of = KOR
+					NOT = {
+						is_owned_and_controlled_by = KOR
+					}
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = KOR
+				}
+				KOR = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			limit = { # KOR is not released.
+				NOT = { country_exists = KOR }
+				any_state = {
+					is_core_of = KOR
+					NOT = {
+						is_owned_and_controlled_by = KOR
+						OR = {
+							is_owned_and_controlled_by = CHI
+							is_owned_and_controlled_by = PRC
+						}
+					}
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = KOR
+				}
+				KOR = {
+					transfer_state = PREV
+				}
+			}
+		}
+	}
+}
+
+# Austria Independent once Germany is no longer fascism
+country_event = {
+	id = border.3
+	title = border.3.t
+	desc = border.3.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			GER= {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			ITA = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			JAP = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		#Return AUS territory
+		every_state = {
+			limit = {
+				is_core_of = AUS
+				NOT = {
+					is_owned_and_controlled_by = AUS
+				}
+			}
+			AUS = {
+				transfer_state = PREV
+			}
+		}
+		if = {# Historical.
+			limit = {
+				OR = {
+					country_exists = WGR
+					country_exists = DDR
+				}
+			}
+			AUS = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+		if = {# GER is com.
+			limit = {
+				GER = { has_government = communism }
+			}
+			AUS = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {# GER is dem.
+			limit = {
+				GER = { has_government = democratic }
+			}
+			AUS = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+
+# LBA released once ITA capitulate or com/dem.
+country_event = {
+	id = border.4
+	title = border.4.t
+	desc = border.4.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {# ITA get com. or dem.
+		ITA = {
+			OR = {
+				is_puppet = yes
+				has_government = communism
+				has_government = democratic
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {# ITA is dem.
+			limit = {
+				ITA = { has_government = democratic }
+			}
+			LBA = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}	
+		if = {# ITA is com.
+			limit = {
+				any_state = {
+					is_core_of = LBA
+					NOT = {
+						is_owned_and_controlled_by = LBA
+						is_owned_and_controlled_by = SOV
+					}
+				}
+				ITA = { has_government = communism }
+			}
+			LBA = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}	
+		#Return LIB territory
+		every_state = {
+			limit = {
+				is_core_of = LBA
+				NOT = {
+					is_owned_and_controlled_by = LBA
+				}
+			}
+			LBA = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Indochina countries Independent if it was controlled by Japan
+country_event = {
+	id = border.5
+	title = border.5.t
+	desc = border.5.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		NOT = { country_exists = INC }
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			GER= {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			ITA = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			JAP = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {
+			limit = {
+				country_exists = CHI
+				country_exists = PRC
+			}
+			#Guangzhouwan to CHI if CHI and PRC exist
+			every_state = {
+				limit = {
+					is_core_of = INC
+					is_core_of = CHI
+					NOT = {
+						OR = {
+							is_owned_and_controlled_by = PRC
+							is_owned_and_controlled_by = CHI
+						}
+					}
+				}
+				CHI = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = { country_exists = CHI }
+				country_exists = PRC
+			}
+			#Guangzhouwan to PRC if CHI doesn't exist
+			every_state = {
+				limit = {
+					is_core_of = INC
+					is_core_of = CHI
+					NOT = {
+						OR = {
+							is_owned_and_controlled_by = PRC
+							is_owned_and_controlled_by = CHI
+						}
+					}
+				}
+				PRC = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOT = { country_exists = PRC }
+				NOT = { country_exists = CHI }
+				country_exists = FRA
+			}
+			#Guangzhouwan to FRA if CHI and PRC don't exist
+			every_state = {
+				limit = {
+					is_core_of = INC
+					is_core_of = CHI
+					NOT = {
+						OR = {
+							is_owned_and_controlled_by = PRC
+							is_owned_and_controlled_by = CHI
+						}
+					}
+				}
+				FRA = {
+					transfer_state = PREV
+				}
+			}
+		}
+		#Independent for VIN
+		every_state = {
+			limit = {
+				is_core_of = VIN
+				NOT = {
+				is_owned_and_controlled_by = VIN
+					OR = {
+						is_owned_and_controlled_by = PRC
+						is_owned_and_controlled_by = CHI
+					}
+				}
+			}
+			VIN = {
+				transfer_state = PREV
+			}
+		}
+		#Independent for CAM
+		every_state = {
+			limit = {
+				is_core_of = CAM
+				NOT = {
+					is_owned_and_controlled_by = CAM
+					OR = {
+						is_owned_and_controlled_by = PRC
+						is_owned_and_controlled_by = CHI
+					}
+				}
+			}
+			CAM = {
+				transfer_state = PREV
+			}
+		}
+		#Independent for LAO
+		every_state = {
+			limit = {
+				is_core_of = LAO
+				NOT = {
+					is_owned_and_controlled_by = LAO
+					OR = {
+						is_owned_and_controlled_by = PRC
+						is_owned_and_controlled_by = CHI
+					}
+				}
+			}
+			LAO = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# WGR DDR
+country_event = {
+	id = border.6
+	title = border.6.t
+	desc = border.6.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		country_exists = GER
+		OR = { # If exists WGR or DDR
+			country_exists = WGR
+			country_exists = DDR
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {
+			#Return WGR territory
+			every_state = {
+				limit = {
+					is_core_of = WGR
+					NOT = {
+						is_owned_and_controlled_by = WGR
+					}
+				}
+				WGR = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			#Return DDR territory
+			every_state = {
+				limit = {
+					is_core_of = DDR 
+					NOT = {
+						is_owned_and_controlled_by = DDR 
+					}
+				}
+				DDR = {
+					transfer_state = PREV
+				}
+			}
+		}
+	}
+}
+
+# If no Yalta, but GER is defeated, then set it to a non-fascism government
+country_event = {
+	id = border.7
+	title = border.7.t
+	desc = border.7.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		GER = { exists = yes }
+		GER = { is_puppet = no }
+		WGR = { exists = no }
+		DDR = { exists = no }
+		OR = { # Possible circumstance once AXIS capitulate
+			NOT = { GER = { owns_state = 801 } }#Only GER is defeated will this state be out of GER
+			ITA = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			JAP = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+		NOT = {
+			OR = { 
+				country_exists = WGR
+				country_exists = DDR
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {
+			limit = {
+				GER = {
+					NOT = {
+						has_government = communism
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+				POL = {
+						has_government = communism
+				}
+			}
+			GER = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+
+						fascism = {
+							popularity = 0
+						}
+					
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				GER = {
+					NOT = {
+						has_government = communism
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
+				POL = {
+					has_government = democratic
+				}
+			}
+			GER = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+
+						fascism = {
+							popularity = 0
+						}
+					
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Return to ROM
+country_event = {
+	id = border.8
+	title = border.8.t
+	desc = border.8.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		country_exists = ROM
+		HUN = {
+			OR = {
+				has_country_flag = GER_second_vienna_award_HUN_north
+				has_country_flag = GER_second_vienna_award_HUN_all
+			}
+		}
+		ROM =  {
+			OR = {
+				is_puppet = yes
+				OR = {
+					has_government = communism
+					has_government = democratic
+				}
+			}	
+		}
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			GER= {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		#Return ROM territory which lost in 2nd Vienne conf.
+		every_state = {
+			limit = {
+				is_core_of = ROM	
+				is_owned_and_controlled_by = HUN
+			}
+			ROM = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# Return to CZE and Change its govern if ROM and HUN is com.
+country_event = {
+	id = border.9
+	title = border.9.t
+	desc = border.9.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			GER= {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			ITA = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			JAP = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		#Return CZE territory
+		every_state = {
+			limit = {
+				is_core_of = CZE 
+				NOT = {
+					is_owned_and_controlled_by = CZE 
+					is_core_of = UKR
+				}
+			}
+			CZE = {
+				transfer_state = PREV
+			}
+		}
+		if = {
+			#Return UKR territory if UKR doesn't exist
+			limit = {
+				NOT = { country_exists = UKR }
+				country_exists = SOV
+			}
+			every_state = {
+				limit = {
+					is_core_of = UKR
+					NOT = { country_exists = UKR }
+					NOT = {
+						is_owned_and_controlled_by = UKR 
+					}
+				}
+				SOV = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			#Return UKR territory if UKR exists
+			limit = {
+				country_exists = UKR
+			}
+			every_state = {
+				limit = {
+					is_core_of = UKR
+					country_exists = UKR
+					NOT = {
+						is_owned_and_controlled_by = UKR 
+					}
+				}
+				UKR = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			#If UKR and SOV don't exist
+			limit = {
+				NOT = {
+					country_exists = UKR
+					country_exists = SOV
+				}
+			}
+			every_state = {
+				limit = {
+					is_core_of = UKR
+					country_exists = UKR
+					NOT = {
+						is_owned_and_controlled_by = UKR 
+					}
+				}
+				CZE = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			#If HUN is com
+			limit = {
+				HUN = {
+					has_government = communism
+				}
+			}
+			CZE = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			#If HUN is dem
+			limit = {
+				HUN = {
+					has_government = democratic
+				}
+			}
+			CZE = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+	}
+}
+# MAN MEN
+country_event = {
+	id = border.10
+	title = border.10.t
+	desc = border.10.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			JAP = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {
+			limit = {
+				country_exists = CHI
+			}
+			#Return CHI territory
+			every_state = {
+				limit = {
+					is_core_of = CHI
+					OR = {
+						is_owned_and_controlled_by = MAN
+						is_owned_and_controlled_by = MEN
+					}
+				}
+				CHI = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				country_exists = PRC
+				NOT = { country_exists = CHI }
+			}
+			#Return CHI territory
+			every_state = {
+				limit = {
+					is_core_of = PRC
+					OR = {
+						is_owned_and_controlled_by = MAN
+						is_owned_and_controlled_by = MEN
+					}
+				}
+				PRC = {
+					transfer_state = PREV
+				}
+			}
+		}
+	}
+}
+
+# If CAT is released
+country_event = {
+	id = border.11
+	title = border.11.t
+	desc = border.11.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		country_exists = CAT
+		any_state = {
+			is_core_of = CAT
+			NOT = {
+				is_owned_and_controlled_by = CAT
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		every_state = {
+			limit = {
+				is_core_of = CAT
+			}
+			CAT = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+
+# If ITA is defeated
+country_event = {
+	id = border.12
+	title = border.12.t
+	desc = border.12.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		ITA = {
+			OR = {
+				is_puppet = yes
+				has_government = communism
+				has_government = democratic
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		if = {
+			limit = {
+				ITA = { has_government = communism }
+			}
+			every_state = {
+				limit = {
+					is_core_of = ETH
+					is_owned_and_controlled_by = ITA
+				}
+				ETH = {
+					transfer_state = PREV
+				}
+			}
+			ETH = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = { has_government = communism }
+			}
+			every_state = {
+				limit = {
+					is_core_of = ERI
+					is_owned_and_controlled_by = ITA
+				}
+				ERI = {
+					transfer_state = PREV
+				}
+			}
+			ERI = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = { has_government = communism }
+			}
+			every_state = {
+				limit = {
+					is_core_of = SOM
+					is_owned_and_controlled_by = ITA
+				}
+				SOM = {
+					transfer_state = PREV
+				}
+			}
+			SOM = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = { has_government = communism }
+			}
+			every_state = {
+				limit = {
+					is_core_of = ALB
+					is_owned_and_controlled_by = ITA
+				}
+				ALB = {
+					transfer_state = PREV
+				}
+			}
+			ALB = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					parties = {
+						democratic = { 
+							popularity = 0
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 100
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = { has_government = democratic }
+			}
+			every_state = {
+				limit = {
+					is_core_of = ETH
+					is_owned_and_controlled_by = ITA
+				}
+				ETH = {
+					transfer_state = PREV
+				}
+			}
+			ETH = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = { has_government = democratic }
+			}
+			every_state = {
+				limit = {
+					is_core_of = ERI
+					is_owned_and_controlled_by = ITA
+				}
+				ERI = {
+					transfer_state = PREV
+				}
+			}
+			ERI = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = { has_government = democratic }
+			}
+			every_state = {
+				limit = {
+					is_core_of = SOM
+					is_owned_and_controlled_by = ITA
+				}
+				SOM = {
+					transfer_state = PREV
+				}
+			}
+			SOM = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = { has_government = democratic }
+			}
+			every_state = {
+				limit = {
+					is_core_of = ALB
+					is_owned_and_controlled_by = ITA
+				}
+				ALB = {
+					transfer_state = PREV
+				}
+			}
+			ALB = {
+				set_politics = {
+					ruling_party = democratic
+					elections_allowed = yes
+					parties = {
+						democratic = { 
+							popularity = 100
+						}
+						fascism = {
+							popularity = 0
+						}
+						communism = {
+							popularity = 0
+						}
+					}
+				}
+			}
+		}
+	}
+}
+# Reunificate YUG
+country_event = {
+	id = border.13
+	title = border.13.t
+	desc = border.13.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		country_exists = YUG
+		any_state = {
+			is_core_of = YUG
+			NOT = {
+				is_owned_and_controlled_by = YUG
+			}
+		}
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+			GER= {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+			ITA = {
+				OR = {
+					is_puppet = yes
+					has_government = communism
+					has_government = democratic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		every_state = {
+			limit = {
+				is_core_of = YUG
+				NOT = {
+					is_owned_and_controlled_by = YUG
+				}
+			}
+			YUG = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+# Rest part of GER
+country_event = {
+	id = border.14
+	title = border.14.t
+	desc = border.14.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		country_exists = GER
+		country_exists = POL
+		OR = { # Possible circumstance once AXIS capitulate
+			country_exists = WGR
+			country_exists = DDR
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		#Return POL territory
+		every_state = {
+			limit = {
+				is_core_of = POL
+				is_owned_and_controlled_by = GER
+			}
+			POL = {
+				transfer_state = PREV
+			}
+		}
+	}
+}
+# NO TWO SPAINS
+country_event = {
+	id = border.15
+	title = border.15.t
+	desc = border.15.d
+	picture = GFX_no
+	hidden = yes
+	fire_only_once = yes
+	trigger = {
+		country_exists = D01
+		country_exists = SPR
+		has_global_flag = scw_over
+	}
+
+	mean_time_to_happen = {
+		days = 0
+	}
+
+	option ={
+		every_state = {
+			limit = {
+				is_owned_and_controlled_by = SPR
+			}
+			D01 = {
+				transfer_state = PREV
+			}
+		}
+	}
+}

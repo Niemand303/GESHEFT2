@@ -1,0 +1,22 @@
+state={
+	id=682
+	name="STATE_682"
+	resources={
+		steel=3.000
+		aluminium=4.000
+	}
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = CAN
+	}
+	provinces={
+		761 763 3736 4753 7794 
+	}
+	manpower=52171
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

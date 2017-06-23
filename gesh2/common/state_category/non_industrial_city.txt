@@ -1,0 +1,8 @@
+state_categories={
+	non_industrial_city = {
+		local_building_slots = 0
+	
+		color = { 116 198 116 }
+
+	}
+}

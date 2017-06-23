@@ -1,0 +1,20 @@
+state={
+	id=1411
+	name="STATE_1411"
+	resources={
+		oil=4.000
+	}
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = IRQ
+	}
+	provinces={
+		7994 10876 
+	}
+	manpower=320934
+	buildings_max_level_factor=1.000
+	state_category=town
+}

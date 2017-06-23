@@ -1,0 +1,21 @@
+state={
+	id=2170
+	name="STATE_2170"
+	resources={
+		steel=1.000
+		chromium=50.000
+	}
+	history={
+		owner = CUB
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = CUB
+	}
+	provinces={
+		4476 7451 10374 10498 
+	}
+	manpower=901980
+	buildings_max_level_factor=1.000
+	state_category=town
+}

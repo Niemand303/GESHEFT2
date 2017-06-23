@@ -1,0 +1,24 @@
+state={
+	id=1581
+	name="STATE_1581"
+	resources={
+		steel=24.000
+		chromium=22.000
+		tungsten=7.000
+		aluminium=16.000
+	}
+	history={
+		owner = SOV
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+	}
+	provinces={
+		4651 7795 7856 10550 10619 12529 
+	}
+	manpower=1025362
+	buildings_max_level_factor=1.000
+	state_category=town
+}

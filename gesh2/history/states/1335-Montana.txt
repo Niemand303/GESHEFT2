@@ -1,0 +1,18 @@
+state={
+	id=1335
+	name="STATE_1335"
+	history={
+		owner = BUL
+		add_extra_state_shared_building_slots = 2
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = BUL
+	}
+	provinces={
+		965 9771 11754 
+	}
+	manpower=945750
+	buildings_max_level_factor=1.000
+	state_category=town
+}

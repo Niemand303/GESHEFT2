@@ -1,0 +1,23 @@
+state={
+	id=1301
+	name="STATE_1301"
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 5
+			dockyard = 1
+			industrial_complex = 3
+			6889 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+	}
+	provinces={
+		3868 6889 11816 
+	}
+	manpower=477233
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

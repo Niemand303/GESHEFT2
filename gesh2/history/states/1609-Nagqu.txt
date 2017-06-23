@@ -1,0 +1,19 @@
+state={
+	id=1609
+	name="STATE_1609"
+	history={
+		owner = TIB
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TIB
+		add_core_of = PRC
+		add_core_of = CHI
+	}
+	provinces={
+		1991 2010 2093 4900 4994 5011 5094 8068 8121 10755 12784 12801 12807 
+	}
+	manpower=893280
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

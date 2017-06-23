@@ -1,0 +1,27 @@
+state={
+	id=2032
+	name="STATE_2032"
+	resources={
+		steel=3.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+			9832 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = USA
+		add_core_of = NEN
+		victory_points = {
+			9832 1 
+		}
+	}
+	provinces={
+		9832 11830 
+	}
+	manpower=1117827
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

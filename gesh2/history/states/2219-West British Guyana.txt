@@ -1,0 +1,21 @@
+state={
+	id=2219
+	name="STATE_2219"
+	resources={
+		aluminium=56.000
+	}
+	history={
+		owner = ENG
+		add_core_of = GUY
+		add_core_of = VEN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		12716 
+	}
+	manpower=123600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

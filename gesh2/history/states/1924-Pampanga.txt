@@ -1,0 +1,17 @@
+state={
+	id=1924
+	name="STATE_1924"
+	history={
+		owner = PHI
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = PHI
+	}
+	provinces={
+		1288 7275 7323 7351 10165 
+	}
+	manpower=1419474
+	buildings_max_level_factor=1.000
+	state_category=town
+}

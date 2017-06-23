@@ -1,0 +1,28 @@
+state={
+	id=1682
+	name="STATE_1682"
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			remove_core_of = SHX
+			add_core_of = PRC
+			owner = PRC
+			controller = JAP
+			PRC = {
+				set_province_controller = 4074
+			}
+		}
+	}
+	provinces={
+		4074 4469 10507 12300 
+	}
+	manpower=1705347
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

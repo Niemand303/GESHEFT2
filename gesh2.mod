@@ -8,4 +8,4 @@ tags={
 }
 picture="gesh2.jpg"
 remote_file_id="935312592"
-supported_version="1.3.3"
+supported_version="1.4.*"

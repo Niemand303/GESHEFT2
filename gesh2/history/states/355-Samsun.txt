@@ -1,0 +1,20 @@
+state={
+	id=355
+	name="STATE_355"
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 3
+			11894 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = TUR
+	}
+	provinces={
+		960 975 3965 11894 
+	}
+	manpower=691118
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+state={
+	id=1983
+	name="STATE_1983"
+	resources={
+		steel=4.000
+		chromium=2.000
+	}
+	history={
+		owner = AST
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = AST
+	}
+	provinces={
+		2130 2155 4776 4791 7811 12932 
+	}
+	manpower=554875
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,21 @@
+state={
+	id=624
+	name="STATE_624"
+	history={
+		owner = PHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			4288 1 
+		}
+		add_core_of = PHI
+	}
+	provinces={
+		4288 10272 
+	}
+	manpower=580802
+	buildings_max_level_factor=1.000
+	state_category=town
+}

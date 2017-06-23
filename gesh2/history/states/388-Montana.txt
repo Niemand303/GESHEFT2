@@ -1,0 +1,23 @@
+state={
+	id=388
+	name="STATE_388"
+	resources={
+		tungsten=16.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = USA
+		victory_points = {
+			4860 1 
+		}
+	}
+	provinces={
+		1851 1857 4857 4860 7760 10593 10624 11712 12572 12585 
+	}
+	manpower=537605
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,23 @@
+state={
+	id=1900
+	name="STATE_1900"
+	history={
+		owner = SAU
+		victory_points = {
+			12883 1 
+		}
+		buildings = {
+			infrastructure = 3
+			12883 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = SAU
+	}
+	provinces={
+		2033 2090 4981 5037 10748 12883 
+	}
+	manpower=453300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

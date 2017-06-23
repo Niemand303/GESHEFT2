@@ -1,0 +1,22 @@
+state={
+	id=1278
+	name="STATE_1278"
+	history={
+		owner = CZE
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = CZE
+		add_core_of = CZR
+		1939.3.14 = {
+			owner = GER
+			controller = GER
+		}
+	}
+	provinces={
+		6562 6576 6590 11511 
+	}
+	manpower=1299200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

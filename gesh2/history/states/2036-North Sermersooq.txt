@@ -1,0 +1,18 @@
+state={
+	id=2036
+	name="STATE_2036"
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = DEN
+		add_core_of = GRN
+	}
+	provinces={
+		10636 
+	}
+	manpower=250
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

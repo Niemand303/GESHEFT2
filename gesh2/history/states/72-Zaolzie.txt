@@ -12,18 +12,12 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = CZE
-
+		add_core_of = CZR
 		1939.3.14 = {
 			owner = POL
 			controller = POL
 		}
-		
-		1945.5.9 = {
-			owner = CZE
-			controller = CZE
-		}
 	}
-
 	provinces={
 		9551 9567 
 	}

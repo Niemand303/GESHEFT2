@@ -1,0 +1,9 @@
+
+supply_area={
+	id=230
+	name="SUPPLYAREA_230"
+	value=16
+	states={
+		284 2012 2010 2009 2008 2011 2007 2006 2005 2312 2313 
+	}
+}

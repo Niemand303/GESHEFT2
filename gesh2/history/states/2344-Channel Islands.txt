@@ -1,0 +1,20 @@
+state={
+	id=2344
+	name="STATE_2344"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 7
+			13239 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = ENG
+	}
+	provinces={
+		13239 
+	}
+	manpower=15263
+	buildings_max_level_factor=1.000
+	state_category=town
+}

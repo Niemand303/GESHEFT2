@@ -1,0 +1,21 @@
+state={
+	id=1266
+	name="STATE_1266"
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 5
+			6891 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = ITA
+		add_core_of = SAR
+	}
+	provinces={
+		6891 9772 9863 11755 
+	}
+	manpower=495960
+	buildings_max_level_factor=1.000
+	state_category=town
+}

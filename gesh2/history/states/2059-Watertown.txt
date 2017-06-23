@@ -1,0 +1,17 @@
+state={
+	id=2059
+	name="STATE_2059"
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = USA
+	}
+	provinces={
+		598 3602 6778 9754 10381 11662 
+	}
+	manpower=629403
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

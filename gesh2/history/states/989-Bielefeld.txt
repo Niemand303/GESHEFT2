@@ -1,0 +1,18 @@
+state={
+	id=989
+	name="STATE_989"
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = GER
+		add_core_of = WET
+	}
+	provinces={
+		405 3355 9509 
+	}
+	manpower=1277333
+	buildings_max_level_factor=1.000
+	state_category=town
+}

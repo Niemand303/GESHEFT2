@@ -1,0 +1,26 @@
+state={
+	id=409
+	name="STATE_409"
+	resources={
+		chromium=3.000
+	}
+	history={
+		owner = SOV
+		add_core_of = FAE
+		victory_points = {
+			12189 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 4
+		}
+		add_core_of = SOV
+	}
+	provinces={
+		725 739 1504 7266 10466 12189 
+	}
+	manpower=103462
+	buildings_max_level_factor=1.000
+	state_category=town
+}

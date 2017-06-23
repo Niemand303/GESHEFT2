@@ -1,0 +1,18 @@
+state={
+	id=2275
+	name="STATE_2275"
+	impassable = yes
+	history={
+		owner = FRA
+		add_core_of = NIG
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1956 4913 7939 8128 10917 
+	}
+	manpower=185343
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

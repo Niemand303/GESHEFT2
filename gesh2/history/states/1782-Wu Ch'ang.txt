@@ -1,0 +1,22 @@
+state={
+	id=1782
+	name="STATE_1782"
+	resources={
+		aluminium=10
+	}
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		7591 9782 10503 12412 
+	}
+	manpower=233521
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

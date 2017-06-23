@@ -1,0 +1,22 @@
+state={
+	id=1627
+	name="STATE_1627"
+	history={
+		owner = YUN
+		add_core_of = YUN
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			owner = CHI
+		}
+	}
+	provinces={
+		7976 10863 12898 
+	}
+	manpower=941568
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

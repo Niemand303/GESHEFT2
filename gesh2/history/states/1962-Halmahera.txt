@@ -1,0 +1,20 @@
+state={
+	id=1962
+	name="STATE_1962"
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 3
+			7413 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		7413 10141 
+	}
+	manpower=85128 
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

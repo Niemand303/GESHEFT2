@@ -1,0 +1,21 @@
+state={
+	id=1014
+	name="STATE_1014"
+	resources={
+		aluminium=4.000
+	}
+	history={
+		owner = GER
+		add_core_of = POM
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+	}
+	provinces={
+		537 6236 9387 
+	}
+	manpower=208473
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,17 @@
+state={
+	id=1064
+	name="STATE_1064"
+	history={
+		owner = LAT
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = LAT
+	}
+	provinces={
+		3388 9317 9501 
+	}
+	manpower=228075
+	buildings_max_level_factor=1.000
+	state_category=town
+}

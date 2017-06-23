@@ -1,0 +1,17 @@
+state={
+	id=1065
+	name="STATE_1065"
+	history={
+		owner = EST
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = EST
+	}
+	provinces={
+		185 
+	}
+	manpower=73066
+	buildings_max_level_factor=1.000
+	state_category=town
+}

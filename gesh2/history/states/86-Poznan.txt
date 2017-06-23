@@ -1,0 +1,26 @@
+state={
+	id=86
+	name="STATE_86"
+	history={
+		owner = POL
+		add_core_of = GER
+		victory_points = {
+			6558 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = POL
+		1938.3.12 = {
+			add_claim_by = GER
+		}
+	}
+	provinces={
+		388 3532 6558 
+	}
+	manpower=702166
+	buildings_max_level_factor=1.000
+	state_category=city
+}

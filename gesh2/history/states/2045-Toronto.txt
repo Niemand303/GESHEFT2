@@ -1,0 +1,20 @@
+state={
+	id=2045
+	name="STATE_2045"
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = CAN
+		victory_points = {
+			3775 10 
+		}
+	}
+	provinces={
+		774 779 3775 6607 6610 9743 11725 
+	}
+	manpower=592233
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

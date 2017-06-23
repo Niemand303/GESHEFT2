@@ -1,0 +1,20 @@
+state={
+	id=763
+	name="STATE_763"
+	history={
+		owner = FRA
+		add_core_of = TOG
+		victory_points = {
+			1951 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		1951 12843 
+	}
+	manpower=2474083
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

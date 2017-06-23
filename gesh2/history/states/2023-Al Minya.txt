@@ -1,0 +1,17 @@
+state={
+	id=2023
+	name="STATE_2023"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = EGY
+	}
+	provinces={
+		7030 7144 
+	}
+	manpower=760413
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=404
+	name="STATE_404"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+	}
+	provinces={
+		4277 7392 7600 10220 10275 10277 10452 10508 12121 12177 12194 
+	}
+	manpower=40022
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

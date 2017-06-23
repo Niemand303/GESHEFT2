@@ -1,0 +1,17 @@
+state={
+	id=1205
+	name="STATE_1205"
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = FIN
+	}
+	provinces={
+		67 9073 11138 
+	}
+	manpower=208773
+	buildings_max_level_factor=1.000
+	state_category=town
+}

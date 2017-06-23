@@ -1,0 +1,19 @@
+state={
+	id=2329
+	name="STATE_2329"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			13225 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13225 
+	}
+	manpower=25920
+	buildings_max_level_factor=1.000
+	state_category = small_island
+}

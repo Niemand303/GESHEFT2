@@ -1,0 +1,17 @@
+state={
+	id=950
+	name="STATE_950"
+	history={
+		owner = IRE
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = IRE
+	}
+	provinces={
+		303 369 3342 
+	}
+	manpower=339400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

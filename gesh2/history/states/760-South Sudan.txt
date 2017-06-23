@@ -1,0 +1,21 @@
+state={
+	id=760
+	name="STATE_760"
+	history={
+		owner = ENG
+		add_core_of = SUD
+		add_core_of = SSU
+		victory_points = {
+			7996 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1953 4033 7996 10764 10857 10908 
+	}
+	manpower=1108288
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

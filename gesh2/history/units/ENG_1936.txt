@@ -455,8 +455,8 @@ units = {
 		name = "Reserve Fleet"			
 		base = 9458 
 		location = 9458
-		ship = { name = "HMS Queen Elizabeth" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
-		ship = { name = "HMS Valiant" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
+		ship = { name = "HMS Queen Elizabeth" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }					
+		ship = { name = "HMS Valiant" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }					
 		ship = { name = "HMS Frobisher" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Hawkins" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG } } }		
 		ship = { name = "HMS Carlisle" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG } } }
@@ -662,9 +662,9 @@ units = {
 				cv_nav_bomber_equipment_1 =  { owner = "ENG" amount = 24 } #historical 36
 			}
 		}
-		ship = { name = "HMS Warspite" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }			
-		ship = { name = "HMS Barham" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }						
-		ship = { name = "HMS Malaya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG } } }					
+		ship = { name = "HMS Warspite" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }			
+		ship = { name = "HMS Barham" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }						
+		ship = { name = "HMS Malaya" definition = battleship equipment = { battleship_1 = { amount = 1 owner = ENG version_name = "Queen Elizabeth Class" } } }					
 		ship = { name = "HMS Devonshire" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 		ship = { name = "HMS Shropshire" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
 		ship = { name = "HMS Sussex" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }		
@@ -844,7 +844,7 @@ air_wings = {
 			amount = 144
 		}
 	}	
-	127 = { 
+	913 = { 
 		### No. 12 Fighter Command, Nottingham area -- Hawker Demons, Furys, Gloster Gauntlets
 		fighter_equipment_0 = {
 			owner = "ENG" 
@@ -861,14 +861,14 @@ air_wings = {
 	}
 	
 	### RAF Bomber Command ###
-	125 = { 
+	917 = { 
 		### No. 1 Bomber Command, East Anglia area -- Fairey Gordons, Battles
 		CAS_equipment_1 = {
 			owner = "ENG" 
 			amount = 64
 		}
 	}
-	125 = { 
+	917 = { 
 		### No. 2 Bomber Command, East Anglia area -- HP Heyford, Harrows, AW Whitleys
 		tac_bomber_equipment_0 = {
 			owner = "ENG" 
@@ -1049,7 +1049,7 @@ instant_effect = {
 		}
 		requested_factories = 2
 		progress = 0.50
-		amount = 2
+		amount = 3
 	}
 	# CL: Amphion-class variant ("HMS Amphion", Comm. 15-Jun, 1936, "HMS Apollo", Comm. 13-Jan 1936, "HMS Penelope", Comm. 12-Nov 1936)
 	add_equipment_production = {

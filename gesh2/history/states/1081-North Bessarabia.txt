@@ -1,0 +1,18 @@
+state={
+	id=1081
+	name="STATE_1081"
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = ROM
+		add_core_of = MOL
+	}
+	provinces={
+		414 3407 3577 6600 
+	}
+	manpower=954466
+	buildings_max_level_factor=1.000
+	state_category=town
+}

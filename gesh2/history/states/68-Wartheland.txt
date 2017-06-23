@@ -1,14 +1,9 @@
-
 state={
 	id=68
 	name="STATE_68"
-	manpower = 1250840
 	resources={
-		aluminium=24
+		aluminium=12.000
 	}
-
-	state_category = city
-
 	history={
 		owner = GER
 		buildings = {
@@ -16,15 +11,11 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = GER
-		
-		1945.5.9 = {
-			owner = POL
-			controller = POL
-			add_core_of = POL
-		}
 	}
-
 	provinces={
-		444 537 3473 6236 9387 11478 
+		478 9428 11415 
 	}
+	manpower=312710
+	buildings_max_level_factor=1.000
+	state_category=town
 }

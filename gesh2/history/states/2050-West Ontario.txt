@@ -1,0 +1,21 @@
+state={
+	id=2050
+	name="STATE_2050"
+	resources={
+		steel=3.000
+		aluminium=4.000
+	}
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = CAN
+	}
+	provinces={
+		1769 4775 4875 7899 11571 13094 
+	}
+	manpower=37265
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

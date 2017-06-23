@@ -1,0 +1,18 @@
+state={
+	id=756
+	name="STATE_756"
+	provinces={
+		9608 
+	}
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = YUG
+		add_core_of = CRO
+	}
+	manpower=102620
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

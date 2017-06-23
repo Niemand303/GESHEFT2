@@ -1,0 +1,20 @@
+state={
+	id=1464
+	name="STATE_1464"
+	resources={
+		chromium=3.000
+		tungsten=20.000
+	}
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1359 7411 10259 10324 10799 
+	}
+	manpower=1975712
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

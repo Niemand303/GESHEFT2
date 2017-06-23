@@ -1,0 +1,21 @@
+state={
+	id=1895
+	name="STATE_1895"
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+			13204 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SOV
+		add_core_of = SAH
+	}
+	provinces={
+		4744 5264 13062 13063 13204 
+	}
+	manpower=27346
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

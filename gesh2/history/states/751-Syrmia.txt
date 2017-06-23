@@ -1,0 +1,22 @@
+state={
+	id=751
+	name="STATE_751"
+	history={
+		owner = YUG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+		}
+		victory_points = {
+			11586 15 
+		}
+		add_core_of = YUG
+		add_core_of = SER
+	}
+	provinces={
+		11580 
+	}
+	manpower=372940
+	buildings_max_level_factor=1.000
+	state_category=town
+}

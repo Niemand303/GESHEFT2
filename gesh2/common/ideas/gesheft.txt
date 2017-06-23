@@ -1,135 +1,255 @@
 ideas = {
 	country = {
-		butter_over_guns = {
+		mccarthyism = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			picture = generic_democratic_drift_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = 1
+				communism_drift = -0.1
+				unity_factor = -0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+			}
+		}
+		
+		sov_prop = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			picture = generic_communism_drift_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.1
+				industrial_capacity_factory = -0.025
+				industrial_capacity_dockyard = -0.025
+			}
+		}
+		
+		truman_doctrine = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			
+			picture = generic_volunteer_expedition_bonus
+
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+			}
+		}
+	
+		marshall_plan_receiver = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			picture = generic_democratic_drift_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.5
+				communism_drift = -0.15
+				unity_factor = -0.05
+				production_speed_industrial_complex_factor = 0.25
+				production_speed_infrastructure_factor = 0.25
+				production_speed_synthetic_refinery_factor = 0.25
+				industry_repair_factor = 0.5
+				industry_free_repair_factor = 1.0
+			}
+		}
+		
+		marshall_plan_sender = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			picture = generic_democratic_drift_bonus
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.5
+				communism_drift = -0.05
+				unity_factor = 0.05
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		nato = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
 		
 			removal_cost = -1
 			
-			allowed = {
-				always = no # Added via event
+			modifier = {
 			}
-			
-			picture = generic_production_bonus
+		}
+		
+		un_membership = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+	
+			removal_cost = -1
 			
 			modifier = {
-				#consumer_goods_factor = 0.40
-				industrial_capacity_factory = -0.5
-				industrial_capacity_dockyard = -0.5
-				production_speed_industrial_complex_factor = -0.5
-				production_speed_arms_factory_factor = -0.5
-				conversion_cost_civ_to_mil_factor = 0.5
-				conversion_cost_mil_to_civ_factor = -0.5
 				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
-				send_volunteers_tension = 0.20
+				join_faction_tension = 0.25
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.50
+				guarantee_tension = 0.75
 			}
 		}
 		
-		butter_over_guns2 = {
-		
+		un_security_council = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+	
 			removal_cost = -1
 			
-			allowed = {
-				always = no # Added via event
-			}
-			
-			picture = generic_production_bonus
-			
 			modifier = {
-				#consumer_goods_factor = 0.20
-				industrial_capacity_factory = -0.25
-				industrial_capacity_dockyard = -0.25
-				production_speed_industrial_complex_factor = -0.25
-				production_speed_arms_factory_factor = -0.25
-				conversion_cost_civ_to_mil_factor = 0.25
-				conversion_cost_mil_to_civ_factor = -0.25
 				generate_wargoal_tension = 1.00
-				join_faction_tension = 0.20
-				send_volunteers_tension = 0.20
+				join_faction_tension = 0.25
+				lend_lease_tension = 0.50
+				send_volunteers_tension = 0.50
+				guarantee_tension = 0.75
 			}
 		}
 		
-		overextended_military = {
+		anticolonialism_declaration = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+		
 			removal_cost = -1
 			
-			allowed = {
-				always = no # Added via event
-			}
-			
-			picture = generic_manpower_bonus
+			picture = un_membership
 			
 			modifier = {
-				industrial_capacity_factory = -1.0
-				industrial_capacity_dockyard = -1.0
+
 			}
 		}
 		
-		no_puppet_army1 = {
+		anticolonial_sentiments = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+		
 			removal_cost = -1
 			
-			allowed = {
-				always = no # Added via event
-			}
-			
-			picture = generic_manpower_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				conscription = -0.24
+				democratic_drift = -0.05
+				unity_factor = -0.1
+			}
+		}
+
+		inc_guerilla = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+		
+			removal_cost = -1
+			
+			picture = generic_communism_drift_bonus
+			
+			modifier = {
+				autonomy_gain = 0.5
 			}
 		}
 		
-		no_puppet_army2 = {
+		inc_surrendered = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+		
 			removal_cost = -1
 			
-			allowed = {
-				always = no # Added via event
-			}
-			
-			picture = generic_manpower_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				conscription = -0.19
+				unity_factor = -0.05
 			}
 		}
 		
-		no_puppet_army3 = {
-			removal_cost = -1
-			
+		ac_riots = {
 			allowed = {
-				always = no # Added via event
+				always = no
 			}
-			
-			picture = generic_manpower_bonus
-			
-			modifier = {
-				conscription = -0.09
+
+			allowed_civil_war = {
+				has_government = democratic
 			}
-		}
 		
-		no_puppet_army4 = {
 			removal_cost = -1
 			
-			allowed = {
-				always = no # Added via event
-			}
-			
-			picture = generic_manpower_bonus
+			picture = generic_communism_drift_bonus
 			
 			modifier = {
-				conscription = -0.04
-			}
-		}
-		
-		no_puppet_army5 = {
-			removal_cost = -1
-			
-			allowed = {
-				always = no # Added via event
-			}
-			
-			picture = generic_manpower_bonus
-			
-			modifier = {
-				conscription = -0.015
+				unity_factor = -0.15
+				production_speed_buildings_factor = -0.1
 			}
 		}
 	}

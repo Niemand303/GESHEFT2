@@ -1,0 +1,21 @@
+state={
+	id=976
+	name="STATE_976"
+	resources={
+		aluminium=6.000
+	}
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = GER
+		add_core_of = BAV
+	}
+	provinces={
+		9652 11620 
+	}
+	manpower=334926
+	buildings_max_level_factor=1.000
+	state_category=town
+}

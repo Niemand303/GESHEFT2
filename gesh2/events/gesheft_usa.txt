@@ -229,13 +229,740 @@ country_event = {
 	}
 	fire_only_once = yes
 	
-	immediate = {
-		every_country = {
-			limit = { has_government = democratic }
-			USA = { give_guarantee = PREV }
+	option = {
+		name = g_usa.5.a
+		add_timed_idea = {
+			idea = truman_doctrine
+			days = 1460
 		}
 	}
+}
+
+# 6 - Election of 1960: John F. Kennedy vs Richard Nixon
+country_event = {
+	id = g_usa.6
+	title = "Kennedy vs Nixon"
+	desc = "The United States presidential election of 1960 was the 44th quadrennial presidential election, held on Tuesday, November 8, 1960. The Republican Party nominated incumbent Vice President Richard Nixon, while the Democratic Party nominated John F. Kennedy, U.S. Senator from Massachusetts. The incumbent President, Republican Dwight D. Eisenhower, was not eligible for re-election after being elected the maximum two times allowed by the Twenty-second Amendment; he was the first President denied the choice to run for a third term by that amendment. This was the first presidential election in which voters in Alaska and Hawaii were able to participate, as both had become states in 1959."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1960.1.1
+		date < 1961.1.1
+	}
+	
 	option = {
-		name = g_usa.5.a 
+		name = "The Democrats (historical)"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "John F. Kennedy"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1969.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Richard Nixon"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1969.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 7 - Election of 1964: Johnson vs Goldwater
+country_event = {
+	id = g_usa.7
+	title = "Johnson vs Goldwater"
+	desc = "The United States presidential election of 1964 was the 45th quadrennial presidential election. It was held on Tuesday, November 3, 1964. Democratic candidate and incumbent President Lyndon B. Johnson had come to office less than a year earlier following the assassination of his predecessor John F. Kennedy. Johnson, who had successfully associated himself with Kennedy’s popularity, won 61.1% of the popular vote, the highest win by a candidate since James Monroe’s re-election in 1820."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1964.1.1
+		date < 1965.1.1
+	}
+	
+	option = {
+		name = "The Democrats (historical)"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Lyndon B. Johnson"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1970.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Barry Goldwater"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1970.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 8 - Election of 1968: Nixon vs Humphrey
+country_event = {
+	id = g_usa.8
+	title = "Nixon vs Humphrey"
+	desc = "The United States presidential election of 1968 was the 46th quadrennial presidential election, held on Tuesday, November 5, 1968. The Republican nominee, former Vice President Richard Nixon, won the election over the Democratic nominee, incumbent Vice President Hubert Humphrey. Analysts have argued the election of 1968 was a major realigning election as it permanently disrupted the New Deal Coalition that had dominated presidential politics for 36 years."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1968.1.1
+		date < 1969.1.1
+	}
+	
+	option = {
+		name = "The Democrats"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Hubert Humphrey"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1970.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans (historical)"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Richard Nixon"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1970.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 9 - Election of 1972: Nixon vs McGovern
+country_event = {
+	id = g_usa.9
+	title = "Nixon vs McGovern"
+	desc = "The United States presidential election of 1972, the 47th quadrennial presidential election was held on Tuesday, November 7, 1972. The Democratic Party’s nomination was eventually won by Senator George McGovern of South Dakota, who ran an anti-war campaign against Republican incumbent President Richard Nixon, but was handicapped by his outsider status, limited support from his own party, the perception of many voters that he was a left-wing extremist and the scandal that resulted from the stepping down of vice-presidential nominee Thomas Eagleton."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1972.1.1
+		date < 1973.1.1
+	}
+	
+	option = {
+		name = "The Democrats"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Hubert Humphrey"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1985.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans (historical)"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Richard Nixon"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1985.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 10 - Election of 1976: Carter vs Ford
+country_event = {
+	id = g_usa.10
+	title = "Carter vs Ford"
+	desc = "The United States presidential election of 1976 was the 48th quadrennial presidential election, held on Tuesday, November 2, 1976. The winner was the relatively unknown Jimmy Carter, a former Governor from Georgia with his running mate, Walter Mondale, the U.S. Senator from Minnesota, the Democratic candidates, over the incumbent President Gerald Ford from Michigan and his running mate, Bob Dole, the U.S. Senator from Kansas, the Republican candidates."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1976.1.1
+		date < 1977.1.1
+	}
+	
+	option = {
+		name = "The Democrats (historical)"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Jimmy Carter"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1985.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Gerald Ford"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1985.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 18 - Election of 1980: Reagan vs Carter
+country_event = {
+	id = g_usa.18
+	title = "Reagan vs Carter"
+	desc = "The United States presidential election of 1980 was the 49th quadrennial presidential election. It was held on Tuesday, November 4, 1980. The contest was between the Democratic national ticket of incumbent President Jimmy Carter from Georgia and Vice President Walter Mondale from Minnesota, and the Republican national ticket of Ronald Reagan, a former Hollywood actor and former Governor from California with his running mate George H.W. Bush, a former Congressman and CIA Director from Texas who would eventually win the presidency eight years later."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1980.1.1
+		date < 1981.1.1
+	}
+	
+	option = {
+		name = "The Democrats"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Jimmy Carter"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1990.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans (historical)"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Ronald Reagan"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1990.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 11 - Election of 1984: Reagan vs Mondale
+country_event = {
+	id = g_usa.11
+	title = "Reagan vs Mondale"
+	desc = "The United States presidential election of 1984 was the 50th quadrennial presidential election. It was held on Tuesday, November 6, 1984. The contest was between the incumbent President Ronald Reagan from California, the Republican candidate, and former Vice President Walter Mondale from Minnesota, the Democratic candidate. Reagan carried 49 of the 50 states, becoming one of only two candidates to do so (the other was Richard Nixon in the 1972 presidential election). Reagan touted a strong economic recovery from 1970s stagflation and the 1981–82 recession, as well as the widespread perception that his presidency had overseen a revival of national confidence and prestige."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1984.1.1
+		date < 1985.1.1
+	}
+	
+	option = {
+		name = "The Democrats"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Walter Mondale"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1990.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans (historical)"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "Ronald Reagan"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1990.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 12 - Election of 1988: Bush vs Dukakis
+country_event = {
+	id = g_usa.12
+	title = "Bush vs Dukakis"
+	desc = "The United States presidential election of 1988 was the 51st quadrennial United States presidential election. It was held on Tuesday, November 8, 1988. Incumbent Vice President George H. W. Bush won the Republican nomination, and chose Senator Dan Quayle of Indiana as his running mate. The Democrats nominated Governor Michael Dukakis of Massachusetts, with Senator Lloyd Bentsen of Texas – who had coincidentally defeated Bush in a U.S. Senate race 18 years earlier – as his running mate. Due to the restrictions of the Twenty-second Amendment to the United States Constitution, incumbent President Ronald Reagan was not eligible to seek a third term. Running an aggressive campaign, Bush capitalized on a good economy and Reagan's popularity. Meanwhile, Dukakis's campaign suffered from several miscues, including failure to defend against Bush's attacks. This allowed Bush to win with a substantial margin of the popular vote, while winning the Electoral College by a landslide. Since the 1988 election, no candidate has managed to equal or surpass Bush's number of electoral votes won or popular vote percentage."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1988.1.1
+		date < 1989.1.1
+	}
+	
+	option = {
+		name = "The Democrats"
+		ai_chance = {
+			factor = 25
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		create_country_leader = {
+			name = "Michael Dukakis"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1990.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+
+	option = { 
+		name = "The Republicans (historical)"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
+		create_country_leader = {
+			name = "George H. W. Bush"
+			desc = ""
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1990.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+# 13 - McCarthyism
+country_event = {
+	id = g_usa.13
+	title = "McCarthyism"
+	desc = "McCarthyism is the practice of making accusations of subversion or treason without proper regard for evidence.[1] The term refers to U.S. Senator Joseph McCarthy and has its origins in the period in the United States known as the Second Red Scare, lasting roughly from 1947 to 1956 and characterized by heightened political repression as well as a campaign spreading fear of influence on American institutions and of espionage by Soviet agents."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1948.1.1
+		date < 1950.1.1
+		NOT = {	has_global_flag = all_g2_events_disabled }
+		SOV = { exists = yes }
+	}
+	
+	option = {
+		name = "Clean our ranks!"
+		ai_chance = {
+			factor = 25
+		}
+		add_timed_idea = {
+			idea = mccarthyism
+			days = 3285
+		}
+	}
+
+	option = { 
+		name = "We're getting too paranoid"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_timed_idea = {
+			idea = sov_prop
+			days = 365
+		}
+	}
+}
+
+# 14 - NATO formation
+country_event = {
+	id = g_usa.14
+	title = "North Atlantic Treaty Organization"
+	desc = "The Treaty of Brussels was a mutual defence treaty against the Soviet threat at the start of the Cold War. It was signed on 17 March 1948 by Belgium, the Netherlands, Luxembourg, France, and the United Kingdom. It was the precursor to NATO. The Soviet threat became immediate with the Berlin Blockade in 1948, leading to the creation of the Western European Union's Defence Organization in September 1948. In 1948, European leaders met with U.S. defense, military and diplomatic officials at the Pentagon, under U.S. Secretary of State George C. Marshall's orders, exploring a framework for a new and unprecedented association. Talks for a new military alliance resulted in the North Atlantic Treaty, which was signed by U.S. President Harry Truman in Washington, D.C. on 4 April 1949. It included the five Treaty of Brussels states plus the United States, Canada, Portugal, Italy, Norway, Denmark and Iceland."
+	picture = GFX_report_event_usa_election_generic
+	
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		NOT = {	has_global_flag = all_g2_events_disabled }
+		has_global_flag = cold_war
+		USA = { is_in_faction_with = ENG }
+	}
+	
+	option = {
+		name = "Sign the treaty"
+		ai_chance = {
+			factor = 95
+		}
+		ENG = { dismantle_faction = yes }
+		create_faction = "NATO"
+		hidden_effect = { add_ideas = nato }
+		# UK, France, Italy, Norway, Denmark, Iceland, Belgium, Netherlands, Luxembourg, Portugal, Canada
+		if = {
+			limit = {
+				ENG = { has_government = democratic }
+			}
+			add_to_faction = ENG
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				FRA = { has_government = democratic }
+			}
+			add_to_faction = FRA
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				ITA = { has_government = democratic }
+			}
+			add_to_faction = ITA
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				CAN = { has_government = democratic is_subject = no }
+			}
+			add_to_faction = CAN
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				NOR = { has_government = democratic }
+			}
+			add_to_faction = NOR
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				DEN = { has_government = democratic }
+			}
+			add_to_faction = DEN
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				BEL = { has_government = democratic }
+			}
+			add_to_faction = BEL
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				HOL = { has_government = democratic }
+			}
+			add_to_faction = HOL
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				LUX = { has_government = democratic }
+			}
+			add_to_faction = LUX
+			add_ideas = nato
+		}
+		if = {
+			limit = {
+				POR = { has_government = democratic }
+			}
+			add_to_faction = POR
+			add_ideas = nato
+		}
+	}
+	
+	option = {
+		name = "We're better alone"
+		ai_chance = {
+			factor = 5
+		}
+	}	
+}
+
+# 15 - Marshall Plan
+country_event = {
+	id = g_usa.15
+	title = "Marshall Plan"
+	desc = "The Marshall Plan (officially the European Recovery Program, ERP) was an American initiative to aid Western Europe, in which the United States gave over $13 billion (approximately $130 billion in current dollar value as of June 2016) in economic support to help rebuild Western European economies after the end of World War II. The plan was in operation for four years beginning April 8, 1948. The goals of the United States were to rebuild war-devastated regions, remove trade barriers, modernize industry, make Europe prosperous once more, and prevent the spread of communism. The Marshall Plan required a lessening of interstate barriers, a dropping of many regulations, and encouraged an increase in productivity, labour union membership, as well as the adoption of modern business procedures."
+	picture = GFX_report_event_usa_election_generic
+
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		USA = { is_in_faction_with = ENG has_war = no }
+	}
+	
+	option = {
+		name = "Provide them with everything they need"
+		ai_chance = {
+			factor = 80
+		}
+		add_timed_idea = {
+			idea = marshall_plan_sender
+			days = 1460
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_in_faction_with = USA }
+				add_timed_idea = {
+					idea = marshall_plan_receiver
+					days = 1460
+				}
+				add_opinion_modifier = { target = USA modifier = marshall_plan_opinion }
+			}
+		}
+	}
+
+	option = { 
+		name = "They're on their own"
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		add_timed_idea = {
+			idea = sov_prop
+			days = 365
+		}
+		hidden_effect = {
+			every_country = {
+				limit = { is_in_faction_with = USA }
+				add_timed_idea = {
+					idea = sov_prop
+					days = 365
+				}
+				add_opinion_modifier = { target = USA modifier = marshall_refused_opinion }
+			}
+		}
+	}
+}
+
+# 16 - Invite West Germany to NATO
+country_event = {
+	id = g_usa.16
+	title = "Invite West Germany to NATO"
+	desc = ""
+	picture = GFX_report_event_usa_election_generic
+	
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		NOT = {	has_global_flag = all_g2_events_disabled }
+		has_global_flag = cold_war
+		OR = { 
+			WGR = { exists = yes has_government = democratic }
+			GER = { exists = yes has_government = democratic }
+		}
+	}
+	
+	option = {
+		name = "Send the invitation"
+		ai_chance = {
+			factor = 95
+		}
+		if = {
+			limit = {
+				WGR = { exists = yes has_government = democratic }
+			}
+			WGR = { country_event = { days = 1 id = g_usa.17 } }
+		}
+		if = {
+			limit = {
+				GER = { exists = yes has_government = democratic }
+			}
+			GER = { country_event = { days = 1 id = g_usa.17 } }
+		}
+	}
+	
+	option = {
+		name = "Let them stay neutral"
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+# 17 - WG invitation 
+country_event = {
+	id = g_usa.17
+	title = "We're invited to NATO"
+	desc = ""
+	picture = GFX_report_event_usa_election_generic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Accept"
+		ai_chance = {
+			factor = 95
+		}
+		add_to_faction = ROOT
+	}
+	
+	option = {
+		name = "Refuse"
+		ai_chance = {
+			factor = 5
+		}
 	}
 }

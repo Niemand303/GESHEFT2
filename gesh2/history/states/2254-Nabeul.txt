@@ -1,0 +1,20 @@
+state={
+	id=2254
+	name="STATE_2254"
+	resources={
+		steel=4.000
+	}
+	history={
+		owner = FRA
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1037 4061 4129 7077 11921 
+	}
+	manpower=793176
+	buildings_max_level_factor=1.000
+	state_category=town
+}

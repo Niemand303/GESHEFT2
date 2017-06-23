@@ -1,8 +1,8 @@
-﻿capital = 16
+﻿capital = 781
 
 oob = "FRA_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
@@ -137,7 +137,19 @@ set_technology = {
 		dispersed_industry3 = 1
 	}
 }
-
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = INC
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = INC
+	}
+}
 set_convoys = 300
 set_national_unity = 0.4
 

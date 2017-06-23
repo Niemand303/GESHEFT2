@@ -1,0 +1,20 @@
+state={
+	id=23
+	name="STATE_23"
+	resources={
+		steel=12.000
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = FRA
+	}
+	provinces={
+		9631 11600 
+	}
+	manpower=400775
+	buildings_max_level_factor=1.000
+	state_category=town
+}

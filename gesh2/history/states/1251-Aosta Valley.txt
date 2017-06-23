@@ -1,0 +1,18 @@
+state={
+	id=1251
+	name="STATE_1251"
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = ITA
+		add_core_of = PAD
+	}
+	provinces={
+		611 3782 11570 
+	}
+	manpower=1191369
+	buildings_max_level_factor=1.000
+	state_category=town
+}

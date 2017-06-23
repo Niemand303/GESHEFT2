@@ -1,0 +1,31 @@
+state={
+	id=283
+	name="STATE_283"
+	resources={
+		tungsten=1.000
+	}
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			2045 1 
+		}
+		victory_points = {
+			12732 3 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		1938.10.25 = {
+			owner = CHI
+		}
+	}
+	provinces={
+		556 1985 3742 6638 12732 
+	}
+	manpower=1455072
+	buildings_max_level_factor=1.000
+	state_category=town
+}

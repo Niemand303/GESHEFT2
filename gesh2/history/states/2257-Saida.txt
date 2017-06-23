@@ -1,0 +1,17 @@
+state={
+	id=2257
+	name="STATE_2257"
+	history={
+		owner = FRA
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1126 4018 10045 12020 13074 
+	}
+	manpower=243446
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

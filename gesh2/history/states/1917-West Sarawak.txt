@@ -1,0 +1,24 @@
+state={
+	id=1917
+	name="STATE_1917"
+	resources={
+		rubber=18.000
+		oil=5.000
+	}
+	history={
+		owner = MAL
+		buildings = {
+			infrastructure = 3
+			1208 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = MAL
+	}
+	provinces={
+		1208 4216 4396 12283 12905 
+	}
+	manpower=206940
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

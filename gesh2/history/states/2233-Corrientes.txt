@@ -1,0 +1,20 @@
+state={
+	id=2233
+	name="STATE_2233"
+	resources={
+		oil=3.000
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = ARG
+	}
+	provinces={
+		8187 8238 12964 
+	}
+	manpower=242874
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

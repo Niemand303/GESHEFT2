@@ -1,0 +1,20 @@
+state={
+	id=2343
+	name="STATE_2343"
+	history={
+		owner = USA
+		add_core_of = USM
+		buildings = {
+			infrastructure = 3
+			13080 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		13080 
+	}
+	manpower=23214
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

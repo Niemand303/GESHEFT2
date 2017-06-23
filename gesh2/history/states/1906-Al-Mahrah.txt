@@ -1,0 +1,17 @@
+state={
+	id=1906
+	name="STATE_1906"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = YEM
+	}
+	provinces={
+		12894 13079 
+	}
+	manpower=222876
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

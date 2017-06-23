@@ -1,0 +1,23 @@
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		rubber=2.000
+	}
+	history={
+		owner = FRA
+		add_core_of = MLI
+		victory_points = {
+			12751 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		2012 4927 5045 8116 10812 10829 10915 12751 12794 
+	}
+	manpower=1113337
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

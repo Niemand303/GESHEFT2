@@ -1,0 +1,17 @@
+state={
+	id=2255
+	name="STATE_2255"
+	history={
+		owner = FRA
+		add_core_of = ALG
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		1058 1160 7081 11953 12051 
+	}
+	manpower=937535
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,17 @@
+state={
+	id=1295
+	name="STATE_1295"
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = HUN
+	}
+	provinces={
+		701 3683 
+	}
+	manpower=313943
+	buildings_max_level_factor=1.000
+	state_category=town
+}

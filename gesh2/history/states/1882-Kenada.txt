@@ -1,0 +1,21 @@
+state={
+	id=1882
+	name="STATE_1882"
+	resources={
+		chromium=3.000
+	}
+	history={
+		owner = SOV
+		add_core_of = FAE
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+	}
+	provinces={
+		1343 4404 7249 7309 9733 12136 
+	}
+	manpower=29561
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

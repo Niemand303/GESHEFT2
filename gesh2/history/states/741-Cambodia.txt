@@ -1,0 +1,15 @@
+state={
+	id=741
+	name="STATE_741"
+	history={
+		add_core_of = CAM
+		owner = INC
+		add_core_of = INC
+	}
+	provinces={
+		4639 
+	}
+	manpower=854935
+	buildings_max_level_factor=1.000
+	state_category=town
+}

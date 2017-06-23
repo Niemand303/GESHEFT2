@@ -1,0 +1,20 @@
+state={
+	id=718
+	name="STATE_718"
+	resources={
+		rubber=3.000
+	}
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = COG
+	}
+	provinces={
+		2034 2073 2154 6027 11934 12808 
+	}
+	manpower=3600000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

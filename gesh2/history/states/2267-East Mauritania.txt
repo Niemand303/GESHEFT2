@@ -1,0 +1,21 @@
+state={
+	id=2267
+	name="STATE_2267"
+	impassable = yes
+	history={
+		owner = FRA
+		add_core_of = MAU
+		victory_points = {
+			5034 1
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		1897 1962 7943 8035 10771 10779 10838 
+	}
+	manpower=171680
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

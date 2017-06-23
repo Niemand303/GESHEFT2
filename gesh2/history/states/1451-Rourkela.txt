@@ -1,0 +1,22 @@
+state={
+	id=1451
+	name="STATE_1451"
+	resources={
+		steel=13.000
+		chromium=11.000
+		aluminium=1.000
+	}
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+		}
+	}
+	provinces={
+		1059 1538 4513 10428 
+	}
+	manpower=4356030
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,21 @@
+state={
+	id=929
+	name="STATE_929"
+	history={
+		owner = ENG
+		add_core_of = SCO
+		buildings = {
+			infrastructure = 4
+			6196 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ENG
+	}
+	provinces={
+		6196 
+	}
+	manpower=53174
+	buildings_max_level_factor=1.000
+	state_category = enclave
+}

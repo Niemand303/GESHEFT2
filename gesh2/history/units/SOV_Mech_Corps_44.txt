@@ -15,9 +15,9 @@ division_template = {
 		motorized = { x = 3 y = 1 }
 		motorized = { x = 3 y = 2 }
 		
-		mot_artillery_brigade = { x = 2 y = 3 }
-		mot_artillery_brigade = { x = 3 y = 3 }
-		motorized_rocket_brigade = { x = 1 y = 2 } # 8x M-13
+		mot_artillery_brigade = { x = 4 y = 0 }
+		mot_artillery_brigade = { x = 4 y = 1 }
+		motorized_rocket_brigade = { x = 4 y = 2 } # 8x M-13
 	}
 	support = {
 		engineer = { x = 0 y = 0 }

@@ -1,0 +1,20 @@
+state={
+	id=2018
+	name="STATE_2018"
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+			1155 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = EGY
+	}
+	provinces={
+		1155 4161 9947 10002 11922 11979 
+	}
+	manpower=6144
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

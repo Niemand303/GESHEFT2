@@ -1,0 +1,21 @@
+state={
+	id=1487
+	name="STATE_1487"
+	history={
+		owner = RAJ
+		add_core_of = MYA
+		buildings = {
+			infrastructure = 4
+		}
+		1937.4.1 = {
+			owner = MYA
+			controller = MYA
+		}
+	}
+	provinces={
+		4293 4408 7441 12238 
+	}
+	manpower=538683
+	buildings_max_level_factor=1.000
+	state_category=town
+}

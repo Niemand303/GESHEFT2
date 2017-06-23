@@ -1,0 +1,31 @@
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		steel=20.000
+		aluminium=6.000
+	}
+	history={
+		owner = FRA
+		victory_points = {
+			9737 20 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			9737 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = FRA
+	}
+	provinces={
+		6621 9737 11565 
+	}
+	manpower=670200
+	buildings_max_level_factor=1.000
+	state_category=city
+}

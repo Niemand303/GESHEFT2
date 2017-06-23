@@ -1,0 +1,22 @@
+state={
+	id=1753
+	name="STATE_1753"
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10433 1 
+		}
+	}
+	provinces={
+		1645 7526 7582 10433 
+	}
+	manpower=255462
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -5,11 +5,13 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-		artillery_brigade = { x = 0 y = 3 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
         infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		artillery_brigade = { x = 1 y = 3 }
+		infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
         infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
@@ -32,11 +34,13 @@ division_template = {
 		motorized = { x = 0 y = 0 }
 		motorized = { x = 0 y = 1 }
 		motorized = { x = 0 y = 2 }
-		mot_artillery_brigade = { x = 0 y = 3 }
+		motorized = { x = 0 y = 3 }
+		mot_artillery_brigade = { x = 0 y = 4 }
         motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 		motorized = { x = 1 y = 2 }
-		mot_artillery_brigade = { x = 1 y = 3 }
+		motorized = { x = 1 y = 3 }
+		mot_artillery_brigade = { x = 1 y = 4 }
         motorized = { x = 2 y = 0 }
 		motorized = { x = 2 y = 1 }
 		motorized = { x = 2 y = 2 }
@@ -80,18 +84,29 @@ division_template = {
 		shock_infantry = { x = 0 y = 0 }
 	    shock_infantry = { x = 0 y = 1 }
 		shock_infantry = { x = 0 y = 2 }
+		shock_infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+		
 		shock_infantry = { x = 1 y = 0 }
 		shock_infantry = { x = 1 y = 1 }
 		shock_infantry = { x = 1 y = 2 }
+		shock_infantry = { x = 1 y = 3 }
+		artillery_brigade = { x = 1 y = 4 }
+		
 		shock_infantry = { x = 2 y = 0 }
 	    shock_infantry = { x = 2 y = 1 }
 		shock_infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 2 y = 3 }
+		anti_tank_brigade = { x = 2 y = 4 }
+		
+		anti_tank_brigade = { x = 3 y = 0 }
 	}
 	support = {
-        recon = { x = 0 y = 0 }
-	 	engineer = { x = 0 y = 1 }
-        artillery = { x = 0 y = 2 }
-		military_police = { x = 0 y = 3 }
+        engineer = { x = 0 y = 0}
+        maintenance_company = { x = 0 y = 1}
+        recon = { x = 0 y = 2}
+        field_hospital = { x = 0 y = 3}
+        logistics_company = { x = 0 y = 4}
 	}
 	priority = 2
 }
@@ -406,7 +421,7 @@ units = {
 ### Air oob
 air_wings = {
 	### I. Luftkreiskommando -- Konigsberg ###
-	5 = { 
+	801 = { 
 		# Jagdgeschwader 232 	
 		fighter_equipment_0 =  {		# He 51
 			owner = "GER" 
@@ -415,7 +430,7 @@ air_wings = {
 	}
 
 	### II. Luftkreiskommando -- Berlin ###
-	64 = { 
+	802 = { 
 		# Jagdgeschwader 132 'Richtofen'		
 		fighter_equipment_0 =  {		# Ar 68
 			owner = "GER" 

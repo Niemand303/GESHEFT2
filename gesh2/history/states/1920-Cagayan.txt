@@ -1,0 +1,23 @@
+state={
+	id=1920
+	name="STATE_1920"
+	history={
+		owner = PHI
+		buildings = {
+			infrastructure = 4
+			12213 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12213 1 
+		}
+		add_core_of = PHI
+	}
+	provinces={
+		4101 4214 10298 12213 
+	}
+	manpower=402131
+	buildings_max_level_factor=1.000
+	state_category=town
+}

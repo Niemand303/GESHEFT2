@@ -1,0 +1,20 @@
+state={
+	id=925
+	name="STATE_925"
+	resources={
+		steel=60.000
+	}
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = ENG
+	}
+	provinces={
+		6268 9332 9397 11317 
+	}
+	manpower=2381247
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

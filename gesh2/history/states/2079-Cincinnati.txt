@@ -1,0 +1,21 @@
+state={
+	id=2079
+	name="STATE_2079"
+	resources={
+		steel=12.000
+		aluminium=4.000
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = USA
+	}
+	provinces={
+		831 4601 9775 11776 11890 
+	}
+	manpower=1661674
+	buildings_max_level_factor=1.000
+	state_category=city
+}

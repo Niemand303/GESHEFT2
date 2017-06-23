@@ -232,12 +232,28 @@ focus_tree = {
 						province = 9348
 						instant_build = yes
 					}
+				}
+			}
+			219 = {
+				custom_effect_tooltip = SOV_defense_of_moscow_forts
+				hidden_effect = {
 					add_building_construction = {
 						type = bunker
 						level = 3
 						province = 301
 						instant_build = yes
 					}
+					add_building_construction = {
+						type = bunker
+						level = 3
+						province = 6380
+						instant_build = yes
+					}
+				}
+			}
+			1169 = {
+				custom_effect_tooltip = SOV_defense_of_moscow_forts
+				hidden_effect = {
 					add_building_construction = {
 						type = bunker
 						level = 3
@@ -256,16 +272,15 @@ focus_tree = {
 						province = 3259
 						instant_build = yes
 					}
-					add_building_construction = {
-						type = bunker
-						level = 3
-						province = 11282
-						instant_build = yes
-					}
+				}
+			}
+			1170 = {
+				custom_effect_tooltip = SOV_defense_of_moscow_forts
+				hidden_effect = {
 					add_building_construction = {
 						type = bunker
 						level = 4
-						province = 6380
+						province = 11282
 						instant_build = yes
 					}
 				}
@@ -606,7 +621,6 @@ focus_tree = {
 		id = SOV_collectivist_propaganda
 		icon = GFX_goal_generic_propaganda
 		prerequisite = { focus = SOV_stalin_constitution }
-		mutually_exclusive = { focus = SOV_positive_heroism }
 		x = 4
 		y = 1
 		cost = 10
@@ -684,7 +698,6 @@ focus_tree = {
 		id = SOV_positive_heroism
 		icon = GFX_goal_generic_cavalry
 		prerequisite = { focus = SOV_stalin_constitution }
-		mutually_exclusive = { focus = SOV_collectivist_propaganda }
 		x = 6
 		y = 1
 		cost = 10
@@ -1073,7 +1086,7 @@ focus_tree = {
 					}
 				}					
 			}
-			657 = {
+			1889 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					custom_effect_tooltip = SOV_far_east_fortification_forts_2
@@ -1096,6 +1109,14 @@ focus_tree = {
 							province = 10655
 							instant_build = yes
 						}
+					}
+				}
+			}
+			1889 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					custom_effect_tooltip = SOV_far_east_fortification_forts_2
+					hidden_effect = {
 						add_building_construction = {
 							type = bunker
 							level = 2
@@ -1125,7 +1146,7 @@ focus_tree = {
 					}
 				}
 			}
-			408 = {
+			1877 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1308,7 +1329,7 @@ focus_tree = {
 					}
 				}
 			}
-			207 = {
+			1072 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1351,6 +1372,11 @@ focus_tree = {
 						province = 525
 						instant_build = yes
 					}
+				}
+			}
+			1086 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
 						type = bunker
 						level = 7
@@ -1360,7 +1386,7 @@ focus_tree = {
 				}
 
 			}
-			203 = {
+			1090 = {
 				if = {
 					limit = { is_controlled_by = ROOT }
 					add_building_construction = {
@@ -1431,12 +1457,83 @@ focus_tree = {
 				owns_state = 190
 				190 = { is_claimed_by = ROOT }
 			}
+			OR = { 
+				owns_state = 1051
+				1051 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1052
+				1052 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1053
+				1053 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1054
+				1054 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1055
+				1055 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1056
+				1056 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1057
+				1057 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1058
+				1058 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1059
+				1059 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1060
+				1060 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1061
+				1061 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1062
+				1062 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1063
+				1063 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1064
+				1064 = { is_claimed_by = ROOT }
+			}
 		}
 		completion_reward = {
 			add_state_claim = 11
 			add_state_claim = 189
 			add_state_claim = 12
 			add_state_claim = 190
+			add_state_claim = 1051
+			add_state_claim = 1052
+			add_state_claim = 1053
+			add_state_claim = 1054
+			add_state_claim = 1055
+			add_state_claim = 1056
+			add_state_claim = 1057
+			add_state_claim = 1058
+			add_state_claim = 1059
+			add_state_claim = 1060
+			add_state_claim = 1061
+			add_state_claim = 1062
+			add_state_claim = 1063
+			add_state_claim = 1064
+
 			add_named_threat = { threat = 1 name = SOV_claims_on_baltic }
 
 			every_other_country = {
@@ -1446,6 +1543,20 @@ focus_tree = {
 						owns_state = 12
 						owns_state = 189
 						owns_state = 190
+						owns_state = 1051
+						owns_state = 1052
+						owns_state = 1053
+						owns_state = 1054
+						owns_state = 1055
+						owns_state = 1056
+						owns_state = 1057
+						owns_state = 1058
+						owns_state = 1059
+						owns_state = 1060
+						owns_state = 1061
+						owns_state = 1062
+						owns_state = 1063
+						owns_state = 1064
 					}
 				}
 				add_opinion_modifier = { target = SOV modifier = threat_to_baltic }
@@ -1480,12 +1591,48 @@ focus_tree = {
 				owns_state = 13
 				13 = { is_claimed_by = ROOT }
 			}
+			OR = { 
+				owns_state = 1065
+				1065 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1066
+				1066 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1067
+				1067 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1068
+				1068 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1069
+				1069 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1070
+				1070 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1071
+				1071 = { is_claimed_by = ROOT }
+			}
 		}
 		completion_reward = {
 			add_state_claim = 146 # Karjala
 			# Estonia
 			add_state_claim = 191 
 			add_state_claim = 13
+			add_state_claim = 1065
+			add_state_claim = 1066
+			add_state_claim = 1067
+			add_state_claim = 1068
+			add_state_claim = 1069
+			add_state_claim = 1070
+			add_state_claim = 1071
+
 			add_named_threat = { threat = 1 name = SOV_baltic_security }
 			FIN = {
 				add_timed_idea = {
@@ -1560,6 +1707,62 @@ focus_tree = {
 						owns_state = 89
 						89 = { is_claimed_by = ROOT }
 					}
+					OR = { 
+						owns_state = 745
+						745 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1038
+						1038 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1039
+						1039 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1040
+						1040 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1041
+						1041 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1042
+						1042 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1043
+						1043 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1044
+						1044 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1045
+						1045 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1046
+						1046 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1047
+						1047 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1048
+						1048 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1049
+						1049 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1050
+						1050 = { is_claimed_by = ROOT }
+					}
 				}
 			}			
 		}
@@ -1572,6 +1775,20 @@ focus_tree = {
 			add_state_claim = 93
 			add_state_claim = 91
 			add_state_claim = 89
+			add_state_claim = 745
+			add_state_claim = 1038
+			add_state_claim = 1039
+			add_state_claim = 1040
+			add_state_claim = 1041
+			add_state_claim = 1042
+			add_state_claim = 1043
+			add_state_claim = 1044
+			add_state_claim = 1045
+			add_state_claim = 1046
+			add_state_claim = 1047
+			add_state_claim = 1048
+			add_state_claim = 1049
+			add_state_claim = 1050
 			add_named_threat = { threat = 3 name = SOV_claims_on_poland }
 
 			every_other_country = {
@@ -1583,6 +1800,20 @@ focus_tree = {
 						owns_state = 93
 						owns_state = 91
 						owns_state = 89
+						owns_state = 745
+						owns_state = 1038
+						owns_state = 1039
+						owns_state = 1040
+						owns_state = 1041
+						owns_state = 1042
+						owns_state = 1043
+						owns_state = 1044
+						owns_state = 1045
+						owns_state = 1046
+						owns_state = 1047
+						owns_state = 1048
+						owns_state = 1049
+						owns_state = 1050
 					}
 				}
 				add_opinion_modifier = { target = SOV modifier = claimed_eastern_poland }
@@ -1610,6 +1841,20 @@ focus_tree = {
 					93 = { is_owned_and_controlled_by = POL }
 					91 = { is_owned_and_controlled_by = POL }
 					89 = { is_owned_and_controlled_by = POL }
+					745 = { is_owned_and_controlled_by = POL }
+					1038 = { is_owned_and_controlled_by = POL }
+					1039 = { is_owned_and_controlled_by = POL }
+					1040 = { is_owned_and_controlled_by = POL }
+					1041 = { is_owned_and_controlled_by = POL }
+					1042 = { is_owned_and_controlled_by = POL }
+					1043 = { is_owned_and_controlled_by = POL }
+					1044 = { is_owned_and_controlled_by = POL }
+					1045 = { is_owned_and_controlled_by = POL }
+					1046 = { is_owned_and_controlled_by = POL }
+					1047 = { is_owned_and_controlled_by = POL }
+					1048 = { is_owned_and_controlled_by = POL }
+					1049 = { is_owned_and_controlled_by = POL }
+					1050 = { is_owned_and_controlled_by = POL }
 				}
 			}
 		}
@@ -1669,6 +1914,62 @@ focus_tree = {
 						limit = { POL = { owns_state = 89 controls_state = 89 } }
 						transfer_state = 89
 					}
+					if = {
+						limit = { POL = { owns_state = 745 controls_state = 745 } }
+						transfer_state = 745
+					}
+					if = {
+						limit = { POL = { owns_state = 1038 controls_state = 1038 } }
+						transfer_state = 1038
+					}
+					if = {
+						limit = { POL = { owns_state = 1039 controls_state = 1039 } }
+						transfer_state = 1039
+					}
+					if = {
+						limit = { POL = { owns_state = 1040 controls_state = 1040 } }
+						transfer_state = 1040
+					}
+					if = {
+						limit = { POL = { owns_state = 1041 controls_state = 1041 } }
+						transfer_state = 1041
+					}
+					if = {
+						limit = { POL = { owns_state = 1042 controls_state = 1042 } }
+						transfer_state = 1042
+					}
+					if = {
+						limit = { POL = { owns_state = 1043 controls_state = 1043 } }
+						transfer_state = 1043
+					}
+					if = {
+						limit = { POL = { owns_state = 1044 controls_state = 1044 } }
+						transfer_state = 1044
+					}
+					if = {
+						limit = { POL = { owns_state = 1045 controls_state = 1045 } }
+						transfer_state = 1045
+					}
+					if = {
+						limit = { POL = { owns_state = 1046 controls_state = 1046 } }
+						transfer_state = 1046
+					}
+					if = {
+						limit = { POL = { owns_state = 1047 controls_state = 1047 } }
+						transfer_state = 1047
+					}
+					if = {
+						limit = { POL = { owns_state = 1048 controls_state = 1048 } }
+						transfer_state = 1048
+					}
+					if = {
+						limit = { POL = { owns_state = 1049 controls_state = 1049 } }
+						transfer_state = 1049
+					}
+					if = {
+						limit = { POL = { owns_state = 1050 controls_state = 1050 } }
+						transfer_state = 1050
+					}
 				}
 			}
 		}
@@ -1723,6 +2024,17 @@ focus_tree = {
 					add_state_claim = 68
 					add_state_claim = 66
 					add_state_claim = 67
+					add_state_claim = 744
+					add_state_claim = 743
+					add_state_claim = 1018
+					add_state_claim = 1019
+					add_state_claim = 1010
+					add_state_claim = 1012
+					add_state_claim = 1013
+					add_state_claim = 1014
+					add_state_claim = 1015
+					add_state_claim = 1016
+					add_state_claim = 1017
 					custom_effect_tooltip = SOV_offer_poland_protection_tt
 				}
 			}
@@ -1752,6 +2064,62 @@ focus_tree = {
 						limit = { POL = { owns_state = 89 controls_state = 89 } }
 						transfer_state = 89
 					}
+					if = {
+						limit = { POL = { owns_state = 745 controls_state = 745 } }
+						transfer_state = 745
+					}
+					if = {
+						limit = { POL = { owns_state = 1038 controls_state = 1038 } }
+						transfer_state = 1038
+					}
+					if = {
+						limit = { POL = { owns_state = 1039 controls_state = 1039 } }
+						transfer_state = 1039
+					}
+					if = {
+						limit = { POL = { owns_state = 1040 controls_state = 1040 } }
+						transfer_state = 1040
+					}
+					if = {
+						limit = { POL = { owns_state = 1041 controls_state = 1041 } }
+						transfer_state = 1041
+					}
+					if = {
+						limit = { POL = { owns_state = 1042 controls_state = 1042 } }
+						transfer_state = 1042
+					}
+					if = {
+						limit = { POL = { owns_state = 1043 controls_state = 1043 } }
+						transfer_state = 1043
+					}
+					if = {
+						limit = { POL = { owns_state = 1044 controls_state = 1044 } }
+						transfer_state = 1044
+					}
+					if = {
+						limit = { POL = { owns_state = 1045 controls_state = 1045 } }
+						transfer_state = 1045
+					}
+					if = {
+						limit = { POL = { owns_state = 1046 controls_state = 1046 } }
+						transfer_state = 1046
+					}
+					if = {
+						limit = { POL = { owns_state = 1047 controls_state = 1047 } }
+						transfer_state = 1047
+					}
+					if = {
+						limit = { POL = { owns_state = 1048 controls_state = 1048 } }
+						transfer_state = 1048
+					}
+					if = {
+						limit = { POL = { owns_state = 1049 controls_state = 1049 } }
+						transfer_state = 1049
+					}
+					if = {
+						limit = { POL = { owns_state = 1050 controls_state = 1050 } }
+						transfer_state = 1050
+					}
 				}
 			}
 		}
@@ -1777,16 +2145,36 @@ focus_tree = {
 				78 = { is_claimed_by = ROOT }
 			}
 			OR = { 
+				owns_state = 1081
+				78 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1080
+				78 = { is_claimed_by = ROOT }
+			}
+			OR = { 
 				owns_state = 80
 				80 = { is_claimed_by = ROOT }
 			}
 		}
 		completion_reward = {
-			add_state_claim = 78
-			add_state_claim = 80
+			if = {
+				limit = { 78 = { OWNER = { NOT = { is_in_faction_with = ROOT} } } }
+				add_state_claim = 78
+				add_state_claim = 1080
+				add_state_claim = 1081
+			}
+			if = {
+				limit = { 80 = { OWNER = { NOT = { is_in_faction_with = ROOT} } } }
+				add_state_claim = 80
+			}
 			add_named_threat = { threat = 1 name = SOV_claim_bessarabia }
 			random_other_country = {
-				limit = { owns_state = 78 }
+				limit = { 
+					owns_state = 78
+					owns_state = 1080
+					owns_state = 1081
+				}
 				add_opinion_modifier = { target = SOV modifier = claimed_bessarabia }
 				set_country_flag = SOV_added_claimed_bessarabia
 			}
@@ -1794,6 +2182,8 @@ focus_tree = {
 				limit = {
 					any_other_country = {
 						owns_state = 78
+						owns_state = 1080
+						owns_state = 1081
 						NOT = {	owns_state = 80 }
 					}
 				}
@@ -2233,12 +2623,67 @@ focus_tree = {
 				owns_state = 339
 				339 = { is_claimed_by = ROOT }
 			}
+			OR = { 
+				owns_state = 1367
+				1367 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1368
+				1368 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1369
+				1369 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1370
+				1370 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1351
+				1351 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1352
+				1352 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1353
+				1353 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1354
+				1354 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1355
+				1355 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1356
+				1356 = { is_claimed_by = ROOT }
+			}
+			OR = { 
+				owns_state = 1357
+				1357 = { is_claimed_by = ROOT }
+			}
 		}
 		completion_reward = {
 			add_state_claim = 341
 			add_state_claim = 347
 			add_state_claim = 340
 			add_state_claim = 339
+			add_state_claim = 1367
+			add_state_claim = 1368
+			add_state_claim = 1369
+			add_state_claim = 1370
+			add_state_claim = 1351
+			add_state_claim = 1352
+			add_state_claim = 1353
+			add_state_claim = 1354
+			add_state_claim = 1355
+			add_state_claim = 1356
+			add_state_claim = 1357
 			add_named_threat = { threat = 2 name = SOV_claim_on_the_straits }
 		}
 	}
@@ -2253,9 +2698,22 @@ focus_tree = {
 			347 = { is_controlled_by = SOV }
 			340 = { is_controlled_by = SOV }
 			339 = { is_controlled_by = SOV }
+			1367 = { is_controlled_by = SOV }
+			1368 = { is_controlled_by = SOV }
+			1369 = { is_controlled_by = SOV }
+			1370 = { is_controlled_by = SOV }
+			1351 = { is_controlled_by = SOV }
+			1352 = { is_controlled_by = SOV }
+			1353 = { is_controlled_by = SOV }
+			1354 = { is_controlled_by = SOV }
+			1355 = { is_controlled_by = SOV }
+			1356 = { is_controlled_by = SOV }
+			1357 = { is_controlled_by = SOV }
 		}
 		bypass = {
 			187 = { is_controlled_by = SOV }
+			1350 = { is_controlled_by = SOV }
+			1349 = { is_controlled_by = SOV }
 		}
 		x = 16
 		y = 5
@@ -2265,6 +2723,8 @@ focus_tree = {
 		}	
 		completion_reward = {
 			add_state_claim = 187
+			add_state_claim = 1350
+			add_state_claim = 1349
 			if = {
 				limit = { country_exists = GRE }
 				GRE = { country_event = { id = greece.1 days = 1 } }
@@ -2285,7 +2745,10 @@ focus_tree = {
 		}
 
 		bypass = {
-			NOT = { country_exists = JAP }
+			OR = {
+				NOT = { country_exists = JAP }
+				NOT = { JAP = { owns_state = 537 } }
+			 }
 		}
 		x = 18
 		y = 3
@@ -2336,6 +2799,30 @@ focus_tree = {
 						owns_state = 287
 						287 = { is_claimed_by = ROOT }
 					}
+					OR = { 
+						owns_state = 1602
+						1602 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1603
+						1603 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1604
+						1604 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1605
+						1605 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1606
+						1606 = { is_claimed_by = ROOT }
+					}
+					OR = { 
+						owns_state = 1607
+						1607 = { is_claimed_by = ROOT }
+					}
 				}
 			}
 		}
@@ -2345,6 +2832,12 @@ focus_tree = {
 			add_state_claim = 617
 			add_state_claim = 287
 			add_state_claim = 619
+			add_state_claim = 1602
+			add_state_claim = 1603
+			add_state_claim = 1604
+			add_state_claim = 1605
+			add_state_claim = 1606
+			add_state_claim = 1607
 			add_named_threat = { threat = 2 name = SOV_claim_on_sinkiang_threat }
 		}
 	}

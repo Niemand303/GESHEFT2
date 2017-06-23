@@ -1,0 +1,9 @@
+
+supply_area={
+	id=153
+	name="SUPPLYAREA_153"
+	value=20
+	states={
+		357 358 2032 2033 2030 2031 2029 2028 2060 2059 2058 
+	}
+}

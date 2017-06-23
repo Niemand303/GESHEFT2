@@ -1,0 +1,236 @@
+﻿division_template = {
+	name = "Juntuán"				# Represents: German-trained divisions (better equipment than rest),
+									# 	as well as two-division infantry corps (generally poorly-equipped militias),
+	regiments = {					#	and local militia groups.
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+}
+division_template = {
+	name = "Sanjiao Jun"	# Represents three-division infantry corps (generally poorly-equipped militias)
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Motuo Hua Bubing Jun"		# Represents: 5th Corps/200th Division, which was a well-equipped & experienced (semi-)motorized/armored unit 
+	
+	regiments = {					
+		motorized = { x = 0 y = 0 }	
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+	}
+	support = {
+       	recon = { x = 0 y = 0 }		# Support represents light tanks and other vehicles assigned to 200th Division
+	 	engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Qibing Jun"				# Represents (two-division) cavalry corps (generally poorly-equipped)
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+
+
+units = {
+
+	division = {
+		name = "Taipei Shoubei 1"
+		location = 7186
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Taipei Shoubei 2"
+		location = 7186
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 3"
+		location = 7186
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 4"
+		location = 7186
+		division_template = "Qibing Jun"
+	}
+
+	division = {
+		name = "Taipei Shoubei 5"
+		location = 7186
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Taipei Shoubei 6"
+		location = 7186
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 7"
+		location = 7186
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 8"
+		location = 7186
+		division_template = "Qibing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 1"
+		location = 7186
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Taipei Shoubei 2"
+		location = 7186
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 3"
+		location = 7186
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 4"
+		location = 7186
+		division_template = "Qibing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 5"
+		location = 7186
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Taipei Shoubei 6"
+		location = 7186
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 7"
+		location = 7186
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 8"
+		location = 7186
+		division_template = "Qibing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 1"
+		location = 7186
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Taipei Shoubei 2"
+		location = 7186
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 3"
+		location = 7186
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 4"
+		location = 7186
+		division_template = "Qibing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 5"
+		location = 7186
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Taipei Shoubei 6"
+		location = 7186
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 7"
+		location = 7186
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Taipei Shoubei 8"
+		location = 7186
+		division_template = "Qibing Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 1"
+		location = 12068
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 2"
+		location = 12068
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 3"
+		location = 12068
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 4"
+		location = 12068
+		division_template = "Qibing Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 1"
+		location = 12068
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 2"
+		location = 12068
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 3"
+		location = 12068
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 4"
+		location = 12068
+		division_template = "Qibing Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 1"
+		location = 12068
+		division_template = "Juntuán"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 2"
+		location = 12068
+		division_template = "Sanjiao Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 3"
+		location = 12068
+		division_template = "Motuo Hua Bubing Jun"
+	}
+	division = {
+		name = "Kaohsiung Shoubei 4"
+		location = 12068
+		division_template = "Qibing Jun"
+	}
+}

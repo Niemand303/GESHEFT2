@@ -1,0 +1,18 @@
+state={
+	id=831
+	name="STATE_831"
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = SPR
+		add_core_of = CAT
+	}
+	provinces={
+		6812 6966 
+	}
+	manpower=506090
+	buildings_max_level_factor=1.000
+	state_category=town
+}

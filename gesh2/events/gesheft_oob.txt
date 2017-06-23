@@ -3,7 +3,7 @@ add_namespace = g_oob
 ####### USSR #######
 
 ### 1936 Heavy Tank Brigade - T-35/28 ###
-# 1 - Human & AI (no additional equipment required)
+# 1 - Human
 country_event = {
 	id = g_oob.1
 	title = g_oob.1.t
@@ -15,6 +15,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = basic_heavy_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 
 	mean_time_to_happen = {
@@ -32,7 +34,7 @@ country_event = {
 }
 
 ### 1940 Tank Division - T-34 ###
-# 2 - Human & AI
+# 2 - Human
 country_event = {
 	id = g_oob.2
 	title = g_oob.1.t
@@ -44,6 +46,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = basic_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -61,7 +65,7 @@ country_event = {
 }
 
 ### 1942 Mech Corps - T-34-85 ###
-# 3 - Human & AI
+# 3 - Human
 country_event = {
 	id = g_oob.3
 	title = g_oob.1.t
@@ -73,6 +77,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = improved_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -90,38 +96,6 @@ country_event = {
 }
 
 ### 1942 Tank Corps - KV-1 ###
-# 4 - AI
-country_event = {
-	id = g_oob.4
-	title = g_oob.1.t
-	desc = g_oob.1.d
-	picture = Nothing
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = SOV
-		has_tech = improved_heavy_tank
-		is_ai = yes
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}	
-	
-	option = {
-		name = g_oob.1.a
-		hidden_effect = {
-			set_technology = {
-				motorized_rocket_unit = 1
-			}
-			load_oob = "SOV_Tank_Corps_42"
-		}
-		ai_chance = { factor = 100 }
-		custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
-	}
-}
-
 # 5 - Human
 country_event = {
 	id = g_oob.5
@@ -135,6 +109,7 @@ country_event = {
 		tag = SOV
 		has_tech = improved_heavy_tank
 		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -152,7 +127,7 @@ country_event = {
 }
 
 ### 1944 Mech Corps - T-44 ###
-# 6 - Human & AI
+# 6 - Human
 country_event = {
 	id = g_oob.6
 	title = g_oob.1.t
@@ -164,6 +139,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = advanced_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -181,7 +158,7 @@ country_event = {
 }
 
 ### 1944 Tank Corps - IS-1 ###
-# 7 - Human & AI
+# 7 - Human
 country_event = {
 	id = g_oob.7
 	title = g_oob.1.t
@@ -193,6 +170,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = advanced_heavy_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -210,7 +189,7 @@ country_event = {
 }
 
 ### 1950 Tank Division - T-54 ###
-# 8 - Human & AI
+# 8 - Human
 country_event = {
 	id = g_oob.8
 	title = g_oob.1.t
@@ -222,6 +201,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = main_battle_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -240,7 +221,7 @@ country_event = {
 }
 
 ### 1939 Rifle Division ###
-# 9 - Human & AI
+# 9 - Human
 country_event = {
 	id = g_oob.9
 	title = g_oob.1.t
@@ -252,6 +233,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = improved_infantry_weapons
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -269,7 +252,7 @@ country_event = {
 }
 
 ### 1941 Rifle Division ###
-# 10 - Human & AI
+# 10 - Human
 country_event = {
 	id = g_oob.10
 	title = g_oob.1.t
@@ -281,6 +264,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = advanced_infantry_weapons
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -299,7 +284,7 @@ country_event = {
 }
 
 ### 1944 Rifle Division ###
-# 11 - Human & AI
+# 11 - Human
 country_event = {
 	id = g_oob.11
 	title = g_oob.1.t
@@ -311,6 +296,8 @@ country_event = {
 	trigger = {
 		tag = SOV
 		has_tech = advanced_infantry_weapons2
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -330,7 +317,7 @@ country_event = {
 ####### Germany #######
 
 ### 1940 Panzer Division - PzIII ###
-# 12 - Human & AI
+# 12 - Human
 country_event = {
 	id = g_oob.12
 	title = g_oob.1.t
@@ -342,6 +329,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = basic_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -359,7 +348,7 @@ country_event = {
 }
 
 ### 1940 Heavy Panzer Division - Tiger ###
-# 13 - AI & Human
+# 13 - Human
 country_event = {
 	id = g_oob.13
 	title = g_oob.1.t
@@ -371,6 +360,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = improved_heavy_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 
 	mean_time_to_happen = {
@@ -388,7 +379,7 @@ country_event = {
 }
 
 ### 1943 Panzer Division - Pz IV ###
-# 14 - Human & AI
+# 14 - Human
 country_event = {
 	id = g_oob.14
 	title = g_oob.1.t
@@ -400,6 +391,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = improved_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -417,7 +410,7 @@ country_event = {
 }
 
 ### 1943 Heavy Panzer Division - Tiger II ###
-# 28 - Human & AI
+# 28 - Human
 country_event = {
 	id = g_oob.28
 	title = g_oob.1.t
@@ -429,6 +422,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = advanced_heavy_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -446,7 +441,7 @@ country_event = {
 }
 
 ### Bundeswehr Panzer/PzGrenadier Division - E-25 ###
-# 15 - Human & AI
+# 15 - Human
 country_event = {
 	id = g_oob.15
 	title = g_oob.1.t
@@ -458,6 +453,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = main_battle_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -476,7 +473,7 @@ country_event = {
 }
 
 ### PanzerGrenadier 1941 ###
-# 16 - Human & AI
+# 16 - Human
 country_event = {
 	id = g_oob.16
 	title = g_oob.1.t
@@ -488,6 +485,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = mechanised_infantry
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -505,7 +504,7 @@ country_event = {
 }
 
 ### PanzerGrenadier 1943 ###
-# 17 - Human & AI
+# 17 - Human
 country_event = {
 	id = g_oob.17
 	title = g_oob.1.t
@@ -517,6 +516,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = mechanised_infantry2
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -534,7 +535,7 @@ country_event = {
 }
 
 ### Infantry Division 1939 ###
-# 18 - Human & AI
+# 18 - Human
 country_event = {
 	id = g_oob.18
 	title = g_oob.1.t
@@ -546,6 +547,8 @@ country_event = {
 	trigger = {
 		tag = GER
 		has_tech = improved_infantry_weapons
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -565,7 +568,7 @@ country_event = {
 ####### USA #######
 
 ### 1936 Tank Division ###
-# 19 - Human & AI
+# 19 - Human
 country_event = {
 	id = g_oob.19
 	title = g_oob.1.t
@@ -577,6 +580,8 @@ country_event = {
 	trigger = {
 		tag = USA
 		has_tech = improved_light_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -594,7 +599,7 @@ country_event = {
 }
 
 ### 1939 Tank Division ###
-# 20 - Human & AI
+# 20 - Human
 country_event = {
 	id = g_oob.20
 	title = g_oob.1.t
@@ -606,6 +611,8 @@ country_event = {
 	trigger = {
 		tag = USA
 		has_tech = basic_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -634,6 +641,8 @@ country_event = {
 	trigger = {
 		tag = USA
 		has_war = yes
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -653,7 +662,7 @@ country_event = {
 ####### UK #######
 
 ### 1936 Tank Division ###
-# 21 - Human & AI
+# 21 - Human
 country_event = {
 	id = g_oob.21
 	title = g_oob.1.t
@@ -665,6 +674,8 @@ country_event = {
 	trigger = {
 		tag = ENG
 		has_tech = improved_light_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -682,7 +693,7 @@ country_event = {
 }
 
 ### 1939 Tank Division ###
-# 22 - Human & AI
+# 22 - Human
 country_event = {
 	id = g_oob.22
 	title = g_oob.1.t
@@ -694,6 +705,8 @@ country_event = {
 	trigger = {
 		tag = ENG
 		has_tech = basic_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -713,7 +726,7 @@ country_event = {
 ####### Japan #######
 
 ### 1936 Tank Division ###
-# 23 - Human & AI
+# 23 - Human
 country_event = {
 	id = g_oob.23
 	title = g_oob.1.t
@@ -725,6 +738,8 @@ country_event = {
 	trigger = {
 		tag = JAP
 		has_tech = improved_light_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -742,7 +757,7 @@ country_event = {
 }
 
 ### 1939 Tank Division ###
-# 24 - Human & AI
+# 24 - Human
 country_event = {
 	id = g_oob.24
 	title = g_oob.1.t
@@ -754,6 +769,8 @@ country_event = {
 	trigger = {
 		tag = JAP
 		has_tech = basic_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -773,7 +790,7 @@ country_event = {
 ###### Italy #######
 
 ### 1939 Armored Division ###
-# 25 - Human & AI
+# 25 - Human
 country_event = {
 	id = g_oob.25
 	title = g_oob.1.t
@@ -785,6 +802,8 @@ country_event = {
 	trigger = {
 		tag = ITA
 		has_tech = basic_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -802,7 +821,7 @@ country_event = {
 }
 
 ### 1941 Armored Division ###
-# 26 - Human & AI
+# 26 - Human
 country_event = {
 	id = g_oob.26
 	title = g_oob.1.t
@@ -814,6 +833,8 @@ country_event = {
 	trigger = {
 		tag = ITA
 		has_tech = improved_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -843,6 +864,8 @@ country_event = {
 	trigger = {
 		tag = ITA
 		has_tech = advanced_medium_tank
+		is_ai = no
+		has_global_flag = hist_oobs_enabled
 	}
 	
 	mean_time_to_happen = {
@@ -859,3 +882,146 @@ country_event = {
 	}
 }
 
+# Asking player if he wants historical divisions
+# 303 - Human
+country_event = {
+	id = g_oob.303
+	title = g_oob.303.t
+	desc = g_oob.303.d
+	picture = Nothing
+	
+	is_triggered_only = yes
+
+	option = {
+		name = g_oob.303.a
+		hidden_effect = {
+			set_global_flag = hist_oobs_enabled
+		}
+	}
+	
+	option = {
+		name = g_oob.303.b
+	}
+}
+
+#101 - equipment help for AI USSR
+country_event = {
+	id = g_oob.101
+	title = g_oob.1.t
+	desc = g_oob.1.d
+	picture = Nothing
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		is_ai = yes
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+		
+	option = {
+		name = g_oob.1.a
+		hidden_effect = {
+			add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 450000 producer = SOV }
+			add_equipment_to_stockpile = { type = artillery_1 amount = 3000 producer = SOV }
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+###### Fortifications garrisons #####
+#201 - Stalin Line
+country_event = {
+	id = g_oob.201
+	title = "West Fortifications Garrions"
+	desc = "Should we train special garrisons for our new fortifications on Western border?"
+	picture = GFX_report_event_bunker_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		has_completed_focus = SOV_improve_stalin_line
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+		
+	option = {
+		name = "Yes, man the forts"
+		hidden_effect = {
+			load_oob = "SOV_URs"
+		}
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = "No, we need manpower elsewhere"
+		ai_chance = { factor = 100 }
+	}
+}
+
+#202 - Far East Line
+country_event = {
+	id = g_oob.202
+	title = "Far East Fortifications Garrions"
+	desc = "Should we train special garrisons for our new fortifications on Far East border?"
+	picture = GFX_report_event_bunker_01
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		has_completed_focus = SOV_far_east_fortification
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+		
+	option = {
+		name = "Yes, man the forts"
+		hidden_effect = {
+			load_oob = "SOV_URs_Far_East"
+		}
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = "No, we need manpower elsewhere"
+		ai_chance = { factor = 100 }
+	}
+}
+
+#203 - NKVD Border Troops
+country_event = {
+	id = g_oob.203
+	title = "Internal Troops"
+	desc = "The Soviet Internal Troops were formed in 1919 under the Cheka (later NKVD, and were known as NKVD Troops), remained there with all the mergers and splittings of Soviet state security services and ended up under the control of the police-like MVD. The most well-known of the Internal Troops divisions is OMSDON based near Moscow which traces its roots to the OSNAZ detachment of the VChK (formerly 1st Automobile Fighting Detachment of the VTsIK). It was later reorganized into the DON (Special-Purpose Division) of the OGPU and the NKVD."
+	picture = Nothing
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SOV
+		has_completed_focus = SOV_nkvd_primacy
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
+		
+	option = {
+		name = "Form the border guards!"
+		hidden_effect = {
+			load_oob = "SOV_NKVD"
+		}
+		ai_chance = { factor = 0 }
+	}
+	option = {
+		name = "No, we need manpower elsewhere"
+		ai_chance = { factor = 100 }
+	}
+}

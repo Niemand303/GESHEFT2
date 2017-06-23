@@ -1,0 +1,27 @@
+state={
+	id=272
+	name="STATE_272"
+	resources={
+		steel=2.000
+	}
+	history={
+		owner = FRA
+		add_core_of = SEN
+		victory_points = {
+			4948 5 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+			4948 = {
+				naval_base = 3
+			}
+		}
+	}
+	provinces={
+		4948 7972 8015 12710 
+	}
+	manpower=982800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

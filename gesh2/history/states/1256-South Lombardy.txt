@@ -1,0 +1,21 @@
+state={
+	id=1256
+	name="STATE_1256"
+	history={
+		owner = ITA
+		victory_points = {
+			3780 15 
+		}
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = ITA
+		add_core_of = PAD
+	}
+	provinces={
+		773 969 3776 3780 11568 11726 11734 
+	}
+	manpower=2798852
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=225
+	name="SUPPLYAREA_225"
+	value=8
+	states={
+		333 334 793 792 1917 1916 1918 1957 1958 1959 1956 
+	}
+}

@@ -1,0 +1,9 @@
+
+supply_area={
+	id=244
+	name="SUPPLYAREA_244"
+	value=9
+	states={
+		627 1931 1932 1936 1933 1934 1935 1960 
+	}
+}

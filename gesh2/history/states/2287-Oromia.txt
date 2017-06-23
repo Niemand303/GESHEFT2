@@ -1,0 +1,21 @@
+state={
+	id=2287
+	name="STATE_2287"
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = ETH
+		1936.6.1 = {
+			owner = ITA
+			controller = ITA
+		}
+	}
+	provinces={
+		8036 8062 10775 12714 
+	}
+	manpower=1490000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
