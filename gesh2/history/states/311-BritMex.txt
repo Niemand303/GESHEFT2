@@ -9,6 +9,7 @@ state=
 	{
 		owner = ENG
 		add_core_of = BLI
+		add_core_of = GUA
 		buildings = {
 			infrastructure = 4
 			2077 = {

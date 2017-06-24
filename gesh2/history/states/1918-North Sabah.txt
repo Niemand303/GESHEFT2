@@ -11,6 +11,7 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = MAL
+		add_claim_by = PHI
 	}
 	provinces={
 		4282 10143 10199 10212 12171 12186 
