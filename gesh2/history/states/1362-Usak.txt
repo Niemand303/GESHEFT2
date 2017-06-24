@@ -7,6 +7,7 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = TUR
+		add_claim_by = GRE
 	}
 	provinces={
 		6945 11796 

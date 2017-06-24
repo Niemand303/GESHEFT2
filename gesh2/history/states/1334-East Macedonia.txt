@@ -8,6 +8,7 @@ state={
 	history={
 		owner = YUG
 		add_core_of = MAC
+		add_core_of = BUL
 		buildings = {
 			infrastructure = 4
 		}

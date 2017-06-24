@@ -7,6 +7,7 @@ state={
 			infrastructure = 5
 		}
 		add_core_of = PAK
+		add_claim_by = AFG
 	}
 	provinces={
 		8007 10066 10139 10843 10898 12792 

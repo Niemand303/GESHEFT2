@@ -12,6 +12,7 @@ state={
 		}
 		add_core_of = ITA
 		add_core_of = PAD
+		add_claim_by = SLV
 	}
 	provinces={
 		628 9613 

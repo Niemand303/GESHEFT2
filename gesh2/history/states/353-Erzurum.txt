@@ -8,6 +8,7 @@ state={
 		}
 		add_core_of = TUR
 		add_core_of = ARM
+		add_claim_by = GEO
 	}
 	provinces={
 		789 6976 6991 11853 

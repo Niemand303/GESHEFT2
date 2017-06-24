@@ -13,6 +13,7 @@ state={
 		}
 		add_core_of = CZE
 		add_core_of = CZR
+		add_core_of = SIL
 		1939.3.14 = {
 			owner = POL
 			controller = POL

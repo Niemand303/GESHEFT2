@@ -11,6 +11,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = TUR
+		add_core_of = GRE
 	}
 	provinces={
 		785 6912 9799 11778 
