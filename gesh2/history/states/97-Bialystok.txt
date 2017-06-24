@@ -9,6 +9,7 @@ state={
 			air_base = 3
 		}
 		add_core_of = POL
+		add_claim_by = BLR
 	}
 	provinces={
 		347 11247 11301 

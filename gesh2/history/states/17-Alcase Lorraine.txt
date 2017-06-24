@@ -15,6 +15,7 @@ state={
 			air_base = 5
 		}
 		add_core_of = FRA
+		add_claim_by = GER
 	}
 	provinces={
 		5291 11516 
