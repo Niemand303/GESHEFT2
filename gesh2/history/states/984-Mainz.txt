@@ -10,7 +10,7 @@ state={
 		add_core_of = BWU
 	}
 	provinces={
-		589 3574 11560 
+		589 3574
 	}
 	manpower=474780
 	buildings_max_level_factor=1.000
