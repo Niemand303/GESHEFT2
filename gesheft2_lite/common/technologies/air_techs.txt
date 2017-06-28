@@ -1,0 +1,2059 @@
+technologies = {
+	
+	early_fighter = {
+
+		enable_equipments = {
+			fighter_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = fighter1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = CAS1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = naval_bomber1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_early_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_early_fighter = {
+
+		enable_equipments = {
+			cv_fighter_equipment_0
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1933
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fighter1 = {
+
+		enable_equipments = {
+			fighter_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = fighter2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_fighter1
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	cv_fighter1 = {
+
+		enable_equipments = {
+			cv_fighter_equipment_1
+		}
+	
+		research_cost = 1 #Carrier Variant
+		start_year = 1936
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fighter2 = {
+
+		enable_equipments = {
+			fighter_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = fighter3
+			research_cost_coeff = 1
+		}
+				
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 6 y = 8 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_fighter2
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+	}
+	
+	cv_fighter2 = {
+
+		enable_equipments = {
+			cv_fighter_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1940
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	fighter3 = {
+
+		enable_equipments = {
+			fighter_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_fighter1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_fighter3
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	cv_fighter3 = {
+
+		enable_equipments = {
+			cv_fighter_equipment_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1944
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_fighter1 = {
+
+		enable_equipments = {
+				jet_fighter_equipment_1
+		}
+			
+		path = {
+			leads_to_tech = jet_fighter2
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		research_cost = 2
+		start_year = 1945
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_fighter2 = {
+
+		enable_equipments = {
+			jet_fighter_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = modern_light_fighter1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			light_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	modern_light_fighter1 = {
+	
+		enable_equipments = {
+			modern_fighter_equipment_1
+		}
+		
+		research_cost = 2
+		start_year = 1960
+	
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = modern_light_fighter2
+			research_cost_coeff = 1
+		}
+		
+		sub_technologies = {
+			cv_fighter4
+		}
+	
+		categories = {
+			light_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_fighter4 = {
+	
+		enable_equipments = {
+			cv_modern_fighter_equipment_1
+		}
+		
+		research_cost = 1.5
+		start_year = 1960
+	
+		categories = {
+			light_air
+			jet_technology
+			naval_air
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	modern_light_fighter2 = {
+	
+		enable_equipments = {
+			modern_fighter_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1975
+	
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = modern_light_fighter3
+			research_cost_coeff = 1
+		}
+		
+		sub_technologies = {
+			cv_fighter5
+		}
+	
+		categories = {
+			light_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_fighter5 = {
+	
+		enable_equipments = {
+			cv_modern_fighter_equipment_2
+		}
+		
+		research_cost = 1.5
+		start_year = 1975
+	
+		categories = {
+			light_air
+			jet_technology
+			naval_air
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	modern_light_fighter3 = {
+	
+		enable_equipments = {
+			modern_fighter_equipment_3
+		}
+		
+		research_cost = 2
+		start_year = 1990
+	
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 24 }
+		}
+		
+		sub_technologies = {
+			cv_fighter6
+		}
+	
+		categories = {
+			light_air
+			jet_technology
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_fighter6 = {
+	
+		enable_equipments = {
+			cv_modern_fighter_equipment_3
+		}
+		
+		research_cost = 1.5
+		start_year = 1990
+	
+		categories = {
+			light_air
+			jet_technology
+			naval_air
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	CAS1 = {
+
+		enable_equipments = {
+			CAS_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = CAS2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		sub_technologies = {
+			cv_CAS1
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_CAS1 = {
+
+		enable_equipments = {
+			cv_CAS_equipment_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1936
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	CAS2 = {
+
+		enable_equipments = {
+			CAS_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = CAS3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		sub_technologies = {
+			cv_CAS2
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_CAS2 = {
+
+		enable_equipments = {
+			cv_CAS_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1940
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	CAS3 = {
+
+		enable_equipments = {
+			CAS_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_fighter1
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = jet_CAS1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		sub_technologies = {
+			cv_CAS3
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_CAS3 = {
+
+		enable_equipments = {
+			cv_CAS_equipment_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1944
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	
+	jet_CAS1 = {
+
+		enable_equipments = {
+			jet_cas_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = jet_CAS2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		sub_technologies = {
+			cv_jet_CAS1
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	cv_jet_CAS1 = {
+
+		enable_equipments = {
+			cv_jet_cas_equipment_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1950
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_CAS2 = {
+
+		enable_equipments = {
+			jet_cas_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = jet_CAS3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1960
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 16 }
+		}
+		
+		sub_technologies = {
+			cv_jet_CAS2
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	cv_jet_CAS2 = {
+
+		enable_equipments = {
+			cv_jet_cas_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1960
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_CAS3 = {
+
+		enable_equipments = {
+			jet_cas_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = jet_CAS4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1975
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 22 }
+		}
+		
+		sub_technologies = {
+			cv_jet_CAS3
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	cv_jet_CAS3 = {
+
+		enable_equipments = {
+			cv_jet_cas_equipment_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1975
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	jet_CAS4 = {
+
+		enable_equipments = {
+			jet_cas_equipment_4
+		}
+		
+		research_cost = 2
+		start_year = 2000
+
+		folder = {
+			name = air_techs_folder
+			position = { x = -4 y = 26 }
+		}
+		
+		sub_technologies = {
+			cv_jet_CAS4
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	
+	}
+	
+	cv_jet_CAS4 = {
+
+		enable_equipments = {
+			cv_jet_cas_equipment_4
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1990
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	naval_bomber1 = {
+
+		enable_equipments = {
+			nav_bomber_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = naval_bomber2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 4 }
+		}
+		
+		sub_technologies = {
+			cv_naval_bomber1
+		}
+		
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_naval_bomber1 = {
+
+		enable_equipments = {
+			cv_nav_bomber_equipment_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1936
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_bomber2 = {
+
+		enable_equipments = {
+			nav_bomber_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = naval_bomber3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		sub_technologies = {
+			cv_naval_bomber2
+		}
+		
+		categories = {
+			naval_air
+			air_equipment
+			naval_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_naval_bomber2 = {
+
+		enable_equipments = {
+			cv_nav_bomber_equipment_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1940
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_bomber3 = {
+
+		enable_equipments = {
+			nav_bomber_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = naval_bomber4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 8 }
+		}
+		
+		sub_technologies = {
+			cv_naval_bomber3
+		}
+		
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_naval_bomber3 = {
+
+		enable_equipments = {
+			cv_nav_bomber_equipment_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1944
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	naval_bomber4 = {
+
+		enable_equipments = {
+			nav_bomber_equipment_4
+		}
+		
+		path = {
+			leads_to_tech = naval_bomber5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_bomber5 = {
+
+		enable_equipments = {
+			nav_bomber_equipment_5
+		}
+		
+		path = {
+			leads_to_tech = naval_bomber6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 20 }
+		}
+		
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	naval_bomber6 = {
+
+		enable_equipments = {
+			nav_bomber_equipment_6
+		}
+		
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 24 }
+		}
+		
+		categories = {
+			naval_air
+			naval_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	early_bomber = {
+
+		enable_equipments = {
+			tac_bomber_equipment_0
+		}
+	
+		path = {
+			leads_to_tech = heavy_fighter1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactical_bomber1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	heavy_fighter1 = {
+
+		enable_equipments = {
+			heavy_fighter_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = heavy_fighter2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	heavy_fighter2 = {
+
+		enable_equipments = {
+			heavy_fighter_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = heavy_fighter3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	heavy_fighter3 = {
+
+		enable_equipments = {
+			heavy_fighter_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = multirole1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	multirole1 = {
+
+		enable_equipments = {
+			multirole_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = multirole2
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = interceptor1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1965
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 18 }
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		sub_technologies = {
+			cv_multirole1
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	interceptor1 = {
+
+		enable_equipments = {
+			interceptor_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = interceptor2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1965
+		folder = {
+			name = air_techs_folder
+			position = { x = -5 y = 18 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	interceptor2 = {
+
+		enable_equipments = {
+			interceptor_equipment_2
+		}
+
+		research_cost = 3
+		start_year = 1975
+		folder = {
+			name = air_techs_folder
+			position = { x = -5 y = 22 }
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	cv_multirole1 = {
+
+		enable_equipments = {
+			cv_multirole_equipment_1
+		}
+
+		research_cost = 1
+		start_year = 1965
+
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	multirole2 = {
+
+		enable_equipments = {
+			multirole_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = multirole3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 22 }
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		sub_technologies = {
+			cv_multirole2
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_multirole2 = {
+
+		enable_equipments = {
+			cv_multirole_equipment_2
+		}
+
+		research_cost = 1
+		start_year = 1975
+
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	multirole3 = {
+
+		enable_equipments = {
+			multirole_equipment_3
+		}
+
+		research_cost = 2
+		start_year = 2000
+		folder = {
+			name = air_techs_folder
+			position = { x = -2 y = 26 }
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+		
+		sub_technologies = {
+			cv_multirole3
+		}
+		
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cv_multirole3 = {
+
+		enable_equipments = {
+			cv_multirole_equipment_3
+		}
+
+		research_cost = 1
+		start_year = 2000
+
+		categories = {
+			medium_air
+			air_equipment
+			cat_heavy_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	tactical_bomber1 = {
+
+		enable_equipments = {
+			tac_bomber_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = tactical_bomber2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tactical_bomber2 = {
+
+		enable_equipments = {
+			tac_bomber_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = tactical_bomber3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tactical_bomber3 = {
+
+		enable_equipments = {
+			tac_bomber_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_tactical_bomber1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			medium_air
+			tactical_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_tactical_bomber1 = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = jet_tactical_bomber2
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+
+		research_cost = 2
+		start_year = 1945
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_tactical_bomber2 = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = jet_tactical_bomber3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 14 }
+		}
+		
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_tactical_bomber3 = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_tactical_bomber4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 20 }
+		}
+		
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_tactical_bomber4 = {
+
+		enable_equipments = {
+			jet_tac_bomber_equipment_4
+		}
+		
+		research_cost = 2
+		start_year = 1990
+		folder = {
+			name = air_techs_folder
+			position = { x = 2 y = 24 }
+		}
+		
+		categories = {
+			medium_air
+			jet_technology
+			tactical_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	strategic_bomber1 = {
+
+		enable_equipments = {
+			strat_bomber_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = strategic_bomber2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	strategic_bomber2 = {
+
+		enable_equipments = {
+			strat_bomber_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = strategic_bomber3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	strategic_bomber3 = {
+
+		enable_equipments = {
+			strat_bomber_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = jet_strategic_bomber1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_strategic_bomber1 = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+
+		path = {
+			leads_to_tech = jet_strategic_bomber2
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			jet_engines = 1
+		}
+
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 14 }
+		}
+		
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	jet_strategic_bomber2 = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_2
+		}
+		
+		research_cost = 2
+		start_year = 1975
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		path = {
+			leads_to_tech = jet_strategic_bomber3
+			research_cost_coeff = 1
+		}
+
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	jet_strategic_bomber3 = {
+
+		enable_equipments = {
+			jet_strat_bomber_equipment_3
+		}
+		
+		research_cost = 2
+		start_year = 2000
+
+		dependencies = {
+			jet_engines = 1
+		}
+
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 26 }
+		}
+		
+		categories = {
+			heavy_air
+			jet_technology
+			cat_strategic_bomber
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	transport1 = {
+	
+		enable_equipments = {
+			transport_plane_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = transport2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	transport2 = {
+	
+		enable_equipments = {
+			transport_plane_equipment_2
+		}
+	
+		path = {
+			leads_to_tech = transport3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	transport3 = {
+	
+		enable_equipments = {
+			transport_plane_equipment_3
+		}
+	
+		path = {
+			leads_to_tech = transport4
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = transport_helis1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	transport4 = {
+	
+		enable_equipments = {
+			transport_plane_equipment_4
+		}
+
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 22 }
+		}
+		
+		categories = {
+			heavy_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	transport_helis1  = {
+	
+		enable_equipments = {
+			transport_helicopter_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = transport_helis2
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = attack_helis1
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1960
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 16 }
+		}
+		
+		categories = {
+			light_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	transport_helis2 = {
+	
+		enable_equipments = {
+			transport_helicopter_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1975
+		folder = {
+			name = air_techs_folder
+			position = { x = 4 y = 22 }
+		}
+		
+		categories = {
+			light_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	attack_helis1  = {
+	
+		enable_equipments = {
+			attack_helicopter_equipment_1
+		}
+	
+		path = {
+			leads_to_tech = attack_helis2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 3
+		start_year = 1965
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 18 }
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	attack_helis2  = {
+	
+		enable_equipments = {
+			attack_helicopter_equipment_2
+		}
+	
+		research_cost = 3
+		start_year = 1975
+		folder = {
+			name = air_techs_folder
+			position = { x = 8 y = 22 }
+		}
+		
+		categories = {
+			light_air
+			cas_bomber
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	suicide_craft = {
+
+		enable_equipments = {
+			rocket_suicide_equipment_1
+		}
+				
+		research_cost = 1.5 #Carrier Variant
+		start_year = 1944
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+
+		#folder = {
+		#	name = air_techs_folder
+		#	position = { x = -2 y = 8 }
+		#}
+		
+		ai_will_do = {
+			factor = 0
+		}
+		################
+	}	
+}

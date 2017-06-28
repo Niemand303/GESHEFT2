@@ -1,0 +1,240 @@
+﻿SOV = {
+	fleet_names_template = FLEET_NAME_SOV
+	submarine = {
+		prefix = ""
+		generic = { "Submarina" }
+		unique = {
+			"Shch-201" "Shch-202" "Shch-203" "Shch-204" "Shch-205" "Shch-206" "Shch-207" 
+			"Shch-306" "Shch-307" "Shch-309" "Shch-310" "Shch-311" "Shch-312" "S-1" "S-2" "S-3" "Sch-126" "Sch-127" "Sch-128" "Sch-129" "Sch-130" 
+			"Sch-131" "Sch-132" "Sch-133" "Sch-134" "Sch-208" "Sch-209" "Sch-210" "Sch-211" "Sch-212" "Sch-213" "Sch-214" "Sch-215" 
+			"Sch-313" "Sch-314" "Sch-315" "Sch-316" "Sch-317" "Sch-318" "Sch-319" "Sch-320" "Sch-321" "Sch-322" "Sch-323" "Sch-324" 
+			"Sch-401" "Sch-402" "Sch-403" "Sch-404" "Sch-421" "Sch-422" "Sch-423" 
+			"S-4" "S-5" "S-6" "S-7" "S-8" "S-9" "S-10" "S-11" "S-12" "S-13" "S-14" "S-15" "S-16" "S-17" "S-18" "S-19" "S-20" "S-21" "S-22" "S-23" "S-24" "S-25" "S-26" "S-27" "S-28" 
+			"S-29" "S-30" "S-31" "S-32" "S-33" "S-34" "S-35" "S-36" "S-37" "S-38" "S-51" "S-52" "S-53" "S-54" "S-55" "S-56" "S-101" "S-102" "S-103" "S-104" 
+			"K-1" "K-2" "K-3" "K-21" "K-22" "K-23" "K-51" "K-52" "K-53" "K-54" "K-55" "K-56" 
+			"Sch-135" "Sch-136" "Sch-137" "Sch-138" "Sch-216" "Sch-405" "Sch-406" "Sch-407" "Sch-408" "Sch-411" "Sch-412" "Sch-413" "Sch-414" 
+			"S-47" "S-48" "S-49" "S-58" "S-59" "S-60" "S-61" "S-62" "S-63" "S-64" "S-65" "S-66" "S-67" "S-68" "S-69" "S-70" 
+			"Sch-415" "Sch-416" "Sch-417" "Sch-418" "Sch-419" "Sch-420" "Sch-424" "Sch-425" "Sch-426" "Sch-427" "Sch-428" "Sch-429" "Sch-430"
+			"D-1" "D-2" "D-3" "D-4" "D-5" "D-6" "Shch-301" "Shch-302" "Shch-303" "Shch-304" 
+			"Shch-101" "Shch-102" "Shch-103" "Shch-104" "Shch-105" "Shch-106" "Shch-107" "Shch-108" "Shch-109" "Shch-110" "Shch-111" "Shch-112" "Shch-113" "Shch-114" "Shch-115" "Shch-116" 
+			"Shch-117" "Shch-118" "Shch-119" "Shch-120" "Shch-305" "Shch-308" "Shch-121" "Shch-122" "Shch-123" "Shch-124" "Shch-125" 
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Esminets" }
+		unique = {
+			# Project 7 
+			"Gnevny" "Grozny" "Gromky" "Grozyashtchi" "Gordy" "Gremyashchiy" "Steregushchy" "Storozhevoy" "Stoykiy" "Strashnyy" "Silny" "Smely" "Strogy" "Skory" "Svirepy" "Statny" "Stroyny" "Stremitelny" "Sokrushitelny" "Slavny" "Smetlivy" "Lovkiy" "Logkiy" 
+			"Letuchiy" "Likhoy" "Rezvyy" "Reshitelny" "Razyashchyy" "Bodry" "Ryany" "Rezkiy" "Bystryy" "Boykiy" "Besposhchadnyy" "Retivyy" "Pospeshny" "Provorny" "Peredovoy" "Prytkiy" "Pylkiy" "Bezuprechny" "Bditelny" "Burny" "Boyevoy" "Besstrashny" "Besshumny"
+			"Prochny" "Podvizhny" "Polezny" "Prozorlivy" "Pronzitelny" "Porazhayushchiy" "Surovy" "Serdity" "Revnostny" "Razyarenny" "Rekordny" "Redkiy" "Sovershenny" "Svobodny" "Razumny" "Sposobny" "Smyshleny" "Soobrazitelny"
+			# Project 30
+			"Ognevoy" "Bditelny" "Vstrechny" "Vedushchiy" "Ognenny" "Otchotlivy" "Vazhny" "Bezuderzhny" "Ostry" "Buynyy" "Otvetstvenny" "Bezuprechny" "Vspylchivy" "Velichavy" "Otmenny" "Otryvisty" "Vertkiy" "Vechnyy" "Otrazhayushchiy" "Serdity" "Vikhrevoy"
+			"Bezzhalostny" "Otradny" "Ozarenny" "Oberegayushchiy" "Bezzavetny" "Okhranyayushchiy" "Ostorozhny" "Vidny" "Bespokoyny" "Verny" "Vnimatelny" "Vnezapny" "Vyrazitelny" "Volevoy" "Okrylonny" "Bezboyaznenny" "Bezukoriznenny" "Bezotkazny"
+			"Smotryashchiy" "Otchayanny" "Opasny" "Bessmenny" "Otzyvchivy" "Seryozny" "Volny" "Vkradchivy" "Vdumchivy" "Solidny" "Vrazumitelny" "Ozhivlonny" "Stepenny" "Ozhestochonny"
+			# Project 56
+			"Spokoyny" "Svetly" "Blestyashchiy" "Speshny" "Byvaly" "Skromny" "Svedushchiy" "Veskiy" "Vyzyvayushchiy" "Skrytny" "Bessledny" "Vdokhnovenny" "Soznatelny" "Spravedlivy" "Burlivy" "Vozmushchonny" "Blagorodny" "Nesokrushimy" "Plamenny" "Nakhodchivy"
+			"Vozbuzhdenny" "Naporisty" "Vliyatelny" "Nastoychivy" "Vyderzhanny" "Bravy" "Neulovimy" "Bedovy" "Neuderzhimy" "Prozorlivy" "Neukrotimy" 
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Legkiy Kreyser" }
+		unique = {
+			"Chapayev" "Zhelezniakov" "Kuibyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov" "Murmansk" "Komintern" "Krasnyi Krym" "Chervona Ukraina" "Krasnyi Kavkaz" "Chapayev"
+ 			# Fictional (postwar) names start here
+			"Sverdlov" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov" "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Volodarskiy" "Uritskiy" "Engels" "Artyom" "Voykov" "Spartak" "Karl Libknekht" "Dzerzhinskiy" "Nezamozhnik" "Shaumyan" "Admiral Lazarev" "Aleksandr Suvorov" "Admiral Senyavin" 
+			"Dmitry Pozharski" "Mikhail Kutuzov" "Grozny" "Profintern" "Grozneft" "Azneft" "Steregushchiy" "Doblestnyi" "Soobrazitelny" "Vitse Admiral Drozd" 
+			"Admiral Zozulya" "Vladivostok" "Sevastopol" "Admiral Isakov" "Admiral Makarov" "Marshal Voroshilov" "Admiral Oktyabr'skiy" "Admiral Isachenkov" "Marshal Timoshenko" 
+			"Vasily Chapaev" "Admiral Yumashev" "Nikolayev" "Ochakov" "Kerch" "Azov" "Petropavlovsk" "Tashkent" "Tallin" "Admiral Flota Lobov" "Komsomolets" "Admiral Gorshkov" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Tyazhely Kreyser" }
+		unique = {
+			"Kirov" "Voroshilov" "Maxim Gorky" "Molotov" "Kaganovich" "Kalinin" "Tallin" "Zhelezniakov" "Kuibyshev" "Chkalov" "Frunze" "Ordzhonikidze" "Sverdlov"
+			# Fictional (postwar) names start here
+ 			"Petropavlovsk" "Slava" "Komsomolets" "Dzerzhinsky" "Ordzhonikidze" "Zhdanov"  "Aleksandr Nevsky" "Admiral Nakhimov" "Admiral Ushakov" "Admiral Lazarev" "Aleksandr Suvorov" "Frunze"
+			"Admiral Senyavin" "Dmitry Pozharski" "Petr Velikiy" "Murmansk" "Mikhail Kutuzov" "Grozny" "Admiral Fokin" "Admiral Tributs" "Khabarovsk" "Kajul" "Pamiat Merkuriya" "Rurik"
+		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Linejnyj Kreyser" }
+		unique = {
+			"Kronshtadt" "Sevastopol"
+			# Fictional names start here			
+			"Stalingrad" "Moskva" "Leningrad" "Kharkov" "Minsk" "Orel" "Kiev" "Minsk" "Novorossiysk" "Kharkov" "Baku" "Riga" "Tbilisi" "Tashkent" "Kalinin" "Yuri Andropov" "Oktyabrskaya Revolutsiya" "Dzerzhinsky" "Arkhangelsk" "Novorossiysk"  		
+			"Admiral Ushakov" "Admiral Lazarev" "Admiral Nakhimov" "Admiral Kuznetsov" 
+			 "Izmail" "Borodino" "Kinburn" "Navarin" "Varyag" "Petr Alferyev" "Marshal Ustinov"
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Linkor" }
+		unique = {
+			"Sovyetskiy Soyuz" "Sovyetskaya Ukraina" "Sovyetskaya Byelorussiya" "Sovyetskaya Rossiya" "Sovyetskoe Zapolarie" "Sovyetskaya Sibir'" "Sovyetskaya Pribaltika" "Sovyetskaya Karelia"
+			"Sovyetskiy Kavkaz" "Sovyetskoe Primoryie" "Sovyetskaya Azia" "Sovyetskoe Povolzhie" "Sovyetskiy Ural" "Sovyetskaya Kamchatka" "Sovyetskaya Pol'sha" 
+			"Oktyabrskaya Revolutsiya" "Marat" "Parizhskaya Kommuna" "Marx" "Lenin" "Stalin" "Volya" "Engels" "Aleksandr Nevskiy" "Admiral Golovko" "Murmansk" "Vladivostok" 
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Avianosets" }
+		unique = {
+			# Fictional names start here
+			"Komsomolets" "Valery Chkalov" "Anatoly Lyapidevsky" "Pavel Golovin" "Boris Chukhnovsky" "Valerian Kuybyshev" "Vasily Molokov" "Nikolai Kamanin" "Mikhail Vodopyanov" "Mavriky Slepnyov" "Ivan Doronin" "Sigizmund Levanevsky" 
+			"Mikhail Babushkin" "Ilya Mazuruk" "Varyag" "Ulyanovsk" "Admiral Gorshkov" "Admiral Kuznetsov" 
+		}
+	}
+
+air_wing_names_template = AIR_WING_NAME_SOV_FALLBACK
+
+	#Air wings can only be named through archetype
+	fighter_equipment = {
+		prefix = ""
+		generic = { "IAD" "IAD-PVO"}
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = { "IAD" "IAD-PVO" "GIAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	heavy_fighter_equipment = {
+		prefix = ""
+		generic = { "IAD" "IAD-PVO"}
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	CAS_equipment = {
+		prefix = ""
+		generic = { "ShAD" "NBAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = { "OKIAP" }
+		generic_pattern = AIR_WING_NAME_SOV_CARRIER
+		unique = {
+		}	
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "OKShAP" }
+		generic_pattern = AIR_WING_NAME_SOV_CARRIER
+		unique = {
+		}	
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		generic = { "OKMTAP" }
+		generic_pattern = AIR_WING_NAME_SOV_CARRIER
+		unique = {
+		}	
+	}
+
+	tac_bomber_equipment = {
+		prefix = ""
+		generic = { "BAD" "NBAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = { "BAD" "GBAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	nav_bomber_equipment = {
+		prefix = ""
+		generic = { "MBAD" "MTAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	strategic_bomber_equipment = {
+		prefix = ""
+		generic = { "OTBAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_strategic_bomber_equipment = {
+		prefix = ""
+		generic = { "OTBAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "TrAD" }
+		generic_pattern = AIR_WING_NAME_SOV_GENERIC
+		unique = {
+		}	
+	}
+	
+	infantry = {
+		prefix = ""
+		generic = { "Strelkovaya Diviziya" }
+		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		unique = {}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Motostrelkovaya Diviziya" }
+		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		unique = {}
+	}
+	mechanized = {
+		prefix = ""
+		generic = { "Motostrelkovaya Diviziya" }
+		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		unique = {}
+	}
+	heavy_mechanized = {
+		prefix = ""
+		generic = { "Motostrelkovaya Diviziya" }
+		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		unique = {}
+	}
+	mountaineers = {
+		prefix = ""
+		generic = { "Gornostrelkovaya Diviziya" }
+		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		unique = {}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Kavaleriyskaya Diviziya" }
+		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		unique = {}
+	}
+	medium_tank = {
+		prefix = ""
+		generic = { "Tankovaya Diviziya" }
+		generic_pattern = "UNIT_GENERIC_NAME_SOV"
+		unique = {}
+	}
+}

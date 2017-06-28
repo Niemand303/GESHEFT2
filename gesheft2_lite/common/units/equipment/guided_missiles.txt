@@ -1,0 +1,134 @@
+equipments = {
+	
+	guided_missile_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		type = missile
+		group_by = type
+		sprite = missile_default
+		
+		interface_category = interface_category_air
+				
+		reliability = 0.8
+
+		# Air vs Navy - high damage / low hit chance / hard to hurt
+		naval_strike_attack = 1.5
+		naval_strike_targetting = 0.6
+
+		#Space taken in convoy
+		lend_lease_cost = 1.5
+		
+		build_cost_ic = 54
+		resources = {
+			aluminium = 3
+			tungsten = 3
+		}
+	}
+
+	guided_missile_equipment_1 = {
+		archetype = guided_missile_equipment
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 500
+		maximum_speed = 640
+		air_agility = 10
+		air_bombing = 300
+		
+		# build_cost_ic = 36
+	}
+
+	guided_missile_equipment_2 = {
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_1
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 640
+		maximum_speed = 5760
+		air_agility = 10
+		air_bombing = 450
+	}
+	
+	# R-5/Juno
+	guided_missile_equipment_3 = {
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_2
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 1200
+		maximum_speed = 9999
+		air_agility = 10
+		air_bombing = 600
+		
+		# build_cost_ic = 44
+	}
+	
+	# 1957 -  R-7/SM-65 Atlas
+	guided_missile_equipment_4 = {
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_3
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 8000
+		maximum_speed = 9999
+		air_agility = 10
+		air_bombing = 3000
+		
+		build_cost_ic = 108
+	}
+	
+	# 1961 -  R-16/Titan
+	guided_missile_equipment_5 = {
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_4
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 13000
+		maximum_speed = 9999
+		air_agility = 10
+		air_bombing = 6000
+		
+		build_cost_ic = 108
+	}
+	
+	# 1965 -  RT-23/Minuteman
+	guided_missile_equipment_6 = {
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_5
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 13000
+		maximum_speed = 9999
+		air_agility = 10
+		air_bombing = 6000
+		
+		build_cost_ic = 54
+	}
+	
+	# 1971 - R-36/Minuteman III
+	guided_missile_equipment_7 = {
+		archetype = guided_missile_equipment
+		parent = guided_missile_equipment_6
+		is_buildable = no
+		one_use_only = yes
+		sprite = missile_default
+		
+		air_range = 15000
+		maximum_speed = 9999
+		air_agility = 10
+		air_bombing = 12000
+		
+		build_cost_ic = 54
+	}
+}

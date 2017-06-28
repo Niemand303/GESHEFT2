@@ -215,6 +215,9 @@ technologies = {
 		recon = {
 			recon = 2
 		}
+		ac_recon = {
+			recon = 2
+		}
 		
 		path = {
 			leads_to_tech = tech_recon3
@@ -242,6 +245,9 @@ technologies = {
 		recon = {
 			recon = 2
 		}
+		ac_recon = {
+			recon = 2
+		}
 		path = {
 			leads_to_tech = tech_recon4
 			research_cost_coeff = 1
@@ -265,6 +271,9 @@ technologies = {
 	tech_recon4 = {
 
 		recon = {
+			recon = 2
+		}
+		ac_recon = {
 			recon = 2
 		}
 

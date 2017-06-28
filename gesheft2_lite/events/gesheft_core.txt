@@ -1,0 +1,265 @@
+﻿add_namespace = g_core
+
+# 1 - Cold War
+country_event = {
+	id = g_core.1
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = 	{
+		OR = {
+			AND = {
+				SOV = { is_puppet = no has_war = no }
+				USA = { is_puppet = no has_war = no}
+				OR = {
+					GER = { is_puppet = yes }
+					NOT = { country_exists = GER }
+				}
+			}
+			AND = {
+				GER = { is_puppet = no has_war = no }
+				USA = { is_puppet = no has_war = no }
+				OR = {
+					SOV = { is_puppet = yes }
+					NOT = { country_exists = SOV }
+				}
+			}
+		}
+		NOT = { has_global_flag = cold_war }
+		NOT = { has_global_flag = g2_cw_disabled }
+	}
+	
+	immediate = {
+		set_global_flag = cold_war
+		add_named_threat = { threat = -200 name = g_core.2.t }
+	}
+	
+	option = {
+		name = g_core.1.a
+	}
+}
+
+# 2 - Start of the cold war announcement
+news_event = {
+	id = g_core.2
+	title = g_core.2.t
+	desc = g_core.2.d
+	picture = GFX_news_event_nuke
+	
+	fire_only_once = yes
+	
+	trigger = 	{
+		has_global_flag = cold_war
+		is_ai = no
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.2.a
+	}
+}
+
+# 3 - Butter over guns
+country_event = {
+	id = g_core.3
+	title = g_core.3.t
+	desc = g_core.3.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		has_global_flag = cold_war
+		has_war = no
+		NOT = { has_idea = civilian_economy }
+		NOT = {	has_global_flag = all_g2_events_disabled }
+	}
+	mean_time_to_happen = { days = 30 }
+	
+	option = {
+		name = g_core.3.a
+		add_ideas = civilian_economy
+	}
+}
+
+# 12-14 - doctrines
+country_event = {
+	id = g_core.12
+	title = g_core.12.t
+	desc = g_core.12.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		OR = {
+			has_tech = modern_blitzkrieg
+			has_tech = werwolf_guerillas
+		}
+		
+		NOT = { has_country_flag = doc_unlocked }
+	}
+	
+	option = {
+		name = g_core.12.a
+		set_technology = { axis_doctrine_unlock = 1 }
+		set_country_flag = doc_unlocked
+	}
+}
+
+country_event = {
+	id = g_core.13
+	title = g_core.13.t
+	desc = g_core.12.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		OR = {
+			has_tech = air_land_battle
+			has_tech = shock_and_awe
+			has_tech = c3i_theory
+			has_tech = infiltration_in_depth
+		}
+		NOT = { has_country_flag = doc_unlocked }
+	}
+
+	option = {
+		name = g_core.12.a
+		set_technology = { nato_doctrine_unlock = 1 }
+		set_country_flag = doc_unlocked
+	}
+}
+
+country_event = {
+	id = g_core.14
+	title = g_core.14.t
+	desc = g_core.12.d
+	picture = GFX_report_event_generic_factory
+		
+	trigger = 	{
+		OR = {
+			has_tech = continuous_offensive
+			has_tech = guerilla_warfare
+		}
+		NOT = { has_country_flag = doc_unlocked }
+	}
+	
+	option = {
+		name = g_core.12.a
+		set_technology = { warpac_doctrine_unlock = 1 }
+		set_country_flag = doc_unlocked
+	}
+}
+
+# 303 - Turning events off or on
+country_event = {
+	id = g_core.303
+	title = g_core.303.t
+	desc = g_core.303.d
+	picture = GFX_report_event_generic_factory
+	
+	trigger = 	{
+		is_ai = no
+	}
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.303.a
+		set_global_flag = all_g2_events_disabled
+		if = { limit = { is_ai = no }
+			country_event = g_core.304
+		}
+	}
+	option = {
+		name = g_core.303.c
+		if = { limit = { is_ai = no }
+			country_event = g_core.304
+		}
+	}
+}
+
+# 304 - Turning Cold War off or on
+country_event = {
+	id = g_core.304
+	title = g_core.304.t
+	desc = g_core.304.d
+	picture = GFX_report_event_generic_factory
+	
+	is_triggered_only = yes
+
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = g_core.304.a
+		set_global_flag = g2_cw_disabled
+	}
+	option = {
+		name = g_core.304.b
+	}
+}
+
+# 4 - UN creation
+country_event = {
+	id = g_core.4
+	title = "United Nation - Security Council"
+	desc = "Membership of the United Nations Security Council is held by the five permanent members and ten elected, non-permanent members. Prior to 1966, there were six elected members, while the permanent members have in essence not changed since the creation of the United Nations in 1945, apart from the representation of China."
+	
+	trigger = {
+		is_ai = no
+		SOV = { has_war_with = GER }
+		ENG = { has_war_with = GER }
+		NOT = {	has_global_flag = all_g2_events_disabled }
+		GER = {
+			surrender_progress > 0.25
+		}
+	}
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	
+	immediate = { 
+		
+	}
+	
+	option = { 
+		name = "We need to secure the world!"
+		ai_chance = {
+			factor = 100
+		}
+		SOV = { add_ideas = un_security_council }
+		USA = { add_ideas = un_security_council }
+		ENG = { add_ideas = un_security_council }
+		FRA = { add_ideas = un_security_council }
+		CHI = { add_ideas = un_security_council }
+		set_global_flag = un_created
+	}
+}
+
+# 5 - UN creation
+country_event = {
+	id = g_core.5
+	title = "United Nation - Membership"
+	desc = "The United Nations (UN) is an intergovernmental organization to promote international co-operation and to create and maintain international order. A replacement for the ineffective League of Nations, the organization was established on 24 October 1945 after World War II in order to prevent another such conflict."
+	
+	trigger = {
+		has_global_flag = un_created
+		NOT = {
+			OR = {
+				has_war_with = ENG
+				has_war_with = SOV
+				has_war_with = USA
+				has_war_with = FRA
+				has_war_with = CHI
+			}
+		}
+		NOT = { has_idea = un_security_council }
+		NOT = { has_idea = un_membership }
+		NOT = {	has_global_flag = all_g2_events_disabled }
+		NOT = { has_government = fascism }
+	}
+	mean_time_to_happen = { days = 1 }
+	
+	option = { 
+		name = "For the sake of everlasting cooperation." 
+		ai_chance = {
+			factor = 100
+		}
+		add_ideas = un_membership
+	}
+}

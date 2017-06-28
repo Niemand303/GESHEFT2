@@ -13,8 +13,8 @@ NDefines.NAI.STOP_TRAINING_EQUIPMENT_LEVEL = 0.8                -- ai will not t
 
 NDefines.NAI.NEW_LEADER_EXTRA_PP_FACTOR = 5.0
 
-NDefines.NMilitary.CORPS_COMMANDER_CAP = 12								-- how many a corps commander is limited to. 0 = inf
-NDefines.NMilitary.FIELD_MARSHALL_CAP = 36									-- how many a marshall is limited to. 0 = inf
+NDefines.NMilitary.CORPS_COMMANDER_CAP = 18								-- how many a corps commander is limited to. 0 = inf
+NDefines.NMilitary.FIELD_MARSHALL_CAP = 60									-- how many a marshall is limited to. 0 = inf
 
 NDefines.NAI.BUILD_ARMOR_BASE_COST_WEIGHT = 0
 NDefines.NAI.BUILD_ARMOR_STRENGTH_MULTIPLIER_WEIGHT = 0

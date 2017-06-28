@@ -1,0 +1,64 @@
+division_template = {
+	name = "Ukreprayon"			# NKVD Border Guard Division - Garrison units (lolder experience, older equipment)
+
+	regiments = {
+		garrison = { x = 0 y = 0 }
+		garrison = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 2 }
+		garrison = { x = 1 y = 0 }
+		garrison = { x = 1 y = 1 }
+		artillery_brigade = { x = 1 y = 2 }
+	}
+	support = 	{
+		engineer = { x = 0 y = 0 }
+		heavy_artillery = { x = 0 y = 1 }
+		anti_tank = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	# OKDVA
+	division= {			
+		name = "101. Ukreprayon"		
+		location = 7763
+		division_template = "Ukreprayon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "102. Ukreprayon"		
+		location = 10722
+		division_template = "Ukreprayon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "103. Ukreprayon"		
+		location = 10655
+		division_template = "Ukreprayon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "105. Ukreprayon"		
+		location = 3977
+		division_template = "Ukreprayon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "106. Ukreprayon"		
+		location = 11879
+		division_template = "Ukreprayon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {			
+		name = "107. Ukreprayon"		
+		location = 11879
+		division_template = "Ukreprayon"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+}

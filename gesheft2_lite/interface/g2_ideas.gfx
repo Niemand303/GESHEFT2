@@ -1,0 +1,21 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_european_union"
+		texturefile = "gfx/interface/ideas/european_union.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nato"
+		texturefile = "gfx/interface/ideas/nato.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_un_membership"
+		texturefile = "gfx/interface/ideas/un_membership.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_un_security_council"
+		texturefile = "gfx/interface/ideas/un_security_council.dds"
+	}
+}

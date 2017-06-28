@@ -1,0 +1,13 @@
+opinion_modifiers = {
+	nato_opinion = {
+		value = 50
+	}
+	
+	marshall_plan_opinion = {
+		value = 25
+	}
+	
+	marshall_refused_opinion = {
+		value = -50
+	}
+}
